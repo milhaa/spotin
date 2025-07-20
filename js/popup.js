@@ -106,74 +106,74 @@ if (localStorage.getItem('isLoggedIn') === 'true') {
         window.location.hash = '#popup-sign';
     }
 
-    // دالة إخفاء popup
-    function hideLoginPopup() {
-        const popup = document.getElementById('popup-sign');
-        popup.classList.remove('force-show', 'show-on-load');
-        window.location.hash = '';
-        console.log('تم إخفاء popup');
-    }
+    // // دالة إخفاء popup
+    // function hideLoginPopup() {
+    //     const popup = document.getElementById('popup-sign');
+    //     popup.classList.remove('force-show', 'show-on-load');
+    //     window.location.hash = '';
+    //     console.log('تم إخفاء popup');
+    // }
 
-    // التحكم في إغلاق popup
-    const closeButtons = document.querySelectorAll('.close-popup');
-    closeButtons.forEach(button => {
-        button.addEventListener('click', function(e) {
-            e.preventDefault();
-            const popup = this.closest('.popup');
-            console.log('محاولة إغلاق popup');
+    // // التحكم في إغلاق popup
+    // const closeButtons = document.querySelectorAll('.close-popup');
+    // closeButtons.forEach(button => {
+    //     button.addEventListener('click', function(e) {
+    //         e.preventDefault();
+    //         const popup = this.closest('.popup');
+    //         console.log('محاولة إغلاق popup');
             
-            // لا يمكن إغلاقه إذا كان إجباري
-            if (popup && popup.classList.contains('force-show')) {
-                console.log('لا يمكن إغلاق popup الإجباري');
-                return;
-            }
+    //         // لا يمكن إغلاقه إذا كان إجباري
+    //         if (popup && popup.classList.contains('force-show')) {
+    //             console.log('لا يمكن إغلاق popup الإجباري');
+    //             return;
+    //         }
             
-            // إغلاق popup البداية
-            if (popup && popup.classList.contains('show-on-load')) {
-                if (popup.id === 'popup-sign' && !isLoggedIn) {
-                    popupDismissedWithoutLogin = true;
-                    console.log('تم إغلاق popup البداية بدون تسجيل');
-                }
-                hideLoginPopup();
-                return;
-            }
+    //         // إغلاق popup البداية
+    //         if (popup && popup.classList.contains('show-on-load')) {
+    //             if (popup.id === 'popup-sign' && !isLoggedIn) {
+    //                 popupDismissedWithoutLogin = true;
+    //                 console.log('تم إغلاق popup البداية بدون تسجيل');
+    //             }
+    //             hideLoginPopup();
+    //             return;
+    //         }
             
-            // إغلاق popup الشكر (تسجيل مكتمل)
-            if (popup && popup.id === 'modal-thank') {
-                isLoggedIn = true;
-                console.log('تم التسجيل بنجاح');
-                hideLoginPopup();
-                return;
-            }
+    //         // إغلاق popup الشكر (تسجيل مكتمل)
+    //         if (popup && popup.id === 'modal-thank') {
+    //             isLoggedIn = true;
+    //             console.log('تم التسجيل بنجاح');
+    //             hideLoginPopup();
+    //             return;
+    //         }
             
-            window.location.hash = '';
-        });
-    });
+    //         window.location.hash = '';
+    //     });
+    // });
 
-    // إغلاق popup عند الضغط خارجه
-    document.querySelectorAll('.popup').forEach(popup => {
-        popup.addEventListener('click', function(e) {
-            if (e.target === this) {
-                // لا يمكن إغلاقه إذا كان إجباري
-                if (this.classList.contains('force-show')) {
-                    console.log('لا يمكن إغلاق popup الإجباري بالنقر خارجه');
-                    return;
-                }
+    // // إغلاق popup عند الضغط خارجه
+    // document.querySelectorAll('.popup').forEach(popup => {
+    //     popup.addEventListener('click', function(e) {
+    //         if (e.target === this) {
+    //             // لا يمكن إغلاقه إذا كان إجباري
+    //             if (this.classList.contains('force-show')) {
+    //                 console.log('لا يمكن إغلاق popup الإجباري بالنقر خارجه');
+    //                 return;
+    //             }
                 
-                // إغلاق popup البداية
-                if (this.classList.contains('show-on-load')) {
-                    if (this.id === 'popup-sign' && !isLoggedIn) {
-                        popupDismissedWithoutLogin = true;
-                        console.log('تم إغلاق popup البداية بالنقر خارجه');
-                    }
-                    hideLoginPopup();
-                    return;
-                }
+    //             // إغلاق popup البداية
+    //             if (this.classList.contains('show-on-load')) {
+    //                 if (this.id === 'popup-sign' && !isLoggedIn) {
+    //                     popupDismissedWithoutLogin = true;
+    //                     console.log('تم إغلاق popup البداية بالنقر خارجه');
+    //                 }
+    //                 hideLoginPopup();
+    //                 return;
+    //             }
                 
-                window.location.hash = '';
-            }
-        });
-    });
+    //             window.location.hash = '';
+    //         }
+    //     });
+    // });
 
     // تفعيل خانات OTP
     const otpInputs = document.querySelectorAll('.otp-input');
