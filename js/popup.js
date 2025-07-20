@@ -92,19 +92,19 @@ if (localStorage.getItem('isLoggedIn') === 'true') {
     attachFilterListeners();
 
    // دالة إظهار popup
-    function showLoginPopup(canClose = true) {
-        const popup = document.getElementById('popup-sign');
-        console.log('إظهار popup، يمكن إغلاقه:', canClose);
+    // function showLoginPopup(canClose = true) {
+    //     const popup = document.getElementById('popup-sign');
+    //     console.log('إظهار popup، يمكن إغلاقه:', canClose);
         
-        if (canClose) {
-            popup.classList.add('show-on-load');
-            popup.classList.remove('force-show');
-        } else {
-            popup.classList.add('force-show');
-            popup.classList.remove('show-on-load');
-        }
-        window.location.hash = '#popup-sign';
-    }
+    //     if (canClose) {
+    //         popup.classList.add('show-on-load');
+    //         popup.classList.remove('force-show');
+    //     } else {
+    //         popup.classList.add('force-show');
+    //         popup.classList.remove('show-on-load');
+    //     }
+    //     window.location.hash = '#popup-sign';
+    // }
 
     // // دالة إخفاء popup
     // function hideLoginPopup() {
