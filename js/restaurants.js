@@ -119,6 +119,29 @@
         priceRange: "35 - 90 ريال",
         services: "أماكن جلوس في الهواء الطلق - التسليم بدون تلامس - خدمة التوصيل - طعام سفري - الجلوس داخل المكان"
         },
+        
+{
+        name: "مطعم سدف  ",
+        location: "أبها",
+        destination: "مطعم",
+        cuisine: "عربي",
+        atmosphere: "خفيفة",
+        image: "img/restaurants/rest15/main.jpg",
+        rating: "★★★★☆",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%B3%D8%AF%D9%81&query_place_id=ChIJfwHYIBJV4xURRCNswmvlybo",
+        gallery: [
+        "img/restaurants/rest15/gallery1.jpg",
+        "img/restaurants/rest15/gallery2.jpg",
+        "img/restaurants/rest15/gallery3.jpg",
+        "img/restaurants/rest15/gallery4.jpg"
+        ],
+        menuUrl: "https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDQ4NDg2ODI2NjU4NTIz?igsh=MW1sZG1iejg3NXY0Yw==",
+        workingHours: {
+        weekdays: "على مدار 24 ساعة"
+        },
+        priceRange: "35 - 90 ريال",
+        services: "أماكن جلوس في الهواء الطلق - التسليم بدون تلامس - خدمة التوصيل - طعام سفري - الجلوس داخل المكان"
+        },
 
 
         {
@@ -256,7 +279,7 @@ const cafes = [
         mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D9%82%D9%87%D9%89%20%D8%A8%D9%83%D8%B1%20%7C%20BKR%20CAFE&query_place_id=ChIJ52e_SUBV4xURVex0scjDrr0",
         gallery: [
         "img/cafes/cafe01/gallery1.jpg",
-        "img/cafes/cafe01/gallery2.jpg",
+        "img/cafes/cafe01/gallery2.jpeg",
         "img/cafes/cafe01/gallery3.jpg",
         "img/cafes/cafe01/gallery4.jpg"
         ],
