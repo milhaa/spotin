@@ -91,6 +91,7 @@ if (localStorage.getItem('isLoggedIn') === 'true') {
     // ربط المستمعين بعد تحميل الصفحة
     attachFilterListeners();
 
+<<<<<<< HEAD
 //    // دالة إظهار popup
 //     function showLoginPopup(canClose = true) {
 //         const popup = document.getElementById('popup-sign');
@@ -105,6 +106,22 @@ if (localStorage.getItem('isLoggedIn') === 'true') {
 //         }
 //         window.location.hash = '#popup-sign';
 //     }
+=======
+   // دالة إظهار popup
+    // function showLoginPopup(canClose = true) {
+    //     const popup = document.getElementById('popup-sign');
+    //     console.log('إظهار popup، يمكن إغلاقه:', canClose);
+        
+    //     if (canClose) {
+    //         popup.classList.add('show-on-load');
+    //         popup.classList.remove('force-show');
+    //     } else {
+    //         popup.classList.add('force-show');
+    //         popup.classList.remove('show-on-load');
+    //     }
+    //     window.location.hash = '#popup-sign';
+    // }
+>>>>>>> b59682b131e6c1bd94657c17d3e9544a5c7ffa6c
 
     // // دالة إخفاء popup
     // function hideLoginPopup() {
