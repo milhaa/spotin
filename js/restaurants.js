@@ -119,7 +119,8 @@
         priceRange: "35 - 90 ريال",
         services: "أماكن جلوس في الهواء الطلق - التسليم بدون تلامس - خدمة التوصيل - طعام سفري - الجلوس داخل المكان"
         },
-
+        
+ 
 
         {
         name: "حنيذ ملة",
@@ -239,6 +240,48 @@
         services: "أماكن جلوس في الهواء الطلق - التسليم بدون تلامس - خدمة التوصيل - الجلوس داخل المكان"
         },
 
+           {
+        name: "  اختبار مطعم 1  ",
+        location: "أبها",
+        destination: "مطعم",
+        cuisine: "إيطالي",
+        atmosphere: "خفيفة",
+        image: "img/restaurants/rest20/main.jpg",
+        rating: "★★★★★",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%B3%D9%8A%D9%86%D8%B3%D9%88%20-%20%D8%A3%D8%A8%D9%87%D8%A7&query_place_id=ChIJB8VXVgBT4xURGQbpmGsUDEU",
+        gallery: [
+        "img/restaurants/rest20/gallery1.jpg",
+        "img/restaurants/rest20/gallery2.jpg",
+        "img/restaurants/rest20/gallery3.jpg",
+        "img/restaurants/rest20/gallery4.jpg"
+        ],
+        menuUrl: "https://e-menu.itb-me.com/Menu/380033006600350030006400390037002D0039003500620037002D0034006500390065002D0061003200640065002D00650032006300360061006300320032003400650064003700",
+        workingHours: "ص7 الى ص11, م12:30 الى ص12",
+        priceRange: "48 - 186 ريال",
+        services: "أماكن جلوس في الهواء الطلق - التسليم بدون تلامس - خدمة التوصيل - الجلوس داخل المكان"
+        },
+
+           {
+        name: "  اختبار مطعم2  ",
+        location: "أبها",
+        destination: "مطعم",
+        cuisine: "إيطالي",
+        atmosphere: "خفيفة",
+        image: "img/restaurants/rest20/main.jpg",
+        rating: "★★★★★",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%B3%D9%8A%D9%86%D8%B3%D9%88%20-%20%D8%A3%D8%A8%D9%87%D8%A7&query_place_id=ChIJB8VXVgBT4xURGQbpmGsUDEU",
+        gallery: [
+        "img/restaurants/rest20/gallery1.jpg",
+        "img/restaurants/rest20/gallery2.jpg",
+        "img/restaurants/rest20/gallery3.jpg",
+        "img/restaurants/rest20/gallery4.jpg"
+        ],
+        menuUrl: "https://e-menu.itb-me.com/Menu/380033006600350030006400390037002D0039003500620037002D0034006500390065002D0061003200640065002D00650032006300360061006300320032003400650064003700",
+        workingHours: "ص7 الى ص11, م12:30 الى ص12",
+        priceRange: "48 - 186 ريال",
+        services: "أماكن جلوس في الهواء الطلق - التسليم بدون تلامس - خدمة التوصيل - الجلوس داخل المكان"
+        }
+
         ];
 
 // Cafe data with unique information for each place
@@ -256,7 +299,7 @@ const cafes = [
         mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D9%82%D9%87%D9%89%20%D8%A8%D9%83%D8%B1%20%7C%20BKR%20CAFE&query_place_id=ChIJ52e_SUBV4xURVex0scjDrr0",
         gallery: [
         "img/cafes/cafe01/gallery1.jpg",
-        "img/cafes/cafe01/gallery2.jpg",
+        "img/cafes/cafe01/gallery2.jpeg",
         "img/cafes/cafe01/gallery3.jpg",
         "img/cafes/cafe01/gallery4.jpg"
         ],
@@ -483,10 +526,53 @@ const cafes = [
         },
         priceRange: "7 - 31 ريال",
         services: ""
+        },
+        {
+        name: "اختبار كافيه 1 ",
+        location: "أبها",
+        type: "قهوة",
+        destination: "كافيه", 
+        atmosphere: "راقية",
+        image: "img/cafes/cafe10/main.jpg",
+        rating: "★★★★☆",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+        gallery: [
+        "img/cafes/cafe10/gallery1.jpg",
+        "img/cafes/cafe10/gallery2.jpg",
+        "img/cafes/cafe10/gallery3.jpg",
+        "img/cafes/cafe10/gallery4.jpg"
+        ],
+        menuUrl: "https://oddmenu.com/ar/p/sugarhive",
+        workingHours: {
+        weekdays: "م4 الى ص4"
+        },
+        priceRange: "7 - 31 ريال",
+        services: ""
+        },
+        {
+        name: "اختبار كافيه 2 ",
+        location: "أبها",
+        type: "قهوة",
+        destination: "كافيه", 
+        atmosphere: "راقية",
+        image: "img/cafes/cafe10/main.jpg",
+        rating: "★★★★☆",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+        gallery: [
+        "img/cafes/cafe10/gallery1.jpg",
+        "img/cafes/cafe10/gallery2.jpg",
+        "img/cafes/cafe10/gallery3.jpg",
+        "img/cafes/cafe10/gallery4.jpg"
+        ],
+        menuUrl: "https://oddmenu.com/ar/p/sugarhive",
+        workingHours: {
+        weekdays: "م4 الى ص4"
+        },
+        priceRange: "7 - 31 ريال",
+        services: ""
         }
         ];
      
-
 // Global variables
 let allPlaces = [...restaurants, ...cafes];
 let filteredRestaurants = [...allPlaces];
@@ -497,15 +583,21 @@ const itemsPerPage = 8;
  * Creates HTML for a restaurant card
  */
 function createRestaurantCard(restaurant, globalIndex) {
-    const restaurantId = `rest${restaurants.indexOf(restaurant) + 1}`;
-    const restaurantNumber = String(restaurants.indexOf(restaurant) + 1).padStart(2, '0');
+    const restaurantIndex = restaurants.indexOf(restaurant);
+    const restaurantId = `rest${restaurantIndex + 1}`;
+    const restaurantNumber = String(restaurantIndex + 1).padStart(2, '0');
+    
+    // Check if restaurant index is 10 or higher (11+)
+    const isComingSoon = restaurantIndex >= 10;
+    const linkUrl = isComingSoon ? 'coming.html' : `details.html?id=${restaurantId}`;
     
     return `
-        <a href="details.html?id=${restaurantId}" class="our-menu__column" id="${restaurantId}" style="text-decoration: none; color: inherit;">
+        <a href="${linkUrl}" class="our-menu__column" id="${restaurantId}" style="text-decoration: none; color: inherit;">
             <span class="resturant-color">${restaurantNumber}</span>
             <div class="our-menu__items">
                 <div class="our-menu__image">
                     <img src="${restaurant.image}" alt="${restaurant.name}" class="our-menu__img img">
+                    ${isComingSoon ? '<div class="coming-soon-badge"></div>' : ''}
                 </div>
                 <h3>${restaurant.destination}</h3>
                 <p>${restaurant.name}</p>
@@ -532,15 +624,21 @@ function createRestaurantCard(restaurant, globalIndex) {
  * Creates HTML for a cafe card
  */
 function createCafeCard(cafe, globalIndex) {
-    const cafeId = `cafe${cafes.indexOf(cafe) + 1}`;
-    const cafeNumber = String(cafes.indexOf(cafe) + 1).padStart(2, '0');
+    const cafeIndex = cafes.indexOf(cafe);
+    const cafeId = `cafe${cafeIndex + 1}`;
+    const cafeNumber = String(cafeIndex + 1).padStart(2, '0');
+    
+    // Check if cafe index is 10 or higher (11+)
+    const isComingSoon = cafeIndex >= 10;
+    const linkUrl = isComingSoon ? 'coming.html' : `details.html?id=${cafeId}`;
     
     return `
-        <a href="details.html?id=${cafeId}" class="our-menu__column" id="${cafeId}" style="text-decoration: none; color: inherit;">
+        <a href="${linkUrl}" class="our-menu__column" id="${cafeId}" style="text-decoration: none; color: inherit;">
             <span class="coffee-color">${cafeNumber}</span>
             <div class="our-menu__items">
                 <div class="our-menu__image">
                     <img src="${cafe.image}" alt="${cafe.name}" class="our-menu__img img">
+                    ${isComingSoon ? '<div class="coming-soon-badge"></div>' : ''}
                 </div>
                 <h3>${cafe.destination}</h3>
                 <p>${cafe.name}</p>
@@ -763,8 +861,6 @@ function applyFilters() {
     currentPage = 1;
     renderRestaurants();
 }
-
-
 
 const restaurantCuisines = [
   '', 'شعبي', 'إيطالي', 'عربي', 'آسيوي', 'أمريكي', 'مكسيكي', 'تركي', 'هندي', 'لبناني'
