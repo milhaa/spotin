@@ -985,24 +985,6 @@ function initializeRestaurantsPage() {
     }
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-    loadRestaurants();
-});
-
-function loadRestaurants() {
-    fetch('http://localhost:8080/api/v1/place')
-        .then(response => response.json())
-        .then(data => {
-            console.log('🍽️ Places data:', data);
-            displayRestaurants(data);
-        })
-        .catch(error => {
-            console.error('❌ Error fetching restaurants:', error);
-            const container = document.getElementById('restaurantsContainer');
-            container.innerHTML = '<p style="color: red;">فشل تحميل المطاعم والكافيهات</p>';
-        });
-}
-
 // Initialize page when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
   initializeRestaurantsPage();
