@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // فحص التسجيل المحفوظ عند بداية الصفحة
     checkSavedLogin();
-    
+
     // إظهار popup في بداية التشغيل (فقط إذا لم يكن مسجلاً)
     setTimeout(() => {
         if (!isLoggedIn) {
@@ -22,13 +22,13 @@ document.addEventListener('DOMContentLoaded', function() {
         try {
             const savedUserName = localStorage.getItem('spotn_user_name');
             const savedLoginStatus = localStorage.getItem('spotn_logged_in');
-            
+
             if (savedUserName && savedLoginStatus === 'true') {
                 userName = savedUserName;
                 isLoggedIn = true;
                 hasSeenInitialPopup = true; // لأنه مسجل بالفعل
                 popupDismissedWithoutLogin = false;
-                
+
                 console.log('تم العثور على تسجيل محفوظ للمستخدم:', userName);
                 updateHeaderButton();
             } else {
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
             console.log('خطأ في قراءة البيانات المحفوظة:', error);
         }
     }
-    
+
     // حفظ بيانات التسجيل
     function saveUserLogin(name) {
         try {
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
             console.log('خطأ في حفظ البيانات:', error);
         }
     }
-    
+
     // حذف بيانات التسجيل (للاستخدام المستقبلي إذا لزم الأمر)
     function clearUserLogin() {
         try {
@@ -198,7 +198,7 @@ document.addEventListener('DOMContentLoaded', function() {
             signupBtn.addEventListener('click', function(e) {
                 e.preventDefault();
                 console.log('تم الضغط على زر تسجيل الدخول في الهيدر');
-                
+
                 if (!isLoggedIn) {
                     // إذا رأى popup البداية وأغلقه، اجعل النافذة عادية (يمكن إغلاقها)
                     showLoginPopup(true);
@@ -207,7 +207,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     // هذا لن يحدث لأن الزر سيكون مختفياً
                 }
             });
-            
+
             console.log('تم ربط زر تسجيل الدخول في الهيدر');
         }
     }
@@ -216,15 +216,15 @@ document.addEventListener('DOMContentLoaded', function() {
     function showSignupButton() {
         const headerButton = document.querySelector('.header__button');
         const userWelcome = document.getElementById('user-welcome');
-        
+
         if (headerButton) {
             headerButton.style.display = 'block';
         }
-        
+
         if (userWelcome) {
             userWelcome.remove();
         }
-        
+
         console.log('تم إظهار زر التسجيل مرة أخرى');
     }
 
@@ -232,35 +232,35 @@ document.addEventListener('DOMContentLoaded', function() {
     function updateHeaderButton() {
         const signupBtn = document.getElementById('sign-up-btn');
         const headerButton = document.querySelector('.header__button');
-        
+
         if (signupBtn && isLoggedIn && userName) {
             // إخفاء الزر الأصلي تماماً
             if (headerButton) {
                 headerButton.style.display = 'none';
             }
-            
+
             // إنشاء عنصر جديد لعرض اسم المستخدم
             let userWelcome = document.getElementById('user-welcome');
             if (!userWelcome) {
                 userWelcome = document.createElement('div');
                 userWelcome.id = 'user-welcome';
                 userWelcome.className = 'user-welcome';
-                
+
                 // إدراج العنصر الجديد مكان الزر القديم
                 headerButton.parentNode.insertBefore(userWelcome, headerButton);
             }
-            
+
             // تحديث محتوى الترحيب
             const shortName = userName.length > 8 ? userName.substring(0, 8) + '...' : userName;
             userWelcome.innerHTML = `<span class="user-greeting">  مرحبًا ${shortName}</span>`;
-            
+
             // إضافة وظيفة للضغط (اختيارية)
             userWelcome.onclick = function(e) {
                 e.preventDefault();
                 console.log('المستخدم مسجل:', userName);
                 // يمكن إضافة قائمة منسدلة أو صفحة ملف شخصي هنا
             };
-            
+
             console.log('تم إخفاء زر التسجيل وإظهار ترحيب للمستخدم:', userName);
         }
     }
@@ -269,31 +269,31 @@ document.addEventListener('DOMContentLoaded', function() {
     attachFilterListeners(); // للمعلومات فقط
     attachRestaurantCardListeners(); // الوظيفة الرئيسية للـ popup
     attachHeaderSignupButton(); // ربط زر الهيدر
-    
+
     // دالة إظهار popup - محسنة
     function showLoginPopup(canClose = true) {
         const popup = document.getElementById('popup-sign');
         if (!popup) return;
-        
+
         console.log('إظهار popup، يمكن إغلاقه:', canClose);
         
         // إخفاء جميع النوافذ أولاً
         hideAllPopups();
-        
+
         // إظهار نافذة التسجيل مع تأخير صغير
         setTimeout(() => {
             popup.classList.remove('show-on-load', 'force-show');
-            
+
             if (canClose) {
                 popup.classList.add('show-on-load');
             } else {
                 popup.classList.add('force-show');
             }
-            
+
             popup.style.display = 'flex';
             popup.style.opacity = '1';
             popup.style.visibility = 'visible';
-            
+
             const content = popup.querySelector('.popup__content');
             if (content) {
                 content.style.opacity = '1';
@@ -312,7 +312,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 popup.style.display = 'none';
                 popup.style.opacity = '0';
                 popup.style.visibility = 'hidden';
-                
+
                 const content = popup.querySelector('.popup__content');
                 if (content) {
                     content.style.opacity = '0';
@@ -335,7 +335,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // دالة إظهار نافذة محددة - محسنة
     function showSpecificPopup(popupId) {
         hideAllPopups();
-        
+
         const popup = document.getElementById(popupId);
         if (popup) {
             // إضافة الكلاسات مع تأخير صغير
@@ -344,13 +344,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 popup.style.display = 'flex';
                 popup.style.opacity = '1';
                 popup.style.visibility = 'visible';
-                
+
                 const content = popup.querySelector('.popup__content');
                 if (content) {
                     content.style.opacity = '1';
                     content.style.transform = 'scale(1)';
                 }
-                
+
                 console.log('تم إظهار:', popupId);
             }, 50);
         }
@@ -362,10 +362,10 @@ document.addEventListener('DOMContentLoaded', function() {
         button.addEventListener('click', function(e) {
             e.preventDefault();
             e.stopPropagation();
-            
+
             const popup = this.closest('.popup');
             if (!popup) return;
-            
+
             console.log('محاولة إغلاق popup');
             
             // لا يمكن إغلاقه إذا كان إجباري
@@ -391,15 +391,15 @@ document.addEventListener('DOMContentLoaded', function() {
             if (popup.id === 'modal-thank') {
                 isLoggedIn = true;
                 popupDismissedWithoutLogin = false;
-                
+
                 // حفظ بيانات المستخدم بشكل دائم
                 saveUserLogin(userName);
-                
+
                 console.log('تم التسجيل بنجاح والحفظ:', userName);
-                
+
                 // تحديث زر الهيدر
                 updateHeaderButton();
-                
+
                 hideLoginPopup();
                 return;
             }
@@ -414,7 +414,7 @@ document.addEventListener('DOMContentLoaded', function() {
         popup.addEventListener('click', function(e) {
             if (e.target === this) {
                 e.stopPropagation();
-                
+
                 // لا يمكن إغلاقه إذا كان إجباري
                 if (this.classList.contains('force-show')) {
                     console.log('لا يمكن إغلاق popup الإجباري بالنقر خارجه');
@@ -444,7 +444,7 @@ document.addEventListener('DOMContentLoaded', function() {
         input.addEventListener('input', function(e) {
             const value = e.target.value;
             e.target.value = value.replace(/[^0-9]/g, '');
-            
+
             if (e.target.value.length === 1) {
                 if (index < otpInputs.length - 1) {
                     otpInputs[index + 1].focus();
@@ -467,7 +467,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     this.classList.remove('filled');
                 }
             }
-            
+
             if (!/[0-9]/.test(e.key) && !['Backspace', 'Delete', 'Tab', 'ArrowLeft', 'ArrowRight'].includes(e.key)) {
                 e.preventDefault();
             }
@@ -478,19 +478,19 @@ document.addEventListener('DOMContentLoaded', function() {
             e.preventDefault();
             const pasteData = (e.clipboardData || window.clipboardData).getData('text');
             const numbers = pasteData.replace(/[^0-9]/g, '').slice(0, otpInputs.length);
-            
+
             otpInputs.forEach(inp => {
                 inp.value = '';
                 inp.classList.remove('filled');
             });
-            
+
             numbers.split('').forEach((num, i) => {
                 if (i < otpInputs.length) {
                     otpInputs[i].value = num;
                     otpInputs[i].classList.add('filled');
                 }
             });
-            
+
             const nextEmpty = numbers.length < otpInputs.length ? numbers.length : otpInputs.length - 1;
             if (otpInputs[nextEmpty]) {
                 otpInputs[nextEmpty].focus();
@@ -503,20 +503,20 @@ document.addEventListener('DOMContentLoaded', function() {
     if (resendLink) {
         resendLink.addEventListener('click', function(e) {
             e.preventDefault();
-            
+
             otpInputs.forEach(input => {
                 input.value = '';
                 input.classList.remove('filled');
             });
-            
+
             if (otpInputs.length > 0) {
                 otpInputs[0].focus();
             }
-            
+
             const originalText = this.textContent;
             this.textContent = 'تم إرسال الرمز مرة أخرى';
             this.style.pointerEvents = 'none';
-            
+
             setTimeout(() => {
                 this.textContent = originalText;
                 this.style.pointerEvents = 'auto';
@@ -529,13 +529,13 @@ document.addEventListener('DOMContentLoaded', function() {
     if (signupBtn) {
         signupBtn.addEventListener('click', function(e) {
             e.preventDefault();
-            
+
             // التحقق من البيانات
             const nameInput = document.querySelector('input[name="name"]');
             const phoneInput = document.querySelector('input[name="phone"]');
-            
+
             let hasError = false;
-            
+
             if (!nameInput || !nameInput.value.trim()) {
                 if (nameInput) {
                     nameInput.classList.add('error');
@@ -543,7 +543,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
                 hasError = true;
             }
-            
+
             if (!phoneInput || !phoneInput.value.trim()) {
                 if (phoneInput) {
                     phoneInput.classList.add('error');
@@ -551,17 +551,17 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
                 hasError = true;
             }
-            
+
             if (hasError) return;
-            
+
             // حفظ اسم المستخدم مؤقتاً (سيتم التأكيد في النهاية)
             userName = nameInput.value.trim();
-            
+
             console.log('الانتقال لمرحلة OTP، الاسم:', userName);
-            
+
             // انتقال بسيط لنافذة OTP
             showSpecificPopup('otp-verification');
-            
+
             setTimeout(() => {
                 if (otpInputs.length > 0) {
                     otpInputs[0].focus();
@@ -574,25 +574,25 @@ document.addEventListener('DOMContentLoaded', function() {
     if (otpBtn) {
         otpBtn.addEventListener('click', function(e) {
             e.preventDefault();
-            
+
             const allFilled = Array.from(otpInputs).every(input => input.value.length === 1);
-            
+
             if (!allFilled) {
                 otpInputs.forEach(input => {
                     if (!input.value) {
                         input.classList.add('error');
                     }
                 });
-                
+
                 const firstEmpty = Array.from(otpInputs).find(input => !input.value);
                 if (firstEmpty) {
                     firstEmpty.focus();
                 }
                 return;
             }
-            
+
             console.log('الانتقال لصفحة الشكر');
-            
+
             // انتقال بسيط لنافذة الشكر
             showSpecificPopup('modal-thank');
         });
@@ -603,18 +603,18 @@ document.addEventListener('DOMContentLoaded', function() {
     if (thankBtn) {
         thankBtn.addEventListener('click', function(e) {
             e.preventDefault();
-            
+
             isLoggedIn = true;
             popupDismissedWithoutLogin = false;
-            
+
             // حفظ بيانات المستخدم بشكل دائم
             saveUserLogin(userName);
-            
+
             console.log('تم التسجيل بنجاح والحفظ الدائم للمستخدم:', userName);
-            
+
             // تحديث زر الهيدر
             updateHeaderButton();
-            
+
             hideLoginPopup();
         });
     }
@@ -789,7 +789,7 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('تم استخدام فلتر - لا تظهر نافذة popup');
     }
     `;
-    
+
     if (!document.querySelector('#popup-fix-css')) {
         const style = document.createElement('style');
         style.id = 'popup-fix-css';
@@ -802,8 +802,8 @@ document.addEventListener('DOMContentLoaded', function() {
     window.hideLoginPopup = hideLoginPopup;
     window.clearUserLogin = clearUserLogin; // للاستخدام في حالات خاصة
     window.showSignupButton = showSignupButton; // لإظهار زر التسجيل مرة أخرى
-    
-    
+
+
 });
 
 // ربط خالد
@@ -1123,17 +1123,17 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     const burger = document.querySelector('.header__burger');
     const menu = document.querySelector('.menu');
-    
+
     if (burger && menu) {
         burger.addEventListener('click', function() {
             // Toggle active class on burger
             burger.classList.toggle('active');
             // Toggle active class on menu
             menu.classList.toggle('active');
-            
+
             console.log('Burger clicked!'); // For debugging
         });
-        
+
         // Close menu when clicking on a menu link
         const menuLinks = document.querySelectorAll('.menu__link');
         menuLinks.forEach(link => {
