@@ -7,18 +7,18 @@
     destination: "مطعم",                    // ✅ مُصحح
     cuisine: "لبناني",                      // ✅ مُصحح
     atmosphere: "عائلية",                   // ✅ مُصحح
-    image: "img/restaurants/rest11/main.jpg",
+    image: "img/restaurants/rest01/main.png",
     rating: "★★★★☆",
     mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%B9%D9%84%D9%89%20%D8%A8%D8%A7%D9%84%D9%8A%20-%20%D8%A3%D8%A8%D9%87%D8%A7&query_place_id=ChIJbe38WgBT4xURRfp9LZCKhkI",
     gallery: [
-        "img/restaurants/rest11/gallery1.jpg",
-        "img/restaurants/rest11/gallery2.jpg",
-        "img/restaurants/rest11/gallery3.jpg",
-        "img/restaurants/rest11/gallery4.jpg"
+        "img/restaurants/rest01/gallery1.png",
+        "img/restaurants/rest01/gallery2.png",
+        "img/restaurants/rest01/gallery3.png",
+        "img/restaurants/rest01/gallery4.png"
     ],
     menuUrl: "https://e-menu.itb-me.com/Emenu/650062003500370033003400650036002D0064003800650064002D0034003000350036002D0061006200620066002D00660039003500660064003200660039003700300031003900",
     workingHours: {                         // ✅ مُضاف
-        weekdays: "ص11 الى م11"
+        weekdays: "ص11 - م11"
     },
     priceRange: "22 - 150 ريال",           // ✅ مُضاف
     services: "توصيل - دين إن - تيك أواي"  // ✅ مُضاف
@@ -30,14 +30,14 @@
         destination: "مطعم",
         cuisine: "لبناني",  
         atmosphere: "رومانسي",
-        image: "img/restaurants/rest12/main.jpg",
+        image: "img/restaurants/rest02/main.png",
         rating: "★★★★☆",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D9%83%D8%B1%D9%85%D9%86%D8%A7&query_place_id=ChIJcezOOgBV4xURgj28i3Z1REk",
         gallery: [
-        "img/restaurants/rest12/gallery1.jpg",
-        "img/restaurants/rest12/gallery2.jpg",
-        "img/restaurants/rest12/gallery3.jpg",
-        "img/restaurants/rest12/gallery4.jpg"
+        "img/restaurants/rest02/gallery1.png",
+        "img/restaurants/rest02/gallery2.png",
+        "img/restaurants/rest02/gallery3.png",
+        "img/restaurants/rest02/gallery4.png"
         ],
         menuUrl: "https://mymenus.site/menu/karamna-ksa/67d3f4cda8982?fbclid=PAQ0xDSwKKvK1leHRuA2FlbQIxMQABp_rb1R4l4yhwXeG_Od_zGC9AYgJYnFPWBfXHWUgXQu2LujTbGJ2CX7E4Xdfw_aem_2huJzcWs9G7PKne3n8pgvQ",
         workingHours: {
@@ -54,14 +54,14 @@
         destination: "مطعم",
         cuisine: "إيطالي",
         atmosphere: "رومانسي",
-        image: "img/restaurants/rest13/main.jpg",
+        image: "img/restaurants/rest03/main.png",
         rating: "★★★★★",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%A3%D9%88%D9%84%D9%8A%D9%81%20%D8%AC%D8%A7%D8%B1%D8%AF%D9%86%20%D8%A3%D8%A8%D9%87%D8%A7&query_place_id=ChIJg6hoh6xV4xUR7eJ3Epd0X2o",
         gallery: [
-        "img/restaurants/rest13/gallery1.jpg",
-        "img/restaurants/rest13/gallery2.jpg",
-        "img/restaurants/rest13/gallery3.jpg",
-        "img/restaurants/rest13/gallery4.jpg"
+        "img/restaurants/rest03/gallery1.png",
+        "img/restaurants/rest03/gallery2.png",
+        "img/restaurants/rest03/gallery3.png",
+        "img/restaurants/rest03/gallery4.png"
         ],
         menuUrl: "https://www.olivegarden.sa/",
         workingHours: {
@@ -79,14 +79,14 @@
         destination: "مطعم",
         cuisine: "ايطالي",
         atmosphere: "رومانسي",
-        image: "img/restaurants/rest14/main.jpg",
+        image: "img/restaurants/rest04/main.png",
         rating: "★★★★☆",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%AA%D8%B4%D9%8A%D9%84%D9%84%D9%88%20%D8%A8%D8%B1%D9%86%D8%AF%D8%A9&query_place_id=ChIJSRKL4ZZX4xURZ6w_ZORjoLU",
         gallery: [
-        "img/restaurants/rest14/gallery1.jpg",
-        "img/restaurants/rest14/gallery2.jpg",
-        "img/restaurants/rest14/gallery3.jpg",
-        "img/restaurants/rest14/gallery4.jpg"
+        "img/restaurants/rest04/gallery1.png",
+        "img/restaurants/rest04/gallery2.png",
+        "img/restaurants/rest04/gallery3.png",
+        "img/restaurants/rest04/gallery4.png"
         ],
         menuUrl: "https://www.cello.sa/",
         workingHours: {
@@ -103,37 +103,14 @@
         destination: "مطعم",
         cuisine: "عربي",
         atmosphere: "خفيفة",
-        image: "img/restaurants/rest15/main.jpg",
+        image: "img/restaurants/rest05/main.png",
         rating: "★★★★☆",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%B3%D8%AF%D9%81&query_place_id=ChIJfwHYIBJV4xURRCNswmvlybo",
         gallery: [
-        "img/restaurants/rest15/gallery1.jpg",
-        "img/restaurants/rest15/gallery2.jpg",
-        "img/restaurants/rest15/gallery3.jpg",
-        "img/restaurants/rest15/gallery4.jpg"
-        ],
-        menuUrl: "https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDQ4NDg2ODI2NjU4NTIz?igsh=MW1sZG1iejg3NXY0Yw==",
-        workingHours: {
-        weekdays: "على مدار 24 ساعة"
-        },
-        priceRange: "35 - 90 ريال",
-        services: "أماكن جلوس في الهواء الطلق - التسليم بدون تلامس - خدمة التوصيل - طعام سفري - الجلوس داخل المكان"
-        },
-        
-{
-        name: "مطعم سدف  ",
-        location: "أبها",
-        destination: "مطعم",
-        cuisine: "عربي",
-        atmosphere: "خفيفة",
-        image: "img/restaurants/rest15/main.jpg",
-        rating: "★★★★☆",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%B3%D8%AF%D9%81&query_place_id=ChIJfwHYIBJV4xURRCNswmvlybo",
-        gallery: [
-        "img/restaurants/rest15/gallery1.jpg",
-        "img/restaurants/rest15/gallery2.jpg",
-        "img/restaurants/rest15/gallery3.jpg",
-        "img/restaurants/rest15/gallery4.jpg"
+        "img/restaurants/rest05/gallery1.png",
+        "img/restaurants/rest05/gallery2.png",
+        "img/restaurants/rest05/gallery3.png",
+        "img/restaurants/rest05/gallery4.png"
         ],
         menuUrl: "https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDQ4NDg2ODI2NjU4NTIz?igsh=MW1sZG1iejg3NXY0Yw==",
         workingHours: {
@@ -150,14 +127,14 @@
         destination: "مطعم",
         cuisine: "شعبي",
         atmosphere: "خفيفة",
-        image: "img/restaurants/rest16/main.jpg",
+        image: "img/restaurants/rest06/main.png",
         rating: "★★★★☆",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%AD%D9%86%D9%8A%D8%B0%20%D9%85%D9%84%D8%A9%20%7C%20%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%20%D8%A5%D8%B3%D8%AA%D9%84%D8%A7%D9%85&query_place_id=ChIJU4SgEwBT4xURVBA0jORQSgI",
         gallery: [
-        "img/restaurants/rest16/gallery1.jpg",
-        "img/restaurants/rest16/gallery2.jpg",
-        "img/restaurants/rest16/gallery3.jpg",
-        "img/restaurants/rest16/gallery4.jpg"
+        "img/restaurants/rest06/gallery1.png",
+        "img/restaurants/rest06/gallery2.png",
+        "img/restaurants/rest06/gallery3.png",
+        "img/restaurants/rest06/gallery4.png"
         ],
         menuUrl: "http://mallah.tryorder.net/",
         workingHours: "م12:30 الى م12:30",
@@ -173,14 +150,14 @@
         destination: "مطعم",
         cuisine: "فرنسي",
         atmosphere: "رومانسي",
-        image: "img/restaurants/rest17/main.jpg",
+        image: "img/restaurants/rest07/main.png",
         rating: "★★★★☆",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%84%D9%88%D9%81%D9%88%D9%8A%D8%A7%D8%AC&query_place_id=ChIJ-QL3VgGr_BURsZrVEQ3qN64",
         gallery: [
-        "img/restaurants/rest17/gallery1.jpg",
-        "img/restaurants/rest17/gallery2.jpg",
-        "img/restaurants/rest17/gallery3.jpg",
-        "img/restaurants/rest17/gallery4.jpg"
+        "img/restaurants/rest07/gallery1.png",
+        "img/restaurants/rest07/gallery2.png",
+        "img/restaurants/rest07/gallery3.png",
+        "img/restaurants/rest07/gallery4.png"
         ],
         menuUrl: "https://le-voyage.yallaqrcodes.com/branch/1/menu/",
         workingHours: {
@@ -197,14 +174,14 @@
         location: "أبها",
         destination: "مطعم",
         cuisine: "امريكي",
-        image: "img/restaurants/rest18/main.jpg",
+        image: "img/restaurants/rest08/main.png",
         rating: "★★★★☆",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%AA%D9%88%20%D8%A8%D9%88%D8%B1%D8%B4%D9%86%D8%B2%20%7C%20TWO%20PORTIONS&query_place_id=ChIJG8D5Njmr_BUR-wjYfWNJsZM",
         gallery: [
-        "img/restaurants/rest18/gallery1.jpg",
-        "img/restaurants/rest18/gallery2.jpg",
-        "img/restaurants/rest18/gallery3.jpg",
-        "img/restaurants/rest18/gallery4.jpg"
+        "img/restaurants/rest08/gallery1.png",
+        "img/restaurants/rest08/gallery2.png",
+        "img/restaurants/rest08/gallery3.png",
+        "img/restaurants/rest08/gallery4.png"
         ],
         menuUrl: "https://drive.google.com/file/d/11zSu4QHJQopHZOt-Stgx9u3uXRK1j8OS/view?usp=drivesdk",
         workingHours: {
@@ -222,14 +199,14 @@
         destination: "مطعم",
         cuisine: "عربي",
         atmosphere: "خفيفة",
-        image: "img/restaurants/rest19/main.jpg",
+        image: "img/restaurants/rest09/main.png",
         rating: "★★★★☆",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D9%81%D9%84%D9%82&query_place_id=ChIJzUOX7Yyr_BUR9jDXgdOarAs",
         gallery: [
-        "img/restaurants/rest19/gallery1.jpg",
-        "img/restaurants/rest19/gallery2.jpg",
-        "img/restaurants/rest19/gallery3.jpg",
-        "img/restaurants/rest19/gallery4.jpg"
+        "img/restaurants/rest09/gallery1.png",
+        "img/restaurants/rest09/gallery2.png",
+        "img/restaurants/rest09/gallery3.png",
+        "img/restaurants/rest09/gallery4.png"
         ],
         menuUrl: "https://qr.finedinemenu.com/IvJOjV4Jl?table=sample",
         workingHours: {
@@ -247,14 +224,14 @@
         destination: "مطعم",
         cuisine: "إيطالي",
         atmosphere: "خفيفة",
-        image: "img/restaurants/rest20/main.jpg",
+        image: "img/restaurants/rest10/main.png",
         rating: "★★★★★",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%B3%D9%8A%D9%86%D8%B3%D9%88%20-%20%D8%A3%D8%A8%D9%87%D8%A7&query_place_id=ChIJB8VXVgBT4xURGQbpmGsUDEU",
         gallery: [
-        "img/restaurants/rest20/gallery1.jpg",
-        "img/restaurants/rest20/gallery2.jpg",
-        "img/restaurants/rest20/gallery3.jpg",
-        "img/restaurants/rest20/gallery4.jpg"
+        "img/restaurants/rest10/gallery1.png",
+        "img/restaurants/rest10/gallery2.png",
+        "img/restaurants/rest10/gallery3.png",
+        "img/restaurants/rest10/gallery4.png"
         ],
         menuUrl: "https://e-menu.itb-me.com/Menu/380033006600350030006400390037002D0039003500620037002D0034006500390065002D0061003200640065002D00650032006300360061006300320032003400650064003700",
         workingHours: "ص7 الى ص11, م12:30 الى ص12",
@@ -910,6 +887,24 @@ function initializeRestaurantsPage() {
     } catch (error) {
         console.error('خطأ في تهيئة صفحة المطاعم والكافيهات:', error);
     }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    loadRestaurants();
+});
+
+function loadRestaurants() {
+    fetch('http://localhost:8080/api/v1/place')
+        .then(response => response.json())
+        .then(data => {
+            console.log('🍽️ Places data:', data);
+            displayRestaurants(data);
+        })
+        .catch(error => {
+            console.error('❌ Error fetching restaurants:', error);
+            const container = document.getElementById('restaurantsContainer');
+            container.innerHTML = '<p style="color: red;">فشل تحميل المطاعم والكافيهات</p>';
+        });
 }
 
 // Initialize page when DOM is loaded
