@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>التفاصيل - Spot in</title>
+    <title>التفاصيل - SpotN</title>
 
    <!-- ======== FONTS ======================== -->
   
@@ -148,13 +148,41 @@
                         </ul>
                     </nav>
                      
-                    <div class="header__button">
-                        <a href="#popup-sign" class="header__btn popup-link">تسجيل الدخول</a>
+                      <div class="header__button">
+                        <a id="sign-up-btn" href="#popup-sign" class="header__btn popup-link">تسجيل الدخول</a>
                     </div>
 
                     <div class="header__burger">
                         <span></span>
                     </div>
+                    <!-- to make the burger header works -->
+                    <script>document.addEventListener('DOMContentLoaded', function() {
+    const burger = document.querySelector('.header__burger');
+    const menu = document.querySelector('.menu');
+    
+    if (burger && menu) {
+        burger.addEventListener('click', function() {
+            // Toggle active class on burger
+            burger.classList.toggle('active');
+            // Toggle active class on menu
+            menu.classList.toggle('active');
+            
+            console.log('Burger clicked!'); // For debugging
+        });
+        
+        // Close menu when clicking on a menu link
+        const menuLinks = document.querySelectorAll('.menu__link');
+        menuLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                burger.classList.remove('active');
+                menu.classList.remove('active');
+            });
+        });
+    } else {
+        console.error('Burger or menu element not found!');
+    }
+});
+</script>
                 </div>
             </div>
         </header>
@@ -253,7 +281,7 @@
                     <!-- Logo Section -->
                     <div class="footer__block">
                         <a href="/" class="footer__logo">
-                            <img src="img/spotn-logo-en.png" alt="Spot In Logo" class="footer__logo--img img">
+                            <img src="img/spotn-logo-en.png" alt="SpotN Logo" class="footer__logo--img img">
                         </a>
                         
                         <!-- Social Media Section -->
@@ -292,7 +320,7 @@
                                 </li>
                                
                                 <li class="footer-nav__item">
-                                    <a href="mailto:info@milhaa.com" class="footer-nav__link">
+                            <a href="mailto:spotin.services@gmail.com" class="footer-nav__link">
                                         <img src="img/icon/message.svg" alt="Email" class="footer-location__img" style="filter: brightness(0) saturate(100%) invert(12%) sepia(95%) saturate(3441%) hue-rotate(215deg) brightness(96%) contrast(108%);">
                                         spotin.services@gmail.com           
                                     </a>
@@ -336,10 +364,7 @@
             const place = isRestaurant ? restaurants[placeInfo.index] : cafes[placeInfo.index];
             
             if (place) {
-                // Set place number with appropriate color
-                const placeNumber = document.getElementById('placeNumber');
-                placeNumber.textContent = String(placeInfo.index + 1).padStart(2, '0');
-                placeNumber.className = 'place-number ' + (isRestaurant ? 'restaurant-number' : 'cafe-number');
+                 
                 
                 // Set basic info
                 document.getElementById('placeName').textContent = place.name;
@@ -443,7 +468,7 @@
                 }
                 
                 // Set page title
-                document.title = `${place.name} - Spot in`;
+                document.title = `${place.name} - SpotN`;
                 
                 console.log('تم تحميل بيانات المكان:', place.name);
                 console.log('أوقات العمل:', place.workingHours);
