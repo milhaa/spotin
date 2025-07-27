@@ -212,15 +212,8 @@
                         <!-- Status Messages -->
                         <div id="mapStatus" style="display: none; padding: 10px; margin-bottom: 15px; border-radius: 8px; text-align: center; font-size: 14px;"></div>
                         
-                        <div class="map__input">
-                            <input class="map__input--input" type="search" name="map" placeholder="ادخل اسم الموقع" id="mapSearchInput">
-                            <button type="button" class="map__button" id="mapSearchButton">
-                                <img src="img/icon/search.svg" alt="img" class="map__img img" id="searchIcon">
-                                <span id="searchSpinner" style="display: none;">🔄</span>
-                            </button>
-                        </div>
                         <div class="map__maps">
-                            <!-- CRITICAL: Map container with explicit styling -->
+                            <!-- Map container with explicit styling -->
                             <div id="mapContainer" style="width: 100%; height: 460px; border-radius: 22px; background: #f0f0f0; display: block; position: relative;"></div>
                         </div>
                     </div>
@@ -411,7 +404,7 @@
     <script src="js/script.js"></script>
     <script src="js/restaurants.js"></script>
 
-    <!-- CRITICAL Map CSS Overrides - MUST come after your main CSS -->
+    <!-- CRITICAL Map CSS Overrides -->
     <style>
         /* Map-specific overrides - HIGH PRIORITY */
         #mapContainer {
@@ -638,7 +631,7 @@
     }
 })
         .catch(error => {
-            console.error('❌ Search failed:', error);
+            console.error('Search failed:', error);
             showMapStatus('حدث خطأ أثناء البحث: ' + error.message, 'error');
         })
         .finally(() => {
