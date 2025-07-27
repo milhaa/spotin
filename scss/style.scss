@@ -990,10 +990,7 @@ body.lock {
 .map {
     margin: 100px 0;
     position: relative;
-}
-
-@media (max-width: 768px) {
-    .map {
+    @media (max-width: 768px) {
         margin: 50px 0;
     }
 }
@@ -1093,31 +1090,31 @@ body.lock {
             border-radius: 22px;
             border: 1px solid #ddd;
         }
-        
+
         @media (max-width: 768px) {
             #mapContainer {
                 height: calc(340px + (460 - 340) * ((100vw - 320px) / (768 - 320)));
             }
         }
-        
+
         @media (max-width: 550px) {
             #mapContainer {
                 border-radius: 10px;
             }
         }
-        
+
         .map__maps {
             max-width: 100%;
             overflow: hidden;
             border-radius: 22px;
         }
-        
+
         @media (max-width: 550px) {
             .map__maps {
                 border-radius: 10px;
             }
         }
-        
+
         /* Loading message */
         .map-loading {
             display: flex;
@@ -1129,7 +1126,7 @@ body.lock {
             color: #666;
             font-size: 18px;
         }
-        
+
         /* Error message */
         .map-error {
             display: none;
@@ -1139,7 +1136,7 @@ body.lock {
             border-radius: 10px;
             margin-bottom: 20px;
             text-align: center;
-        
+
 }
 
 

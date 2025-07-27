@@ -276,7 +276,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!popup) return;
 
         console.log('إظهار popup، يمكن إغلاقه:', canClose);
-        
+
         // إخفاء جميع النوافذ أولاً
         hideAllPopups();
 
@@ -367,7 +367,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (!popup) return;
 
             console.log('محاولة إغلاق popup');
-            
+
             // لا يمكن إغلاقه إذا كان إجباري
             if (popup.classList.contains('force-show')) {
                 console.log('لا يمكن إغلاق popup الإجباري');
@@ -376,7 +376,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 setTimeout(() => popup.style.animation = '', 300);
                 return false;
             }
-            
+
             // إغلاق popup البداية
             if (popup.classList.contains('show-on-load') || popup.id === 'popup-sign') {
                 if (!isLoggedIn) {
@@ -386,7 +386,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 hideLoginPopup();
                 return;
             }
-            
+
             // إغلاق popup الشكر (تسجيل مكتمل)
             if (popup.id === 'modal-thank') {
                 isLoggedIn = true;
@@ -432,7 +432,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     hideLoginPopup();
                     return;
                 }
-                
+
                 hideAllPopups();
             }
         });
@@ -808,13 +808,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // ربط خالد
     //  تفعيل خانات OTP
-    
+
     const otpInputs = document.querySelectorAll('.otp-input');
     otpInputs.forEach((input, index) => {
         input.addEventListener('input', function(e) {
             const value = e.target.value;
             e.target.value = value.replace(/[^0-9]/g, '');
-            
+
             if (e.target.value.length === 1) {
                 if (index < otpInputs.length - 1) {
                     otpInputs[index + 1].focus();
@@ -837,7 +837,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
                 e.preventDefault();
             }
-            
+
             if (!/[0-9]/.test(e.key) && !['Backspace', 'Delete', 'Tab', 'ArrowLeft', 'ArrowRight'].includes(e.key)) {
                 e.preventDefault();
             }
@@ -965,7 +965,7 @@ document.addEventListener('DOMContentLoaded', function() {
         hideSignUpButton();
         console.log('تم التسجيل بنجاح - إخفاء popup');
         hideLoginPopup();
-    });
+});
 
         //////////////////////image at header ////////////////////////
   class HeroSlideshow {
@@ -975,10 +975,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 this.currentSlide = 0;
                 this.slideInterval = null;
                 this.autoSlideDelay = 2000; // 4 seconds
-                
+
                 this.init();
             }
-            
+
             init() {
                 // Add click event listeners to indicators
                 this.indicators.forEach((indicator, index) => {
@@ -990,37 +990,37 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 // Add touch support for mobile
                 this.addTouchSupport();
-                
+
                 // Handle image loading
                 this.handleImageLoading();
-                
+
                 // Start automatic slideshow
                 this.startAutoSlide();
             }
-            
+
             addTouchSupport() {
                 const slideshow = document.querySelector('.slideshow-container');
                 let startX = 0;
                 let endX = 0;
-                
+
                 slideshow.addEventListener('touchstart', (e) => {
                     startX = e.touches[0].clientX;
                 });
-                
+
                 slideshow.addEventListener('touchend', (e) => {
                     endX = e.changedTouches[0].clientX;
                     this.handleSwipe();
                 });
-                
+
                 slideshow.addEventListener('touchmove', (e) => {
                     e.preventDefault(); // Prevent scrolling while swiping
                 }, { passive: false });
             }
-            
+
             handleSwipe() {
                 const threshold = 50;
                 const diff = startX - endX;
-                
+
                 if (Math.abs(diff) > threshold) {
                     if (diff > 0) {
                         // Swipe left - next slide
@@ -1032,7 +1032,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     this.resetAutoSlide();
                 }
             }
-            
+
             handleImageLoading() {
                 const images = document.querySelectorAll('.slide__img');
                 images.forEach(img => {
@@ -1041,59 +1041,59 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
                 });
             }
-            
+
             goToSlide(slideIndex) {
                 // Remove active class from current slide and indicator
                 this.slides[this.currentSlide].classList.remove('active');
                 this.indicators[this.currentSlide].classList.remove('active');
-                
+
                 // Update current slide index
                 this.currentSlide = slideIndex;
-                
+
                 // Add active class to new slide and indicator
                 this.slides[this.currentSlide].classList.add('active', 'fade-in');
                 this.indicators[this.currentSlide].classList.add('active');
-                
+
                 // Remove fade-in class after animation
                 setTimeout(() => {
                     this.slides[this.currentSlide].classList.remove('fade-in');
                 }, 1000);
             }
-            
+
             nextSlide() {
                 const nextIndex = (this.currentSlide + 1) % this.slides.length;
                 this.goToSlide(nextIndex);
             }
-            
+
             previousSlide() {
                 const prevIndex = (this.currentSlide - 1 + this.slides.length) % this.slides.length;
                 this.goToSlide(prevIndex);
             }
-            
+
             startAutoSlide() {
                 this.slideInterval = setInterval(() => {
                     this.nextSlide();
                 }, this.autoSlideDelay);
             }
-            
+
             pauseAutoSlide() {
                 if (this.slideInterval) {
                     clearInterval(this.slideInterval);
                     this.slideInterval = null;
                 }
             }
-            
+
             resetAutoSlide() {
                 this.pauseAutoSlide();
                 this.startAutoSlide();
             }
         }
-        
+
         // Initialize slideshow when DOM is loaded
         document.addEventListener('DOMContentLoaded', () => {
             new HeroSlideshow();
         });
-        
+
         // Add smooth scroll behavior for the discover button
         document.querySelector('.hero__btn').addEventListener('click', (e) => {
             e.preventDefault();
@@ -1102,7 +1102,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 target.scrollIntoView({ behavior: 'smooth' });
             }
         });
-        
+
         // Pause slideshow when page is not visible
         document.addEventListener('visibilitychange', () => {
             const slideshow = document.querySelector('.hero__slideshow');

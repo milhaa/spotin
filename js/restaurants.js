@@ -121,6 +121,7 @@
         },
 
 
+
         {
         name: "حنيذ ملة",
         location: "أبها",
@@ -161,7 +162,7 @@
         ],
         menuUrl: "https://le-voyage.yallaqrcodes.com/branch/1/menu/",
         workingHours: {
-        weekdays: "7\u200Fص - 1\u200Fص" 
+        weekdays: "7\u200Fص - 1\u200Fص"
         },
         priceRange: "24 - 110 ريال",
         services: "أماكن جلوس في الهواء الطلق - التسليم بدون تلامس - خدمة التوصيل - طعام سفري - الجلوس داخل المكان"
@@ -487,11 +488,16 @@ const itemsPerPage = 8;
  * Creates HTML for a restaurant card
  */
 function createRestaurantCard(restaurant, globalIndex) {
-    const restaurantId = `rest${restaurants.indexOf(restaurant) + 1}`;
-    const restaurantNumber = String(restaurants.indexOf(restaurant) + 1).padStart(2, '0');
+    const restaurantIndex = restaurants.indexOf(restaurant);
+    const restaurantId = `rest${restaurantIndex + 1}`;
+    const restaurantNumber = String(restaurantIndex + 1).padStart(2, '0');
+
+    // Check if restaurant index is 10 or higher (11+)
+    const isComingSoon = restaurantIndex >= 10;
+    const linkUrl = isComingSoon ? 'coming.html' : `details.html?id=${restaurantId}`;
     
     return `
-        <a href="details.html?id=${restaurantId}" class="our-menu__column" id="${restaurantId}" style="text-decoration: none; color: inherit;">
+        <a href="${linkUrl}" class="our-menu__column" id="${restaurantId}" style="text-decoration: none; color: inherit;">
             <span class="resturant-color">${restaurantNumber}</span>
             <div class="our-menu__items">
                 <div class="our-menu__image">
@@ -522,15 +528,21 @@ function createRestaurantCard(restaurant, globalIndex) {
  * Creates HTML for a cafe card
  */
 function createCafeCard(cafe, globalIndex) {
-    const cafeId = `cafe${cafes.indexOf(cafe) + 1}`;
-    const cafeNumber = String(cafes.indexOf(cafe) + 1).padStart(2, '0');
+    const cafeIndex = cafes.indexOf(cafe);
+    const cafeId = `cafe${cafeIndex + 1}`;
+    const cafeNumber = String(cafeIndex + 1).padStart(2, '0');
+
+    // Check if cafe index is 10 or higher (11+)
+    const isComingSoon = cafeIndex >= 10;
+    const linkUrl = isComingSoon ? 'coming.html' : `details.html?id=${cafeId}`;
     
     return `
-        <a href="details.html?id=${cafeId}" class="our-menu__column" id="${cafeId}" style="text-decoration: none; color: inherit;">
+        <a href="${linkUrl}" class="our-menu__column" id="${cafeId}" style="text-decoration: none; color: inherit;">
             <span class="coffee-color">${cafeNumber}</span>
             <div class="our-menu__items">
                 <div class="our-menu__image">
                     <img src="${cafe.image}" alt="${cafe.name}" class="our-menu__img img">
+                    ${isComingSoon ? '<div class="coming-soon-badge"></div>' : ''}
                 </div>
                 <h3>${cafe.destination}</h3>
                 <p>${cafe.name}</p>
@@ -883,5 +895,5 @@ function initializeRestaurantsPage() {
 document.addEventListener('DOMContentLoaded', () => {
   initializeRestaurantsPage();
   updateCuisineOptions();
-  
+
 });
