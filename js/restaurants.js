@@ -271,7 +271,7 @@ const cafes = [
   },
 
   {
-    name: "زهو ZHU ",
+    name: "حثيث",
     location: "أبها",
     type: "قهوة",
     destination: "كافيه",
@@ -285,7 +285,7 @@ const cafes = [
       "img/cafes/cafe02/gallery3.jpg",
       "img/cafes/cafe02/gallery4.jpg"
     ],
-    menuUrl: "https://jorryelite.com/",
+    menuUrl: "https://drive.google.com/drive/folders/1f6fGhrw2iPj5BL93w2fM_8_YEsfNlH27?usp=drive_link",
     workingHours: {
       weekdays: "7\u200Fص - 1\u200Fص"
     },
