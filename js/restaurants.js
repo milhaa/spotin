@@ -257,7 +257,7 @@ const cafes = [
     mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D9%82%D9%87%D9%89%20%D8%A8%D9%83%D8%B1%20%7C%20BKR%20CAFE&query_place_id=ChIJ52e_SUBV4xURVex0scjDrr0",
     gallery: [
       "img/cafes/cafe01/gallery1.jpg",
-      "img/cafes/cafe01/gallery2.jpeg",
+      "img/cafes/cafe01/gallery2.JPEG",
       "img/cafes/cafe01/gallery3.jpg",
       "img/cafes/cafe01/gallery4.jpg"
     ],
@@ -298,14 +298,14 @@ const cafes = [
     type: "قهوة",
     destination: "كافيه",
     atmosphere: "خفيفة",
-    image: "img/cafes/cafe03/main.jpeg",
+    image: "img/cafes/cafe03/main.JPEG",
     rating: "★★★★☆",
     mapUrl: "https://www.google.com/maps/search/?api=1&query=9BAR%20%7C%20%D9%A9%20%D8%A8%D8%A7%D8%B1%20-%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%AD%D8%B2%D8%A7%D9%85&query_place_id=ChIJXffD0bBV4xURLnq0FL5Vr-8",
     gallery: [
-      "img/cafes/cafe03/gallery1.jpeg",
-      "img/cafes/cafe03/gallery2.jpeg",
-      "img/cafes/cafe03/gallery3.jpeg",
-      "img/cafes/cafe03/gallery4.jpeg"
+      "img/cafes/cafe03/gallery1.JPEG",
+      "img/cafes/cafe03/gallery2.JPEG",
+      "img/cafes/cafe03/gallery3.JPEG",
+      "img/cafes/cafe03/gallery4.JPEG"
     ],
     menuUrl: "https://9bar.easymenu.site/",
     workingHours: {
@@ -326,7 +326,7 @@ const cafes = [
     mapUrl: "https://www.google.com/maps/search/?api=1&query=Caffeine%20Lab&query_place_id=ChIJ3-sCVwBV4xURg2H8I0hpuiU",
     gallery: [
       "img/cafes/cafe04/gallery1.jpg",
-      "img/cafes/cafe04/gallery2.jpg",
+      "img/cafes/cafe04/gallery2.JPG",
       "img/cafes/cafe04/gallery3.jpg",
       "img/cafes/cafe04/gallery4.jpg"
     ],
@@ -371,10 +371,10 @@ const cafes = [
     rating: "★★★☆☆",
     mapUrl: "https://www.google.com/maps/search/?api=1&query=ROW%20%7C%20%D8%B1%D9%88&query_place_id=ChIJCaAxbABT4xURTK5K9JoEopE",
     gallery: [
-      "img/cafes/cafe06/gallery1.jpg",
-      "img/cafes/cafe06/gallery2.jpg",
-      "img/cafes/cafe06/gallery3.jpg",
-      "img/cafes/cafe06/gallery4.jpg"
+      "img/cafes/cafe06/gallery1.JPG",
+      "img/cafes/cafe06/gallery2.JPG",
+      "img/cafes/cafe06/gallery3.JPG",
+      "img/cafes/cafe06/gallery4.JPG"
     ],
     menuUrl: "http://linktr.ee/rowcafe",
     workingHours: {
@@ -436,14 +436,14 @@ const cafes = [
     type: "قهوة",
     destination: "كافيه",
     atmosphere: "خفيفة",
-    image: "img/cafes/cafe09/main.jpg",
+    image: "img/cafes/cafe09/main.JPG",
     rating: "★★★★☆",
     mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D9%83%D8%A7%D9%86%20%D8%AD%D9%85%D8%AF&query_place_id=ChIJd-45se5V-xURkq8sfT6bZZg",
     gallery: [
-      "img/cafes/cafe09/gallery1.jpg",
-      "img/cafes/cafe09/gallery2.jpg",
-      "img/cafes/cafe09/gallery3.jpg",
-      "img/cafes/cafe09/gallery4.jpg"
+      "img/cafes/cafe09/gallery1.JPG",
+      "img/cafes/cafe09/gallery2.JPG",
+      "img/cafes/cafe09/gallery3.JPG",
+      "img/cafes/cafe09/gallery4.JPG"
     ],
     menuUrl: "https://drive.google.com/file/d/1YXw8Qfm5IdDY_voQ70hSns3Mr2XP4YeR/view?usp=drivesdk",
     workingHours: {
@@ -466,7 +466,7 @@ const cafes = [
       "img/cafes/cafe10/gallery1.jpg",
       "img/cafes/cafe10/gallery2.jpg",
       "img/cafes/cafe10/gallery3.jpg",
-      "img/cafes/cafe10/gallery4.jpg"
+      "img/cafes/cafe10/gallery4.JPG"
     ],
     menuUrl: "https://oddmenu.com/ar/p/sugarhive",
     workingHours: {
