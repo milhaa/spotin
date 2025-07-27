@@ -7,14 +7,14 @@
     destination: "مطعم",                    // ✅ مُصحح
     cuisine: "لبناني",                      // ✅ مُصحح
     atmosphere: "عائلية",                   // ✅ مُصحح
-    image: "img/restaurants/rest01/main.png",
+    image: "img/restaurants/rest01/main.PNG",
     rating: "★★★★☆",
     mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%B9%D9%84%D9%89%20%D8%A8%D8%A7%D9%84%D9%8A%20-%20%D8%A3%D8%A8%D9%87%D8%A7&query_place_id=ChIJbe38WgBT4xURRfp9LZCKhkI",
     gallery: [
-        "img/restaurants/rest01/gallery1.png",
-        "img/restaurants/rest01/gallery2.png",
-        "img/restaurants/rest01/gallery3.png",
-        "img/restaurants/rest01/gallery4.png"
+        "img/restaurants/rest01/gallery1.PNG",
+        "img/restaurants/rest01/gallery2.PNG",
+        "img/restaurants/rest01/gallery3.PNG",
+        "img/restaurants/rest01/gallery4.PNG"
     ],
     menuUrl: "https://e-menu.itb-me.com/Emenu/650062003500370033003400650036002D0064003800650064002D0034003000350036002D0061006200620066002D00660039003500660064003200660039003700300031003900",
     workingHours: {                         // ✅ مُضاف
@@ -30,14 +30,14 @@
         destination: "مطعم",
         cuisine: "لبناني",  
         atmosphere: "رومانسية",
-        image: "img/restaurants/rest02/main.png",
+        image: "img/restaurants/rest02/main.PNG",
         rating: "★★★★☆",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D9%83%D8%B1%D9%85%D9%86%D8%A7&query_place_id=ChIJcezOOgBV4xURgj28i3Z1REk",
         gallery: [
-        "img/restaurants/rest02/gallery1.png",
-        "img/restaurants/rest02/gallery2.png",
-        "img/restaurants/rest02/gallery3.png",
-        "img/restaurants/rest02/gallery4.png"
+        "img/restaurants/rest02/gallery1.PNG",
+        "img/restaurants/rest02/gallery2.PNG",
+        "img/restaurants/rest02/gallery3.PNG",
+        "img/restaurants/rest02/gallery4.PNG"
         ],
         menuUrl: "https://mymenus.site/menu/karamna-ksa/67d3f4cda8982?fbclid=PAQ0xDSwKKvK1leHRuA2FlbQIxMQABp_rb1R4l4yhwXeG_Od_zGC9AYgJYnFPWBfXHWUgXQu2LujTbGJ2CX7E4Xdfw_aem_2huJzcWs9G7PKne3n8pgvQ",
         workingHours: {
