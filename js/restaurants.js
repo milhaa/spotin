@@ -6,19 +6,19 @@
     location: "أبها",
     destination: "مطعم",                    // ✅ مُصحح
     cuisine: "لبناني",                      // ✅ مُصحح
-    atmosphere: "عائلية",                   // ✅ مُصحح
-    image: "img/restaurants/rest11/main.jpg",
+    atmosphere: "اطلالة",                   // ✅ مُصحح
+    image: "img/restaurants/rest01/main.png",
     rating: "★★★★☆",
     mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%B9%D9%84%D9%89%20%D8%A8%D8%A7%D9%84%D9%8A%20-%20%D8%A3%D8%A8%D9%87%D8%A7&query_place_id=ChIJbe38WgBT4xURRfp9LZCKhkI",
     gallery: [
-        "img/restaurants/rest11/gallery1.jpg",
-        "img/restaurants/rest11/gallery2.jpg",
-        "img/restaurants/rest11/gallery3.jpg",
-        "img/restaurants/rest11/gallery4.jpg"
+        "img/restaurants/rest01/gallery1.png",
+        "img/restaurants/rest01/gallery2.PNG",
+        "img/restaurants/rest01/gallery3.png",
+        "img/restaurants/rest01/gallery4.PNG"
     ],
     menuUrl: "https://e-menu.itb-me.com/Emenu/650062003500370033003400650036002D0064003800650064002D0034003000350036002D0061006200620066002D00660039003500660064003200660039003700300031003900",
     workingHours: {                         // ✅ مُضاف
-        weekdays: "ص11 الى م11"
+        weekdays:  "11\u200Fص - 11\u200Fم"
     },
     priceRange: "22 - 150 ريال",           // ✅ مُضاف
     services: "توصيل - دين إن - تيك أواي"  // ✅ مُضاف
@@ -29,19 +29,19 @@
         location: "أبها",
         destination: "مطعم",
         cuisine: "لبناني",  
-        atmosphere: "رومانسي",
-        image: "img/restaurants/rest12/main.jpg",
+        atmosphere: "اطلالة",
+        image: "img/restaurants/rest02/main.PNG",
         rating: "★★★★☆",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D9%83%D8%B1%D9%85%D9%86%D8%A7&query_place_id=ChIJcezOOgBV4xURgj28i3Z1REk",
         gallery: [
-        "img/restaurants/rest12/gallery1.jpg",
-        "img/restaurants/rest12/gallery2.jpg",
-        "img/restaurants/rest12/gallery3.jpg",
-        "img/restaurants/rest12/gallery4.jpg"
+        "img/restaurants/rest02/gallery1.PNG",
+        "img/restaurants/rest02/gallery2.PNG",
+        "img/restaurants/rest02/gallery3.PNG",
+        "img/restaurants/rest02/gallery4.PNG"
         ],
         menuUrl: "https://mymenus.site/menu/karamna-ksa/67d3f4cda8982?fbclid=PAQ0xDSwKKvK1leHRuA2FlbQIxMQABp_rb1R4l4yhwXeG_Od_zGC9AYgJYnFPWBfXHWUgXQu2LujTbGJ2CX7E4Xdfw_aem_2huJzcWs9G7PKne3n8pgvQ",
         workingHours: {
-        weekdays: "م1 الى ص2"
+        weekdays:"1\u200Fم - 2\u200Fص"
         },
         priceRange: "35 - 187 ريال",
         services: "أماكن جلوس في الهواء الطلق - التسليم بدون تلامس - خدمة التوصيل - طعام سفري - الجلوس داخل المكان"
@@ -53,19 +53,19 @@
         location: "أبها",
         destination: "مطعم",
         cuisine: "إيطالي",
-        atmosphere: "رومانسي",
-        image: "img/restaurants/rest13/main.jpg",
+        atmosphere: "اطلالة",
+        image: "img/restaurants/rest03/main.PNG",
         rating: "★★★★★",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%A3%D9%88%D9%84%D9%8A%D9%81%20%D8%AC%D8%A7%D8%B1%D8%AF%D9%86%20%D8%A3%D8%A8%D9%87%D8%A7&query_place_id=ChIJg6hoh6xV4xUR7eJ3Epd0X2o",
         gallery: [
-        "img/restaurants/rest13/gallery1.jpg",
-        "img/restaurants/rest13/gallery2.jpg",
-        "img/restaurants/rest13/gallery3.jpg",
-        "img/restaurants/rest13/gallery4.jpg"
+        "img/restaurants/rest03/gallery1.PNG",
+        "img/restaurants/rest03/gallery2.PNG",
+        "img/restaurants/rest03/gallery3.PNG",
+        "img/restaurants/rest03/gallery4.PNG"
         ],
         menuUrl: "https://www.olivegarden.sa/",
         workingHours: {
-        weekdays: "م1 الى ص1:30"
+        weekdays: "1\u200Fم - 1:30\u200Fص"
         },
         priceRange: "39 - 124 ريال",
         services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
@@ -78,19 +78,19 @@
         location: "أبها",
         destination: "مطعم",
         cuisine: "ايطالي",
-        atmosphere: "رومانسي",
-        image: "img/restaurants/rest14/main.jpg",
+        atmosphere: "فاخرة",
+        image: "img/restaurants/rest04/main.PNG",
         rating: "★★★★☆",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%AA%D8%B4%D9%8A%D9%84%D9%84%D9%88%20%D8%A8%D8%B1%D9%86%D8%AF%D8%A9&query_place_id=ChIJSRKL4ZZX4xURZ6w_ZORjoLU",
         gallery: [
-        "img/restaurants/rest14/gallery1.jpg",
-        "img/restaurants/rest14/gallery2.jpg",
-        "img/restaurants/rest14/gallery3.jpg",
-        "img/restaurants/rest14/gallery4.jpg"
+        "img/restaurants/rest04/gallery1.PNG",
+        "img/restaurants/rest04/gallery2.PNG",
+        "img/restaurants/rest04/gallery3.PNG",
+        "img/restaurants/rest04/gallery4.PNG"
         ],
         menuUrl: "https://www.cello.sa/",
         workingHours: {
-        weekdays: "م12:30 الى ص2"
+        weekdays: "12:30\u200Fم - 2\u200Fص"
         },
         priceRange: "39 - 135 ريال",
         services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
@@ -102,15 +102,15 @@
         location: "أبها",
         destination: "مطعم",
         cuisine: "عربي",
-        atmosphere: "خفيفة",
-        image: "img/restaurants/rest15/main.jpg",
+        atmosphere: "عائلية",
+        image: "img/restaurants/rest05/main.PNG",
         rating: "★★★★☆",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%B3%D8%AF%D9%81&query_place_id=ChIJfwHYIBJV4xURRCNswmvlybo",
         gallery: [
-        "img/restaurants/rest15/gallery1.jpg",
-        "img/restaurants/rest15/gallery2.jpg",
-        "img/restaurants/rest15/gallery3.jpg",
-        "img/restaurants/rest15/gallery4.jpg"
+        "img/restaurants/rest05/gallery1.PNG",
+        "img/restaurants/rest05/gallery2.PNG",
+        "img/restaurants/rest05/gallery3.PNG",
+        "img/restaurants/rest05/gallery4.PNG"
         ],
         menuUrl: "https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDQ4NDg2ODI2NjU4NTIz?igsh=MW1sZG1iejg3NXY0Yw==",
         workingHours: {
@@ -121,23 +121,24 @@
         },
 
 
+
         {
         name: "حنيذ ملة",
         location: "أبها",
         destination: "مطعم",
         cuisine: "شعبي",
-        atmosphere: "خفيفة",
-        image: "img/restaurants/rest16/main.jpg",
+        atmosphere: "عائلية",
+        image: "img/restaurants/rest06/main.PNG",
         rating: "★★★★☆",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%AD%D9%86%D9%8A%D8%B0%20%D9%85%D9%84%D8%A9%20%7C%20%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%20%D8%A5%D8%B3%D8%AA%D9%84%D8%A7%D9%85&query_place_id=ChIJU4SgEwBT4xURVBA0jORQSgI",
         gallery: [
-        "img/restaurants/rest16/gallery1.jpg",
-        "img/restaurants/rest16/gallery2.jpg",
-        "img/restaurants/rest16/gallery3.jpg",
-        "img/restaurants/rest16/gallery4.jpg"
+        "img/restaurants/rest06/gallery1.PNG",
+        "img/restaurants/rest06/gallery2.PNG",
+        "img/restaurants/rest06/gallery3.PNG",
+        "img/restaurants/rest06/gallery4.PNG"
         ],
         menuUrl: "http://mallah.tryorder.net/",
-        workingHours: "م12:30 الى م12:30",
+        workingHours: "12:30\u200Fم - 12:30\u200Fم",
         priceRange: "80 - 1200 ريال",
         services: "الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
         },
@@ -149,19 +150,19 @@
         location: "أبها",
         destination: "مطعم",
         cuisine: "فرنسي",
-        atmosphere: "رومانسي",
-        image: "img/restaurants/rest17/main.jpg",
+        atmosphere: "رومانسية",
+        image: "img/restaurants/rest07/main.PNG",
         rating: "★★★★☆",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%84%D9%88%D9%81%D9%88%D9%8A%D8%A7%D8%AC&query_place_id=ChIJ-QL3VgGr_BURsZrVEQ3qN64",
         gallery: [
-        "img/restaurants/rest17/gallery1.jpg",
-        "img/restaurants/rest17/gallery2.jpg",
-        "img/restaurants/rest17/gallery3.jpg",
-        "img/restaurants/rest17/gallery4.jpg"
+        "img/restaurants/rest07/gallery1.PNG",
+        "img/restaurants/rest07/gallery2.PNG",
+        "img/restaurants/rest07/gallery3.PNG",
+        "img/restaurants/rest07/gallery4.PNG"
         ],
         menuUrl: "https://le-voyage.yallaqrcodes.com/branch/1/menu/",
         workingHours: {
-        weekdays: "ص7 الى ص1"
+        weekdays: "7\u200Fص - 1\u200Fص"
         },
         priceRange: "24 - 110 ريال",
         services: "أماكن جلوس في الهواء الطلق - التسليم بدون تلامس - خدمة التوصيل - طعام سفري - الجلوس داخل المكان"
@@ -174,18 +175,19 @@
         location: "أبها",
         destination: "مطعم",
         cuisine: "امريكي",
-        image: "img/restaurants/rest18/main.jpg",
+        atmosphere: "هادئة",
+        image: "img/restaurants/rest08/main.PNG",
         rating: "★★★★☆",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%AA%D9%88%20%D8%A8%D9%88%D8%B1%D8%B4%D9%86%D8%B2%20%7C%20TWO%20PORTIONS&query_place_id=ChIJG8D5Njmr_BUR-wjYfWNJsZM",
         gallery: [
-        "img/restaurants/rest18/gallery1.jpg",
-        "img/restaurants/rest18/gallery2.jpg",
-        "img/restaurants/rest18/gallery3.jpg",
-        "img/restaurants/rest18/gallery4.jpg"
+        "img/restaurants/rest08/gallery1.PNG",
+        "img/restaurants/rest08/gallery2.PNG",
+        "img/restaurants/rest08/gallery3.PNG",
+        "img/restaurants/rest08/gallery4.PNG"
         ],
         menuUrl: "https://drive.google.com/file/d/11zSu4QHJQopHZOt-Stgx9u3uXRK1j8OS/view?usp=drivesdk",
         workingHours: {
-        weekdays: "م4 الى ص2"
+        weekdays: "4\u200Fم - 2\u200Fص"
         },
         priceRange: "7 - 32 ريال",
         services: "التسليم بدون تلامس - خدمة التوصيل - طعام سفري - الجلوس داخل المكان"
@@ -198,19 +200,19 @@
         location: "أبها",
         destination: "مطعم",
         cuisine: "عربي",
-        atmosphere: "خفيفة",
-        image: "img/restaurants/rest19/main.jpg",
+        atmosphere: "فاخرة",
+        image: "img/restaurants/rest09/main.PNG",
         rating: "★★★★☆",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D9%81%D9%84%D9%82&query_place_id=ChIJzUOX7Yyr_BUR9jDXgdOarAs",
         gallery: [
-        "img/restaurants/rest19/gallery1.jpg",
-        "img/restaurants/rest19/gallery2.jpg",
-        "img/restaurants/rest19/gallery3.jpg",
-        "img/restaurants/rest19/gallery4.jpg"
+        "img/restaurants/rest09/gallery1.PNG",
+        "img/restaurants/rest09/gallery2.PNG",
+        "img/restaurants/rest09/gallery3.PNG",
+        "img/restaurants/rest09/gallery4.PNG"
         ],
         menuUrl: "https://qr.finedinemenu.com/IvJOjV4Jl?table=sample",
         workingHours: {
-        weekdays: "ص5 الى م5"
+        weekdays: "5\u200Fص - 5\u200Fم"
         },
         priceRange: "38 - 71 ريال",
         services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - طعام سفري - الجلوس داخل المكان"
@@ -223,18 +225,18 @@
         location: "أبها",
         destination: "مطعم",
         cuisine: "إيطالي",
-        atmosphere: "خفيفة",
-        image: "img/restaurants/rest20/main.jpg",
+        atmosphere: "رومانسية",
+        image: "img/restaurants/rest10/main.PNG",
         rating: "★★★★★",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%B3%D9%8A%D9%86%D8%B3%D9%88%20-%20%D8%A3%D8%A8%D9%87%D8%A7&query_place_id=ChIJB8VXVgBT4xURGQbpmGsUDEU",
         gallery: [
-        "img/restaurants/rest20/gallery1.jpg",
-        "img/restaurants/rest20/gallery2.jpg",
-        "img/restaurants/rest20/gallery3.jpg",
-        "img/restaurants/rest20/gallery4.jpg"
+        "img/restaurants/rest10/gallery1.PNG",
+        "img/restaurants/rest10/gallery2.PNG",
+        "img/restaurants/rest10/gallery3.PNG",
+        "img/restaurants/rest10/gallery4.PNG"
         ],
         menuUrl: "https://e-menu.itb-me.com/Menu/380033006600350030006400390037002D0039003500620037002D0034006500390065002D0061003200640065002D00650032006300360061006300320032003400650064003700",
-        workingHours: "ص7 الى ص11, م12:30 الى ص12",
+        workingHours: "7\u200Fص - 11\u200Fص, 12:30\u200Fم - 12\u200Fص", // سينسو,
         priceRange: "48 - 186 ريال",
         services: "أماكن جلوس في الهواء الطلق - التسليم بدون تلامس - خدمة التوصيل - الجلوس داخل المكان"
         },
@@ -247,244 +249,234 @@ const cafes = [
 
          {
         name: "مقهى بكر | BKR CAFE ",
-        location: "أبها",
-        type: "قهوة",
-        destination: "كافيه", 
-         atmosphere: "خفيفة",
-        image: "img/cafes/cafe01/main.jpg",
-        rating: "★★★★☆",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D9%82%D9%87%D9%89%20%D8%A8%D9%83%D8%B1%20%7C%20BKR%20CAFE&query_place_id=ChIJ52e_SUBV4xURVex0scjDrr0",
-        gallery: [
-        "img/cafes/cafe01/gallery1.jpg",
-        "img/cafes/cafe01/gallery2.jpg",
-        "img/cafes/cafe01/gallery3.jpg",
-        "img/cafes/cafe01/gallery4.jpg"
-        ],
-        menuUrl: "https://instagram.com/bkr_sa?r=nametag",
-        workingHours: {
-        weekdays:"ص7 الى ص1"
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "فاخرة",
+    image: "img/cafes/cafe01/main.jpg",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D9%82%D9%87%D9%89%20%D8%A8%D9%83%D8%B1%20%7C%20BKR%20CAFE&query_place_id=ChIJ52e_SUBV4xURVex0scjDrr0",
+    gallery: [
+      "img/cafes/cafe01/gallery1.jpg",
+      "img/cafes/cafe01/gallery2.JPEG",
+      "img/cafes/cafe01/gallery3.jpg",
+      "img/cafes/cafe01/gallery4.jpg"
+    ],
+    menuUrl: "https://instagram.com/bkr_sa?r=nametag",
+    workingHours: {
+      weekdays: "7\u200Fص - 1\u200Fص"
+    },
+    priceRange: null,
+    services: "التسليم بدون تلامس - طعام سفري - الجلوس داخل المكان"
+  },
 
-        },
-        priceRange: null,
-        services: "التسليم بدون تلامس - طعام سفري - الجلوس داخل المكان"
-        },
+  {
+    name: "زهو ZHU ",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "هادئة",
+    image: "img/cafes/cafe02/main.jpg",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B2%D9%87%D9%88%20ZHU&query_place_id=ChIJATR-pb9V4xURIv6qrHl7GEw",
+    gallery: [
+      "img/cafes/cafe02/gallery1.jpg",
+      "img/cafes/cafe02/gallery2.jpg",
+      "img/cafes/cafe02/gallery3.jpg",
+      "img/cafes/cafe02/gallery4.jpg"
+    ],
+    menuUrl: "https://jorryelite.com/",
+    workingHours: {
+      weekdays: "7\u200Fص - 1\u200Fص"
+    },
+    priceRange: "10 - 29 ريال",
+    services: "أماكن جلوس في الهواء الطلق - التسليم بدون تلامس - طعام سفري - الجلوس داخل المكان"
+  },
 
+  {
+    name: "9BAR | ٩ بار   ",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "فاخرة",
+    image: "img/cafes/cafe03/main.JPEG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=9BAR%20%7C%20%D9%A9%20%D8%A8%D8%A7%D8%B1%20-%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%AD%D8%B2%D8%A7%D9%85&query_place_id=ChIJXffD0bBV4xURLnq0FL5Vr-8",
+    gallery: [
+      "img/cafes/cafe03/gallery1.JPEG",
+      "img/cafes/cafe03/gallery2.JPEG",
+      "img/cafes/cafe03/gallery3.JPEG",
+      "img/cafes/cafe03/gallery4.JPEG"
+    ],
+    menuUrl: "https://9bar.easymenu.site/",
+    workingHours: {
+      weekdays: "7:30\u200Fص - 1\u200Fص"
+    },
+    priceRange: "10 - 105 ريال",
+    services: "خدمة التوصيل - طعام سفري - الجلوس داخل المكان"
+  },
 
-        {
-        name: "زهو ZHU ",
-        location: "أبها",
-        type: "قهوة",
-        destination: "كافيه", 
-         atmosphere: "خفيفة",
-        image: "img/cafes/cafe02/main.jpg",
-        rating: "★★★★☆",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B2%D9%87%D9%88%20ZHU&query_place_id=ChIJATR-pb9V4xURIv6qrHl7GEw",
-        gallery: [
-        "img/cafes/cafe02/gallery1.jpg",
-        "img/cafes/cafe02/gallery2.jpg",
-        "img/cafes/cafe02/gallery3.jpg",
-        "img/cafes/cafe02/gallery4.jpg"
-        ],
-        menuUrl: "https://jorryelite.com/",
-        workingHours: {
-        weekdays: "ص7 الى ص1"
-        },
-        priceRange: "10 - 29 ريال",
-        services: "أماكن جلوس في الهواء الطلق - التسليم بدون تلامس - طعام سفري - الجلوس داخل المكان"
-        },
+  {
+    name: "Caffeine Lab   ",
+    location: "أبها",
+    tyep: "قهوة",
+    destination: "كافيه",
+    atmosphere: "فاخرة",
+    image: "img/cafes/cafe04/main.jpg",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=Caffeine%20Lab&query_place_id=ChIJ3-sCVwBV4xURg2H8I0hpuiU",
+    gallery: [
+      "img/cafes/cafe04/gallery1.jpg",
+      "img/cafes/cafe04/gallery2.JPG",
+      "img/cafes/cafe04/gallery3.jpg",
+      "img/cafes/cafe04/gallery4.jpg"
+    ],
+    menuUrl: "http://caffeinelab.me/",
+    workingHours: {
+      weekdays: "12\u200Fم - 8\u200Fم"
+    },
+    priceRange: null,
+    services: "الإيصال إلى السيارة - التسليم بدون تلامس - طعام سفري - الجلوس داخل المكان"
+  },
 
+  {
+    name: "Hyz Bakehouse    ",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "هادئة",
+    image: "img/cafes/cafe05/main.jpg",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=Hyz%20Bakehouse&query_place_id=ChIJ76u7NwBV4xURcIko4wj_UN8",
+    gallery: [
+      "img/cafes/cafe05/gallery1.jpg",
+      "img/cafes/cafe05/gallery2.jpg",
+      "img/cafes/cafe05/gallery3.jpg",
+      "img/cafes/cafe05/gallery4.jpg"
+    ],
+    menuUrl: "https://jorryelite.com/",
+    workingHours: {
+      weekdays: "6\u200Fص - 6\u200Fم"
+    },
+    priceRange: "9 - 23 ريال",
+    services: "التسليم بدون تلامس - خدمة التوصيل - الجلوس داخل المكان"
+  },
 
-        {
-        name: "9BAR | ٩ بار   ",
-        location: "أبها",
-        type: "قهوة",
-        destination: "كافيه", 
-         atmosphere: "خفيفة",
-        image: "img/cafes/cafe03/main.jpeg",
-        rating: "★★★★☆",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=9BAR%20%7C%20%D9%A9%20%D8%A8%D8%A7%D8%B1%20-%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%AD%D8%B2%D8%A7%D9%85&query_place_id=ChIJXffD0bBV4xURLnq0FL5Vr-8",
-        gallery: [
-        "img/cafes/cafe03/gallery1.jpeg",
-        "img/cafes/cafe03/gallery2.jpeg",
-        "img/cafes/cafe03/gallery3.jpeg",
-        "img/cafes/cafe03/gallery4.jpeg"
-        ],
-        menuUrl: "https://9bar.easymenu.site/",
-        workingHours: {
-        weekdays: "ص7:30 الى ص1"
-        },
-        priceRange: "10 - 105 ريال",
-        services: "خدمة التوصيل - طعام سفري - الجلوس داخل المكان"
-        },
+  {
+    name: "ROW | رو    ",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "اطلالة",
+    image: "img/cafes/cafe06/main.png",
+    rating: "★★★☆☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=ROW%20%7C%20%D8%B1%D9%88&query_place_id=ChIJCaAxbABT4xURTK5K9JoEopE",
+    gallery: [
+      "img/cafes/cafe06/gallery1.JPG",
+      "img/cafes/cafe06/gallery2.JPG",
+      "img/cafes/cafe06/gallery3.JPG",
+      "img/cafes/cafe06/gallery4.JPG"
+    ],
+    menuUrl: "http://linktr.ee/rowcafe",
+    workingHours: {
+      weekdays: "نعمل على مدار 24 ساعة"
+    },
+    priceRange: "10 - 40 ريال",
+    services: "خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
+  },
 
-        {
-        name: "Caffeine Lab   ",
-        location: "أبها",
-        tyep: "قهوة",
-        destination: "كافيه", 
-         atmosphere: null,
-        image: "img/cafes/cafe04/main.jpg",
-        rating: "★★★★☆",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Caffeine%20Lab&query_place_id=ChIJ3-sCVwBV4xURg2H8I0hpuiU",
-        gallery: [
-        "img/cafes/cafe04/gallery1.jpg",
-        "img/cafes/cafe04/gallery2.jpg",
-        "img/cafes/cafe04/gallery3.jpg",
-        "img/cafes/cafe04/gallery4.jpg"
-        ],
-        menuUrl: "http://caffeinelab.me/",
-        workingHours: {
-        weekdays: "ص12 الى ص8"
-        },
+  {
+    name: "دكّة شاي",
+    location: "أبها",
+    type: "شاي",
+    destination: "كافيه",
+    atmosphere: "عائلية",
+    image: "img/cafes/cafe07/main.jpg",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%AF%D9%83%D9%91%D8%A9%20%D8%B4%D8%A7%D9%8A&query_place_id=ChIJv5TeFIap_BUReD4w40l9T4o",
+    gallery: [
+      "img/cafes/cafe07/gallery1.jpg",
+      "img/cafes/cafe07/gallery2.jpg",
+      "img/cafes/cafe07/gallery3.jpg",
+      "img/cafes/cafe07/gallery4.jpg"
+    ],
+    menuUrl: "https://instagram.com/tea.dakkah?utm_medium=copy_link",
+    workingHours: {
+      weekdays: "2:30\u200Fم - 4\u200Fص"
+    },
+    priceRange: "4 - 18 ريال",
+    services: "طعام سفري - الجلوس داخل المكان"
+  },
 
-        priceRange: null,
-        services: "الإيصال إلى السيارة - التسليم بدون تلامس - طعام سفري - الجلوس داخل المكان"
-        },
+  {
+    name: "وزاب كافيه  ",
+    location: "أبها",
+    type: "شاي",
+    destination: "كافيه",
+    atmosphere: "عائلية",
+    image: "img/cafes/cafe08/main.jpg",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%88%D8%B2%D8%A7%D8%A8%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJnZGixy-p_BURZS_OblMnXXU",
+    gallery: [
+      "img/cafes/cafe08/gallery1.jpg",
+      "img/cafes/cafe08/gallery2.jpg",
+      "img/cafes/cafe08/gallery3.jpg",
+      "img/cafes/cafe08/gallery4.jpg"
+    ],
+    menuUrl: "https://online.pubhtml5.com/btejg/lhlq/#p=2",
+    workingHours: {
+      weekdays: "4\u200Fم - 2\u200Fص"
+    },
+    priceRange: "6 - 29 ريال",
+    services: "أماكن جلوس في الهواء الطلق - التسليم بدون تلامس - طعام سفري - الجلوس داخل المكان"
+  },
 
+  {
+    name: "مكان حمد   ",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "عائلية",
+    image: "img/cafes/cafe09/main.JPG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D9%83%D8%A7%D9%86%20%D8%AD%D9%85%D8%AF&query_place_id=ChIJd-45se5V-xURkq8sfT6bZZg",
+    gallery: [
+      "img/cafes/cafe09/gallery1.JPG",
+      "img/cafes/cafe09/gallery2.JPG",
+      "img/cafes/cafe09/gallery3.JPG",
+      "img/cafes/cafe09/gallery4.JPG"
+    ],
+    menuUrl: "https://drive.google.com/file/d/1YXw8Qfm5IdDY_voQ70hSns3Mr2XP4YeR/view?usp=drivesdk",
+    workingHours: {
+      weekdays: "4\u200Fم - 1:30\u200Fص"
+    },
+    priceRange: "5 - 48 ريال",
+    services: "أماكن جلوس في الهواء الطلق - التسليم بدون تلامس - خدمة التوصيل - طعام سفري - الجلوس داخل المكان"
+  },
 
-        {
-        name: "Hyz Bakehouse    ",
-        location: "أبها",
-        type: "قهوة",
-        destination: "كافيه", 
-         atmosphere: "خفيفة",
-        image: "img/cafes/cafe05/main.jpg",
-        rating: "★★★★☆",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Hyz%20Bakehouse&query_place_id=ChIJ76u7NwBV4xURcIko4wj_UN8",
-        gallery: [
-        "img/cafes/cafe05/gallery1.jpg",
-        "img/cafes/cafe05/gallery2.jpg",
-        "img/cafes/cafe05/gallery3.jpg",
-        "img/cafes/cafe05/gallery4.jpg"
-        ],
-        menuUrl: "https://jorryelite.com/",
-        workingHours: {
-        weekdays: "ص6 الى م6"
-        },
-        priceRange: "9 - 23 ريال",
-        services: "التسليم بدون تلامس - خدمة التوصيل - الجلوس داخل المكان"
-        },
-
-
-        {
-        name: "ROW | رو    ",
-        location: "أبها",
-        type: "قهوة",
-        destination: "كافيه", 
-         atmosphere: "خفيفة",
-        image: "img/cafes/cafe06/main.png",
-        rating: "★★★☆☆",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=ROW%20%7C%20%D8%B1%D9%88&query_place_id=ChIJCaAxbABT4xURTK5K9JoEopE",
-        gallery: [
-        "img/cafes/cafe06/gallery1.jpg",
-        "img/cafes/cafe06/gallery2.jpg",
-        "img/cafes/cafe06/gallery3.jpg",
-        "img/cafes/cafe06/gallery4.jpg"
-        ],
-        menuUrl: "http://linktr.ee/rowcafe",
-        workingHours: {
-        weekdays: "نعمل على مدار 24 ساعة"
-        },
-        priceRange: "10 - 40 ريال",
-        services: "خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
-        },
-
-
-        {
-        name: "دكّة شاي",
-        location: "أبها",
-        type: "شاي",
-        destination: "كافيه", 
-         atmosphere: " خفيفة",
-        image: "img/cafes/cafe07/main.jpg",
-        rating: "★★★★☆",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%AF%D9%83%D9%91%D8%A9%20%D8%B4%D8%A7%D9%8A&query_place_id=ChIJv5TeFIap_BUReD4w40l9T4o",
-        gallery: [
-        "img/cafes/cafe07/gallery1.jpg",
-        "img/cafes/cafe07/gallery2.jpg",
-        "img/cafes/cafe07/gallery3.jpg",
-        "img/cafes/cafe07/gallery4.jpg"
-        ],
-        menuUrl: "https://instagram.com/tea.dakkah?utm_medium=copy_link",
-        workingHours: {
-        weekdays: "4م2:30 الى ص" 
-        },
-        priceRange: "4 - 18 ريال",
-        services: "طعام سفري - الجلوس داخل المكان"
-        },
-
-
-        {
-        name: "وزاب كافيه  ",
-        location: "أبها",
-        type: "شاي",
-        destination: "كافيه", 
-        atmosphere: "خفيفة",
-        image: "img/cafes/cafe08/main.jpg",
-        rating: "★★★★☆",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%88%D8%B2%D8%A7%D8%A8%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJnZGixy-p_BURZS_OblMnXXU",
-        gallery: [
-        "img/cafes/cafe08/gallery1.jpg",
-        "img/cafes/cafe08/gallery2.jpg",
-        "img/cafes/cafe08/gallery3.jpg",
-        "img/cafes/cafe08/gallery4.jpg"
-        ],
-        menuUrl: "https://online.pubhtml5.com/btejg/lhlq/#p=2",
-        workingHours: {
-        weekdays: "2م4 الى ص"
-        },
-        priceRange: "6 - 29 ريال",
-        services: "أماكن جلوس في الهواء الطلق - التسليم بدون تلامس - طعام سفري - الجلوس داخل المكان"
-        },
-
-
-        {
-        name: "مكان حمد   ",
-        location: "أبها",
-        type: "قهوة",
-        destination: "كافيه", 
-        atmosphere: "خفيفة",
-        image: "img/cafes/cafe09/main.jpg",
-        rating: "★★★★☆",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D9%83%D8%A7%D9%86%20%D8%AD%D9%85%D8%AF&query_place_id=ChIJd-45se5V-xURkq8sfT6bZZg",
-        gallery: [
-        "img/cafes/cafe09/gallery1.jpg",
-        "img/cafes/cafe09/gallery2.jpg",
-        "img/cafes/cafe09/gallery3.jpg",
-        "img/cafes/cafe09/gallery4.jpg"
-        ],
-        menuUrl: "https://drive.google.com/file/d/1YXw8Qfm5IdDY_voQ70hSns3Mr2XP4YeR/view?usp=drivesdk",
-        workingHours: {
-        weekdays: "م4 الى ص1:30"
-        },
-        priceRange: "5 - 48 ريال",
-        services: "أماكن جلوس في الهواء الطلق - التسليم بدون تلامس - خدمة التوصيل - طعام سفري - الجلوس داخل المكان"
-        },
-
-
-        {
-        name: "شوقر هايف  ",
-        location: "أبها",
-        type: "قهوة",
-        destination: "كافيه", 
-        atmosphere: "راقية",
-        image: "img/cafes/cafe10/main.jpg",
-        rating: "★★★★☆",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
-        gallery: [
-        "img/cafes/cafe10/gallery1.jpg",
-        "img/cafes/cafe10/gallery2.jpg",
-        "img/cafes/cafe10/gallery3.jpg",
-        "img/cafes/cafe10/gallery4.jpg"
-        ],
-        menuUrl: "https://oddmenu.com/ar/p/sugarhive",
-        workingHours: {
-        weekdays: "م4 الى ص4"
-        },
-        priceRange: "7 - 31 ريال",
-        services: ""
-        }
-        ];
+  {
+    name: "شوقر هايف  ",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "فاخرة",
+    image: "img/cafes/cafe10/main.jpg",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "https://oddmenu.com/ar/p/sugarhive",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  }
+];
      
 
 // Global variables
@@ -497,11 +489,16 @@ const itemsPerPage = 8;
  * Creates HTML for a restaurant card
  */
 function createRestaurantCard(restaurant, globalIndex) {
-    const restaurantId = `rest${restaurants.indexOf(restaurant) + 1}`;
-    const restaurantNumber = String(restaurants.indexOf(restaurant) + 1).padStart(2, '0');
+    const restaurantIndex = restaurants.indexOf(restaurant);
+    const restaurantId = `rest${restaurantIndex + 1}`;
+    const restaurantNumber = String(restaurantIndex + 1).padStart(2, '0');
+
+    // Check if restaurant index is 10 or higher (11+)
+    const isComingSoon = restaurantIndex >= 10;
+    const linkUrl = isComingSoon ? 'coming.html' : `details.html?id=${restaurantId}`;
     
     return `
-        <a href="details.html?id=${restaurantId}" class="our-menu__column" id="${restaurantId}" style="text-decoration: none; color: inherit;">
+        <a href="${linkUrl}" class="our-menu__column" id="${restaurantId}" style="text-decoration: none; color: inherit;">
             <span class="resturant-color">${restaurantNumber}</span>
             <div class="our-menu__items">
                 <div class="our-menu__image">
@@ -532,15 +529,21 @@ function createRestaurantCard(restaurant, globalIndex) {
  * Creates HTML for a cafe card
  */
 function createCafeCard(cafe, globalIndex) {
-    const cafeId = `cafe${cafes.indexOf(cafe) + 1}`;
-    const cafeNumber = String(cafes.indexOf(cafe) + 1).padStart(2, '0');
+    const cafeIndex = cafes.indexOf(cafe);
+    const cafeId = `cafe${cafeIndex + 1}`;
+    const cafeNumber = String(cafeIndex + 1).padStart(2, '0');
+
+    // Check if cafe index is 10 or higher (11+)
+    const isComingSoon = cafeIndex >= 10;
+    const linkUrl = isComingSoon ? 'coming.html' : `details.html?id=${cafeId}`;
     
     return `
-        <a href="details.html?id=${cafeId}" class="our-menu__column" id="${cafeId}" style="text-decoration: none; color: inherit;">
+        <a href="${linkUrl}" class="our-menu__column" id="${cafeId}" style="text-decoration: none; color: inherit;">
             <span class="coffee-color">${cafeNumber}</span>
             <div class="our-menu__items">
                 <div class="our-menu__image">
                     <img src="${cafe.image}" alt="${cafe.name}" class="our-menu__img img">
+                    ${isComingSoon ? '<div class="coming-soon-badge"></div>' : ''}
                 </div>
                 <h3>${cafe.destination}</h3>
                 <p>${cafe.name}</p>
@@ -767,7 +770,7 @@ function applyFilters() {
 
 
 const restaurantCuisines = [
-  '', 'شعبي', 'إيطالي', 'عربي', 'آسيوي', 'أمريكي', 'مكسيكي', 'تركي', 'هندي', 'لبناني'
+  '', 'شعبي', 'إيطالي', 'آسيوي', 'أمريكي', 'مكسيكي', 'هندي', 'شامي'
 ];
 
 const cafeStyles = [
@@ -893,4 +896,5 @@ function initializeRestaurantsPage() {
 document.addEventListener('DOMContentLoaded', () => {
   initializeRestaurantsPage();
   updateCuisineOptions();
+
 });
