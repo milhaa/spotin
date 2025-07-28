@@ -8,7 +8,7 @@
     cuisine: "لبناني",                      // ✅ مُصحح
     atmosphere: "اطلالة",                   // ✅ مُصحح
     image: "img/restaurants/rest01/main.png",
-    rating: "★★★★☆",
+    rating: printStars(4),
     mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%B9%D9%84%D9%89%20%D8%A8%D8%A7%D9%84%D9%8A%20-%20%D8%A3%D8%A8%D9%87%D8%A7&query_place_id=ChIJbe38WgBT4xURRfp9LZCKhkI",
     gallery: [
         "img/restaurants/rest01/gallery1.png",
@@ -241,7 +241,239 @@
         services: "أماكن جلوس في الهواء الطلق - التسليم بدون تلامس - خدمة التوصيل - الجلوس داخل المكان"
         },
 
+        {
+        name: "جورنو",
+        location: "أبها",
+        destination: "مطعم",
+        cuisine: "ايطالي",
+        atmosphere: "فاخرة",
+        image: "img/restaurants/rest11/main.JPG",
+        rating: "★★★★☆",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%AA%D8%B4%D9%8A%D9%84%D9%84%D9%88%20%D8%A8%D8%B1%D9%86%D8%AF%D8%A9&query_place_id=ChIJSRKL4ZZX4xURZ6w_ZORjoLU",
+        gallery: [
+        "img/restaurants/rest04/gallery1.PNG",
+        "img/restaurants/rest04/gallery2.PNG",
+        "img/restaurants/rest04/gallery3.PNG",
+        "img/restaurants/rest04/gallery4.PNG"
+        ],
+        menuUrl: "https://perex.odoo.com/pos-self/2/products?access_token=2f0a505334fb4737",
+        workingHours: {
+        weekdays: "12:30\u200Fم - 2\u200Fص"
+        },
+        priceRange: "39 - 135 ريال",
+        services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
+        },
+
+         {
+        name: "JOY VENUE جوي فينيو",
+        location: "أبها",
+        destination: "مطعم",
+        cuisine: "متنوع",
+        atmosphere: "اطلالة",
+        image: "img/restaurants/rest12/main.JPG",
+        rating: "★★★★☆",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%AA%D8%B4%D9%8A%D9%84%D9%84%D9%88%20%D8%A8%D8%B1%D9%86%D8%AF%D8%A9&query_place_id=ChIJSRKL4ZZX4xURZ6w_ZORjoLU",
+        gallery: [
+        "img/restaurants/rest04/gallery1.PNG",
+        "img/restaurants/rest04/gallery2.PNG",
+        "img/restaurants/rest04/gallery3.PNG",
+        "img/restaurants/rest04/gallery4.PNG"
+        ],
+        menuUrl: "https://perex.odoo.com/pos-shttps://app.iwaiter.net/Joy-venuemv493d/menuelf/2/products?access_token=2f0a505334fb4737",
+        workingHours: {
+        weekdays: "12:30\u200Fم - 2\u200Fص"
+        },
+        priceRange: "39 - 135 ريال",
+        services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
+        },
+
+         {
+        name: "اوكلاهوما برجر Oklahoma BURGER",
+        location: "أبها",
+        destination: "مطعم",
+        cuisine: "امريكي",
+        atmosphere: "عائلية",
+        image: "img/restaurants/rest13/main.JPG",
+        rating: "★★★★☆",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%AA%D8%B4%D9%8A%D9%84%D9%84%D9%88%20%D8%A8%D8%B1%D9%86%D8%AF%D8%A9&query_place_id=ChIJSRKL4ZZX4xURZ6w_ZORjoLU",
+        gallery: [
+        "img/restaurants/rest04/gallery1.PNG",
+        "img/restaurants/rest04/gallery2.PNG",
+        "img/restaurants/rest04/gallery3.PNG",
+        "img/restaurants/rest04/gallery4.PNG"
+        ],
+        menuUrl: "",
+        workingHours: {
+        weekdays: "12\u200Fم - 3:30\u200Fص"
+        },
+        priceRange: "39 - 135 ريال",
+        services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
+        },
+
+         {
+        name: "شندل",
+        location: "أبها",
+        destination: "مطعم",
+        cuisine: "شعبي",
+        atmosphere: "اطلالة",
+        image: "img/restaurants/rest14/main.JPG",
+        rating: "★★★★☆",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%86%D8%AF%D9%84&query_place_id=ChIJoza7TARV4xUR-12T1wQimYY",
+        gallery: [
+        "img/restaurants/rest04/gallery1.PNG",
+        "img/restaurants/rest04/gallery2.PNG",
+        "img/restaurants/rest04/gallery3.PNG",
+        "img/restaurants/rest04/gallery4.PNG"
+        ],
+        menuUrl: "",
+        workingHours: {
+        weekdays: "12:30\u200Fم - 2\u200Fص"
+        },
+        priceRange: "39 - 135 ريال",
+        services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
+        },
+
+         {
+        name: "كابي CABI",
+        location: "أبها",
+        destination: "مطعم",
+        cuisine: "امريكي",
+        atmosphere: "فاخرة",
+        image: "img/restaurants/rest15/main.JPG",
+        rating: "★★★★☆",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%83%D8%A7%D8%A8%D9%8A%20CABI&query_place_id=ChIJyQcKU2tV4xURTP90RNE1IMU",
+        gallery: [
+        "img/restaurants/rest04/gallery1.PNG",
+        "img/restaurants/rest04/gallery2.PNG",
+        "img/restaurants/rest04/gallery3.PNG",
+        "img/restaurants/rest04/gallery4.PNG"
+        ],
+        menuUrl: "",
+        workingHours: {
+        weekdays: "12:30\u200Fم - 2\u200Fص"
+        },
+        priceRange: "39 - 135 ريال",
+        services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
+        },
+
+         {
+        name: "زورنا",
+        location: "أبها",
+        destination: "مطعم",
+        cuisine: "متنوع",
+        atmosphere: "عائلي",
+        image: "img/restaurants/rest16/main.JPG",
+        rating: "★★★★☆",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B2%D9%88%D8%B1%D9%86%D8%A7&query_place_id=ChIJr___dJar_BURyZRGeC5k874",
+        gallery: [
+        "img/restaurants/rest04/gallery1.PNG",
+        "img/restaurants/rest04/gallery2.PNG",
+        "img/restaurants/rest04/gallery3.PNG",
+        "img/restaurants/rest04/gallery4.PNG"
+        ],
+        menuUrl: "",
+        workingHours: {
+        weekdays: "12:30\u200Fم - 2\u200Fص"
+        },
+        priceRange: "39 - 135 ريال",
+        services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
+        },
+
+         {
+        name: "مهراني",
+        location: "أبها",
+        destination: "مطعم",
+        cuisine: "متنوع",
+        atmosphere: "رومانسي",
+        image: "img/restaurants/rest17/main.JPG",
+        rating: "★★★★☆",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Abha%20branch%20Mahrani%20Restaurant%20%D9%85%D8%B7%D8%B9%D9%85%20%D9%85%D9%87%D8%B1%D8%A7%D9%86%D9%89%20%D9%81%D8%B1%D8%B9%20%D8%A3%D8%A8%D9%87%D8%A7&query_place_id=ChIJJy56xohV4xURnejZdbLOzFA",
+        gallery: [
+        "img/restaurants/rest04/gallery1.PNG",
+        "img/restaurants/rest04/gallery2.PNG",
+        "img/restaurants/rest04/gallery3.PNG",
+        "img/restaurants/rest04/gallery4.PNG"
+        ],
+        menuUrl: "https://qrco.de/bcpj56",
+        workingHours: {
+        weekdays: "12:30\u200Fم - 2\u200Fص"
+        },
+        priceRange: "39 - 135 ريال",
+        services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
+        },
+
+         {
+        name: "Karaki كركي",
+        location: "أبها",
+        destination: "مطعم",
+        cuisine: "فرنسي",
+        atmosphere: "هادئة",
+        image: "img/restaurants/rest18/main.JPG",
+        rating: "★★★★☆",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Karaki%20%D9%83%D8%B1%D9%83%D9%8A&query_place_id=ChIJZU0DJQBZ-xURndseTWgVqe8",
+        gallery: [
+        "img/restaurants/rest04/gallery1.PNG",
+        "img/restaurants/rest04/gallery2.PNG",
+        "img/restaurants/rest04/gallery3.PNG",
+        "img/restaurants/rest04/gallery4.PNG"
+        ],
+        menuUrl: "",
+        workingHours: {
+        weekdays: "12:30\u200Fم - 2\u200Fص"
+        },
+        priceRange: "39 - 135 ريال",
+        services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
+        },
+
+        {
+        name: "مطعم بريك داون Break Dawn",
+        location: "أبها",
+        destination: "مطعم",
+        cuisine: "شامي",
+        atmosphere: "هادئة",
+        image: "img/restaurants/rest19/main.JPG",
+        rating: "★★★★☆",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%A8%D8%B1%D9%8A%D9%83%20%D8%AF%D8%A7%D9%88%D9%86%20Break%20Dawn&query_place_id=ChIJoaVWCcyp_BURqSVvzI_tYW4",
+        gallery: [
+        "img/restaurants/rest04/gallery1.PNG",
+        "img/restaurants/rest04/gallery2.PNG",
+        "img/restaurants/rest04/gallery3.PNG",
+        "img/restaurants/rest04/gallery4.PNG"
+        ],
+        menuUrl: "",
+        workingHours: {
+        weekdays: "12:30\u200Fم - 2\u200Fص"
+        },
+        priceRange: "39 - 135 ريال",
+        services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
+        },
+
+        {
+        name: "فرن الضيعة",
+        location: "أبها",
+        destination: "مطعم",
+        cuisine: "شامي",
+        atmosphere: "عائلية",
+        image: "img/restaurants/rest20/main.JPG",
+        rating: "★★★★☆",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+        gallery: [
+        "img/restaurants/rest04/gallery1.PNG",
+        "img/restaurants/rest04/gallery2.PNG",
+        "img/restaurants/rest04/gallery3.PNG",
+        "img/restaurants/rest04/gallery4.PNG"
+        ],
+        menuUrl: "",
+        workingHours: {
+        weekdays: "12:30\u200Fم - 2\u200Fص"
+        },
+        priceRange: "39 - 135 ريال",
+        services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
+        },
+
         ];
+
+
 
 // Cafe data with unique information for each place
 const cafes = [
@@ -335,7 +567,7 @@ const cafes = [
     workingHours: {
       weekdays: "12\u200Fم - 8\u200Fم"
     },
-    priceRange: null,
+    priceRange: "16 - 89 ريال",
     services: "الإيصال إلى السيارة - التسليم بدون تلامس - طعام سفري - الجلوس داخل المكان"
   },
 
@@ -475,7 +707,814 @@ const cafes = [
     },
     priceRange: "7 - 31 ريال",
     services: ""
-  }
+  },
+
+  {
+    name: "فيفث افنيو",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "اطلالة",
+    image: "img/cafes/cafe11/main.JPG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "https://oddmenu.com/ar/p/sugarhive",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+  {
+    name: "zhu زهو",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "عائلية",
+    image: "img/cafes/cafe12/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "https://oddmenu.com/ar/p/sugarhive",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+  {
+    name: "Ugarit",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "عائلية",
+    image: "img/cafes/cafe13/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "https://oddmenu.com/ar/p/sugarhive",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+  {
+    name: "Cult",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "فاخرة",
+    image: "img/cafes/cafe14/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "https://oddmenu.com/ar/p/sugarhive",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+  {
+    name: "Beit cafe",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "هادئة",
+    image: "img/cafes/cafe15/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+  {
+    name: "Bevanda",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "اطلالة",
+    image: "img/cafes/cafe16/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+  {
+    name: "القطرة السوداء | Black Drop",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "هادئة",
+    image: "img/cafes/cafe17/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+  {
+    name: "Cove",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "عائلية",
+    image: "img/cafes/cafe18/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+   {
+    name: "Da Nonna - دانونا",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "هادئة",
+    image: "img/cafes/cafe19/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+   {
+    name: "Jadelah Coffee",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "عائلية",
+    image: "img/cafes/cafe20/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+   {
+    name: "Kaya Cafe",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "اطلالة",
+    image: "img/cafes/cafe22/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+   {
+    name: "كرك ستيشن",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "عائلية",
+    image: "img/cafes/cafe21/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+   {
+    name: "Kiva Han Coffee",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "عائلية",
+    image: "img/cafes/cafe23/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+   {
+    name: "Press",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "فاخرة",
+    image: "img/cafes/cafe24/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+   {
+    name: "SKW Cafe",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "عائلية",
+    image: "img/cafes/cafe25/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+   {
+    name: "الشاي الداكن",
+    location: "أبها",
+    type: "شاي",
+    destination: "كافيه",
+    atmosphere: "هادئة",
+    image: "img/cafes/cafe26/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+   {
+    name: "المركاز",
+    location: "أبها",
+    type: "شاي",
+    destination: "كافيه",
+    atmosphere: "هادئة",
+    image: "img/cafes/cafe27/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+   {
+    name: "ايسز كوفي",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "فاخرة",
+    image: "img/cafes/cafe28/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+   {
+    name: "مقهى ترايب",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "هادئة",
+    image: "img/cafes/cafe29/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+   {
+    name: "مقهى حبلـــ",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "رومانسية",
+    image: "img/cafes/cafe30/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+   {
+    name: "mIL ملء",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "اطلالة",
+    image: "img/cafes/cafe31/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+   {
+    name: "RATIO",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "عائلية",
+    image: "img/cafes/cafe32/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+   {
+    name: "OKAF CAFE",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "رومانسية",
+    image: "img/cafes/cafe33/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+   {
+    name: "هاتاي",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "هادئة",
+    image: "img/cafes/cafe34/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+   {
+    name: "مقهى فيه",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "رومانسية",
+    image: "img/cafes/cafe35/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+   {
+    name: "حروف كافيه",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "فاخرة",
+    image: "img/cafes/cafe36/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+   {
+    name: "Reap",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "اطلالة",
+    image: "img/cafes/cafe37/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+   {
+    name: "سوفليه",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "هادئة",
+    image: "img/cafes/cafe38/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+   {
+    name: "سالفة شاي",
+    location: "أبها",
+    type: "شاي",
+    destination: "كافيه",
+    atmosphere: "هادئة",
+    image: "img/cafes/cafe39/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+   {
+    name: "شاي شمل",
+    location: "أبها",
+    type: "شاي",
+    destination: "كافيه",
+    atmosphere: "اطلالة",
+    image: "img/cafes/cafe40/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+   {
+    name: "ناش كافيه",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "فاخرة",
+    image: "img/cafes/cafe41/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+   {
+    name: "شاي الكهف",
+    location: "أبها",
+    type: "شاي",
+    destination: "كافيه",
+    atmosphere: "هادئة",
+    image: "img/cafes/cafe42/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+   {
+    name: "حبات الهيل",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "عائلية",
+    image: "img/cafes/cafe43/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+  {
+    name: "Chapter3 | الفصل الثالث",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "اطلالة",
+    image: "img/cafes/cafe44/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+  {
+    name: "SAL coffee",
+    location: "أبها",
+    type: "قهوة",
+    destination: "كافيه",
+    atmosphere: "شبابية",
+    image: "img/cafes/cafe45/main.PNG",
+    rating: "★★★★☆",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
+    gallery: [
+      "img/cafes/cafe10/gallery1.jpg",
+      "img/cafes/cafe10/gallery2.jpg",
+      "img/cafes/cafe10/gallery3.jpg",
+      "img/cafes/cafe10/gallery4.JPG"
+    ],
+    menuUrl: "",
+    workingHours: {
+      weekdays: "4\u200Fم - 4\u200Fص"
+    },
+    priceRange: "7 - 31 ريال",
+    services: ""
+  },
+
+
 ];
      
 
@@ -484,6 +1523,30 @@ let allPlaces = [...restaurants, ...cafes];
 let filteredRestaurants = [...allPlaces];
 let currentPage = 1;
 const itemsPerPage = 8;
+
+
+
+// دالة لطباعة النجوم بناءً على الرقم المدخل
+function printStars(rating) {
+  if (typeof rating !== 'number' || rating < 0 || rating > 5) {
+    return "يرجى إدخال رقم صحيح بين 0 و 5";
+  }
+  
+  const fullStars = Math.floor(rating);
+  const hasHalfStar = rating % 1 >= 0.5;
+  const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
+  
+  let result = "";
+  result += "★".repeat(fullStars);
+  if (hasHalfStar) {
+    result += "☆";
+  }
+  result += "☆".repeat(emptyStars);
+  
+  return result;
+
+  
+}
 
 /**
  * Creates HTML for a restaurant card
