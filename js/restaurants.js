@@ -1025,7 +1025,7 @@ workingHours: {
 
               {
 
-                  name: "  ساندوزش  ",
+                  name: "  ساندوش  ",
                 location: "أبها",
                 destination: "مطعم",
                 cuisine: " أمريكي",
