@@ -978,7 +978,7 @@ workingHours: {
                   name: "  اكليل  ",
                 location: "أبها",
                 destination: "مطعم",
-                cuisine: "لبناني",
+                cuisine: "شامي",
                 atmosphere: "عائلية",
                 image: "spotin/img/restaurants/main.JPG",
                rating: "★★★★☆",
