@@ -706,6 +706,29 @@ workingHours: {
                 services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
         },
 
+         {
+                name: "أشاز",
+                location: "أبها",
+                destination: "مطعم",
+                cuisine: "هندي",
+                atmosphere: "عائلية",
+                image: "img/restaurants/rest30/main.JPG",
+                rating: "★★★★☆",
+             /*   mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+                gallery: [
+                        "img/restaurants/rest04/gallery1.PNG",
+                        "img/restaurants/rest04/gallery2.PNG",
+                        "img/restaurants/rest04/gallery3.PNG",
+                        "img/restaurants/rest04/gallery4.PNG"
+                ],
+                menuUrl: "",
+                workingHours: {
+                        weekdays: "12:30\u200Fم - 2\u200Fص"
+                },
+                priceRange: "39 - 135 ريال",
+                services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"*/
+        },
+
 ];
 
 
