@@ -236,8 +236,8 @@ const restaurants = [
                         "img/restaurants/rest10/gallery4.PNG"
                 ],
                 menuUrl: "https://e-menu.itb-me.com/Menu/380033006600350030006400390037002D0039003500620037002D0034006500390065002D0061003200640065002D00650032006300360061006300320032003400650064003700",
-              workingHours: {
-   weekdays: "6\u200Fص - 1\u200Fص"
+workingHours: {
+   weekdays: "6\u200Fص - 11\u200Fص   ,   12:30\u200Fم - 1\u200Fص"
 },
                 priceRange: "48\u200F ريال - 186\u200F ريال",
                 services: "أماكن جلوس في الهواء الطلق - التسليم بدون تلامس - خدمة التوصيل - الجلوس داخل المكان"
