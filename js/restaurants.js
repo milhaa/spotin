@@ -712,8 +712,9 @@ workingHours: {
                 destination: "مطعم",
                 cuisine: "هندي",
                 atmosphere: "عائلية",
-                image: "spotin/img/restaurants/main.jpg",
-              /*  rating: "★★★★☆",
+                image: "spotin/img/restaurants/main.JPG",
+               rating: "★★★★☆",
+                  /* 
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
                         "img/restaurants/rest04/gallery1.PNG",
