@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let hasSeenInitialPopup = false;
     let popupDismissedWithoutLogin = false;
     let userName = ''; // اسم المستخدم
-    
+
     // فحص التسجيل المحفوظ عند بداية الصفحة
     checkSavedLogin();
 
@@ -172,11 +172,11 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('تم الضغط على بطاقة مطعم/كافيه، حالة التسجيل:', isLoggedIn);
         console.log('تم رؤية popup البداية:', hasSeenInitialPopup);
         console.log('تم إغلاق popup بدون تسجيل:', popupDismissedWithoutLogin);
-        
+
         if (!isLoggedIn) {
             e.preventDefault(); // منع الانتقال للصفحة
             e.stopPropagation(); // منع انتشار الحدث
-            
+
             // إذا رأى popup البداية وأغلقه بدون تسجيل، اجعل popup إجباري
             if (hasSeenInitialPopup && popupDismissedWithoutLogin) {
                 console.log('عرض popup إجباري عند ضغط بطاقة المطعم');
@@ -403,7 +403,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 hideLoginPopup();
                 return;
             }
-            
+
             // إغلاق عام
             hideAllPopups();
         });
@@ -422,7 +422,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     setTimeout(() => this.style.animation = '', 300);
                     return false;
                 }
-                
+
                 // إغلاق popup البداية
                 if (this.classList.contains('show-on-load') || this.id === 'popup-sign') {
                     if (!isLoggedIn) {
@@ -807,64 +807,64 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // ربط خالد
-    //  تفعيل خانات OTP
+//  تفعيل خانات OTP
 
-    const otpInputs = document.querySelectorAll('.otp-input');
-    otpInputs.forEach((input, index) => {
-        input.addEventListener('input', function(e) {
-            const value = e.target.value;
-            e.target.value = value.replace(/[^0-9]/g, '');
+const otpInputs = document.querySelectorAll('.otp-input');
+otpInputs.forEach((input, index) => {
+    input.addEventListener('input', function(e) {
+        const value = e.target.value;
+        e.target.value = value.replace(/[^0-9]/g, '');
 
-            if (e.target.value.length === 1) {
-                if (index < otpInputs.length - 1) {
-                    otpInputs[index + 1].focus();
-                }
-                e.target.classList.add('filled');
-            } else {
-                e.target.classList.remove('filled');
+        if (e.target.value.length === 1) {
+            if (index < otpInputs.length - 1) {
+                otpInputs[index + 1].focus();
             }
-        });
-
-        input.addEventListener('keydown', function(e) {
-            if (e.key === 'Backspace') {
-                if (this.value === '' && index > 0) {
-                    otpInputs[index - 1].focus();
-                    otpInputs[index - 1].value = '';
-                    otpInputs[index - 1].classList.remove('filled');
-                } else if (this.value !== '') {
-                    this.value = '';
-                    this.classList.remove('filled');
-                }
-                e.preventDefault();
-            }
-
-            if (!/[0-9]/.test(e.key) && !['Backspace', 'Delete', 'Tab', 'ArrowLeft', 'ArrowRight'].includes(e.key)) {
-                e.preventDefault();
-            }
-        });
+            e.target.classList.add('filled');
+        } else {
+            e.target.classList.remove('filled');
+        }
     });
 
-    // إعادة إرسال OTP
-    const resendLink = document.querySelector('.resend-link');
-    if (resendLink) {
-        resendLink.addEventListener('click', function(e) {
-            e.preventDefault();
-            otpInputs.forEach(input => {
-                input.value = '';
-                input.classList.remove('filled');
-            });
-            if (otpInputs.length > 0) {
-                otpInputs[0].focus();
+    input.addEventListener('keydown', function(e) {
+        if (e.key === 'Backspace') {
+            if (this.value === '' && index > 0) {
+                otpInputs[index - 1].focus();
+                otpInputs[index - 1].value = '';
+                otpInputs[index - 1].classList.remove('filled');
+            } else if (this.value !== '') {
+                this.value = '';
+                this.classList.remove('filled');
             }
-            this.textContent = 'تم إرسال الرمز مرة أخرى';
-            setTimeout(() => {
-                this.textContent = 'إعادة الإرسال';
-            }, 3000);
-        });
-    }
+            e.preventDefault();
+        }
 
-    // التنقل بين مراحل التسجيل
-  document.getElementById('register-btn').addEventListener('click', async function(e) {
+        if (!/[0-9]/.test(e.key) && !['Backspace', 'Delete', 'Tab', 'ArrowLeft', 'ArrowRight'].includes(e.key)) {
+            e.preventDefault();
+        }
+    });
+});
+
+// إعادة إرسال OTP
+const resendLink = document.querySelector('.resend-link');
+if (resendLink) {
+    resendLink.addEventListener('click', function(e) {
+        e.preventDefault();
+        otpInputs.forEach(input => {
+            input.value = '';
+            input.classList.remove('filled');
+        });
+        if (otpInputs.length > 0) {
+            otpInputs[0].focus();
+        }
+        this.textContent = 'تم إرسال الرمز مرة أخرى';
+        setTimeout(() => {
+            this.textContent = 'إعادة الإرسال';
+        }, 3000);
+    });
+}
+
+// التنقل بين مراحل التسجيل
+document.getElementById('register-btn').addEventListener('click', async function(e) {
     e.preventDefault();
 
     const name = document.querySelector('#popup-sign input[name="name"]').value.trim();
@@ -907,7 +907,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-   document.getElementById('verify-btn').addEventListener('click', async function(e) {
+document.getElementById('verify-btn').addEventListener('click', async function(e) {
     e.preventDefault();
 
     const otpInputs = document.querySelectorAll('#otp-verification .otp-input');
@@ -957,163 +957,163 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-    // بعد إتمام التسجيل بنجاح
-    document.querySelector('#modal-thank .popup__btn').addEventListener('click', function() {
-       isLoggedIn = true;
-        popupDismissedWithoutLogin = false;
-        localStorage.setItem('isLoggedIn', 'true');
-        hideSignUpButton();
-        console.log('تم التسجيل بنجاح - إخفاء popup');
-        hideLoginPopup();
+// بعد إتمام التسجيل بنجاح
+document.querySelector('#modal-thank .popup__btn').addEventListener('click', function() {
+    isLoggedIn = true;
+    popupDismissedWithoutLogin = false;
+    localStorage.setItem('isLoggedIn', 'true');
+    hideSignUpButton();
+    console.log('تم التسجيل بنجاح - إخفاء popup');
+    hideLoginPopup();
 });
 
-        //////////////////////image at header ////////////////////////
-  class HeroSlideshow {
-            constructor() {
-                this.slides = document.querySelectorAll('.slide');
-                this.indicators = document.querySelectorAll('.indicator');
-                this.currentSlide = 0;
-                this.slideInterval = null;
-                this.autoSlideDelay = 2000; // 4 seconds
+//////////////////////image at header ////////////////////////
+class HeroSlideshow {
+    constructor() {
+        this.slides = document.querySelectorAll('.slide');
+        this.indicators = document.querySelectorAll('.indicator');
+        this.currentSlide = 0;
+        this.slideInterval = null;
+        this.autoSlideDelay = 2000; // 4 seconds
 
-                this.init();
+        this.init();
+    }
+
+    init() {
+        // Add click event listeners to indicators
+        this.indicators.forEach((indicator, index) => {
+            indicator.addEventListener('click', () => {
+                this.goToSlide(index);
+                this.resetAutoSlide();
+            });
+        });
+
+        // Add touch support for mobile
+        this.addTouchSupport();
+
+        // Handle image loading
+        this.handleImageLoading();
+
+        // Start automatic slideshow
+        this.startAutoSlide();
+    }
+
+    addTouchSupport() {
+        const slideshow = document.querySelector('.slideshow-container');
+        let startX = 0;
+        let endX = 0;
+
+        slideshow.addEventListener('touchstart', (e) => {
+            startX = e.touches[0].clientX;
+        });
+
+        slideshow.addEventListener('touchend', (e) => {
+            endX = e.changedTouches[0].clientX;
+            this.handleSwipe();
+        });
+
+        slideshow.addEventListener('touchmove', (e) => {
+            e.preventDefault(); // Prevent scrolling while swiping
+        }, { passive: false });
+    }
+
+    handleSwipe() {
+        const threshold = 50;
+        const diff = startX - endX;
+
+        if (Math.abs(diff) > threshold) {
+            if (diff > 0) {
+                // Swipe left - next slide
+                this.nextSlide();
+            } else {
+                // Swipe right - previous slide
+                this.previousSlide();
             }
-
-            init() {
-                // Add click event listeners to indicators
-                this.indicators.forEach((indicator, index) => {
-                    indicator.addEventListener('click', () => {
-                        this.goToSlide(index);
-                        this.resetAutoSlide();
-                    });
-                });
-
-                // Add touch support for mobile
-                this.addTouchSupport();
-
-                // Handle image loading
-                this.handleImageLoading();
-
-                // Start automatic slideshow
-                this.startAutoSlide();
-            }
-
-            addTouchSupport() {
-                const slideshow = document.querySelector('.slideshow-container');
-                let startX = 0;
-                let endX = 0;
-
-                slideshow.addEventListener('touchstart', (e) => {
-                    startX = e.touches[0].clientX;
-                });
-
-                slideshow.addEventListener('touchend', (e) => {
-                    endX = e.changedTouches[0].clientX;
-                    this.handleSwipe();
-                });
-
-                slideshow.addEventListener('touchmove', (e) => {
-                    e.preventDefault(); // Prevent scrolling while swiping
-                }, { passive: false });
-            }
-
-            handleSwipe() {
-                const threshold = 50;
-                const diff = startX - endX;
-
-                if (Math.abs(diff) > threshold) {
-                    if (diff > 0) {
-                        // Swipe left - next slide
-                        this.nextSlide();
-                    } else {
-                        // Swipe right - previous slide
-                        this.previousSlide();
-                    }
-                    this.resetAutoSlide();
-                }
-            }
-
-            handleImageLoading() {
-                const images = document.querySelectorAll('.slide__img');
-                images.forEach(img => {
-                    img.addEventListener('load', () => {
-                        img.classList.add('loaded');
-                    });
-                });
-            }
-
-            goToSlide(slideIndex) {
-                // Remove active class from current slide and indicator
-                this.slides[this.currentSlide].classList.remove('active');
-                this.indicators[this.currentSlide].classList.remove('active');
-
-                // Update current slide index
-                this.currentSlide = slideIndex;
-
-                // Add active class to new slide and indicator
-                this.slides[this.currentSlide].classList.add('active', 'fade-in');
-                this.indicators[this.currentSlide].classList.add('active');
-
-                // Remove fade-in class after animation
-                setTimeout(() => {
-                    this.slides[this.currentSlide].classList.remove('fade-in');
-                }, 1000);
-            }
-
-            nextSlide() {
-                const nextIndex = (this.currentSlide + 1) % this.slides.length;
-                this.goToSlide(nextIndex);
-            }
-
-            previousSlide() {
-                const prevIndex = (this.currentSlide - 1 + this.slides.length) % this.slides.length;
-                this.goToSlide(prevIndex);
-            }
-
-            startAutoSlide() {
-                this.slideInterval = setInterval(() => {
-                    this.nextSlide();
-                }, this.autoSlideDelay);
-            }
-
-            pauseAutoSlide() {
-                if (this.slideInterval) {
-                    clearInterval(this.slideInterval);
-                    this.slideInterval = null;
-                }
-            }
-
-            resetAutoSlide() {
-                this.pauseAutoSlide();
-                this.startAutoSlide();
-            }
+            this.resetAutoSlide();
         }
+    }
 
-        // Initialize slideshow when DOM is loaded
-        document.addEventListener('DOMContentLoaded', () => {
-            new HeroSlideshow();
+    handleImageLoading() {
+        const images = document.querySelectorAll('.slide__img');
+        images.forEach(img => {
+            img.addEventListener('load', () => {
+                img.classList.add('loaded');
+            });
         });
+    }
 
-        // Add smooth scroll behavior for the discover button
-        document.querySelector('.hero__btn').addEventListener('click', (e) => {
-            e.preventDefault();
-            const target = document.querySelector('#restaurant');
-            if (target) {
-                target.scrollIntoView({ behavior: 'smooth' });
-            }
-        });
+    goToSlide(slideIndex) {
+        // Remove active class from current slide and indicator
+        this.slides[this.currentSlide].classList.remove('active');
+        this.indicators[this.currentSlide].classList.remove('active');
 
-        // Pause slideshow when page is not visible
-        document.addEventListener('visibilitychange', () => {
-            const slideshow = document.querySelector('.hero__slideshow');
-            if (slideshow && slideshow.slideshow) {
-                if (document.hidden) {
-                    slideshow.slideshow.pauseAutoSlide();
-                } else {
-                    slideshow.slideshow.startAutoSlide();
-                }
-            }
-        });
+        // Update current slide index
+        this.currentSlide = slideIndex;
+
+        // Add active class to new slide and indicator
+        this.slides[this.currentSlide].classList.add('active', 'fade-in');
+        this.indicators[this.currentSlide].classList.add('active');
+
+        // Remove fade-in class after animation
+        setTimeout(() => {
+            this.slides[this.currentSlide].classList.remove('fade-in');
+        }, 1000);
+    }
+
+    nextSlide() {
+        const nextIndex = (this.currentSlide + 1) % this.slides.length;
+        this.goToSlide(nextIndex);
+    }
+
+    previousSlide() {
+        const prevIndex = (this.currentSlide - 1 + this.slides.length) % this.slides.length;
+        this.goToSlide(prevIndex);
+    }
+
+    startAutoSlide() {
+        this.slideInterval = setInterval(() => {
+            this.nextSlide();
+        }, this.autoSlideDelay);
+    }
+
+    pauseAutoSlide() {
+        if (this.slideInterval) {
+            clearInterval(this.slideInterval);
+            this.slideInterval = null;
+        }
+    }
+
+    resetAutoSlide() {
+        this.pauseAutoSlide();
+        this.startAutoSlide();
+    }
+}
+
+// Initialize slideshow when DOM is loaded
+document.addEventListener('DOMContentLoaded', () => {
+    new HeroSlideshow();
+});
+
+// Add smooth scroll behavior for the discover button
+document.querySelector('.hero__btn').addEventListener('click', (e) => {
+    e.preventDefault();
+    const target = document.querySelector('#restaurant');
+    if (target) {
+        target.scrollIntoView({ behavior: 'smooth' });
+    }
+});
+
+// Pause slideshow when page is not visible
+document.addEventListener('visibilitychange', () => {
+    const slideshow = document.querySelector('.hero__slideshow');
+    if (slideshow && slideshow.slideshow) {
+        if (document.hidden) {
+            slideshow.slideshow.pauseAutoSlide();
+        } else {
+            slideshow.slideshow.startAutoSlide();
+        }
+    }
+});
 ////////////////////////////////////
 // header__burger
 // Add this script before closing </body> tag
