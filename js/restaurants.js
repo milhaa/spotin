@@ -5,7 +5,7 @@
     name: "  على بالي",
     location: "أبها",
     destination: "مطعم",                    // ✅ مُصحح
-    cuisine: "لبناني",                      // ✅ مُصحح
+    cuisine: "شامي",                      // ✅ مُصحح
     atmosphere: "اطلالة",                   // ✅ مُصحح
     image: "img/restaurants/rest01/main.png",
     rating: printStars(4),
@@ -20,7 +20,7 @@
     workingHours: {                         // ✅ مُضاف
         weekdays:  "11\u200Fص - 11\u200Fم"
     },
-    priceRange: "22 - 150 ريال",           // ✅ مُضاف
+    priceRange:"22\u200F ريال - 150\u200F ريال",           // ✅ مُضاف
     services: "توصيل - دين إن - تيك أواي"  // ✅ مُضاف
 },
 
@@ -28,7 +28,7 @@
         name: "  كرمنا  ",
         location: "أبها",
         destination: "مطعم",
-        cuisine: "لبناني",  
+        cuisine: "شامي",  
         atmosphere: "اطلالة",
         image: "img/restaurants/rest02/main.PNG",
         rating: "★★★★☆",
@@ -43,7 +43,7 @@
         workingHours: {
         weekdays:"1\u200Fم - 2\u200Fص"
         },
-        priceRange: "35 - 187 ريال",
+        priceRange: "35\u200F ريال - 187\u200F ريال",
         services: "أماكن جلوس في الهواء الطلق - التسليم بدون تلامس - خدمة التوصيل - طعام سفري - الجلوس داخل المكان"
         },
 
@@ -67,7 +67,7 @@
         workingHours: {
         weekdays: "1\u200Fم - 1:30\u200Fص"
         },
-        priceRange: "39 - 124 ريال",
+        priceRange: "39\u200F ريال - 124\u200F ريال",
         services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
         },
 
@@ -92,7 +92,7 @@
         workingHours: {
         weekdays: "12:30\u200Fم - 2\u200Fص"
         },
-        priceRange: "39 - 135 ريال",
+        priceRange: "39\u200F ريال - 135\u200F ريال",
         services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
         },
 
@@ -101,7 +101,7 @@
         name: "مطعم سدف  ",
         location: "أبها",
         destination: "مطعم",
-        cuisine: "عربي",
+        cuisine: "شعبي",
         atmosphere: "عائلية",
         image: "img/restaurants/rest05/main.PNG",
         rating: "★★★★☆",
@@ -116,7 +116,7 @@
         workingHours: {
         weekdays: "على مدار 24 ساعة"
         },
-        priceRange: "35 - 90 ريال",
+        priceRange: "35\u200F ريال - 90\u200F ريال",
         services: "أماكن جلوس في الهواء الطلق - التسليم بدون تلامس - خدمة التوصيل - طعام سفري - الجلوس داخل المكان"
         },
 
@@ -139,7 +139,7 @@
         ],
         menuUrl: "http://mallah.tryorder.net/",
         workingHours: "12:30\u200Fم - 12:30\u200Fم",
-        priceRange: "80 - 1200 ريال",
+        priceRange: "80\u200F ريال - 1200\u200F ريال",
         services: "الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
         },
 
@@ -164,7 +164,7 @@
         workingHours: {
         weekdays: "7\u200Fص - 1\u200Fص"
         },
-        priceRange: "24 - 110 ريال",
+        priceRange: "24\u200F ريال - 110\u200F ريال",
         services: "أماكن جلوس في الهواء الطلق - التسليم بدون تلامس - خدمة التوصيل - طعام سفري - الجلوس داخل المكان"
         },
 
@@ -189,7 +189,7 @@
         workingHours: {
         weekdays: "4\u200Fم - 2\u200Fص"
         },
-        priceRange: "7 - 32 ريال",
+        priceRange: "7\u200F ريال - 32\u200F ريال",
         services: "التسليم بدون تلامس - خدمة التوصيل - طعام سفري - الجلوس داخل المكان"
         },
 
@@ -199,7 +199,7 @@
         name: "  فلق",
         location: "أبها",
         destination: "مطعم",
-        cuisine: "عربي",
+        cuisine: "متنوع",
         atmosphere: "فاخرة",
         image: "img/restaurants/rest09/main.PNG",
         rating: "★★★★☆",
@@ -214,7 +214,7 @@
         workingHours: {
         weekdays: "5\u200Fص - 5\u200Fم"
         },
-        priceRange: "38 - 71 ريال",
+        priceRange:"38\u200F ريال - 71\u200F ريال",
         services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - طعام سفري - الجلوس داخل المكان"
         },
 
@@ -237,7 +237,7 @@
         ],
         menuUrl: "https://e-menu.itb-me.com/Menu/380033006600350030006400390037002D0039003500620037002D0034006500390065002D0061003200640065002D00650032006300360061006300320032003400650064003700",
         workingHours: "7\u200Fص - 11\u200Fص, 12:30\u200Fم - 12\u200Fص", // سينسو,
-        priceRange: "48 - 186 ريال",
+        priceRange: "48\u200F ريال - 186\u200F ريال",
         services: "أماكن جلوس في الهواء الطلق - التسليم بدون تلامس - خدمة التوصيل - الجلوس داخل المكان"
         },
 
@@ -260,7 +260,7 @@
         workingHours: {
         weekdays: "12:30\u200Fم - 2\u200Fص"
         },
-        priceRange: "39 - 135 ريال",
+        priceRange: "39\u200F ريال - 135\u200F ريال",
         services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
         },
 
@@ -292,7 +292,7 @@
         location: "أبها",
         destination: "مطعم",
         cuisine: "امريكي",
-        atmosphere: "عائلية",
+        atmosphere: "شبابية",
         image: "img/restaurants/rest13/main.JPG",
         rating: "★★★★☆",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%AA%D8%B4%D9%8A%D9%84%D9%84%D9%88%20%D8%A8%D8%B1%D9%86%D8%AF%D8%A9&query_place_id=ChIJSRKL4ZZX4xURZ6w_ZORjoLU",
@@ -471,9 +471,241 @@
         services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
         },
 
+         {
+        name: "مطعم العريش",
+        location: "أبها",
+        destination: "مطعم",
+        cuisine: "شعبي",
+        atmosphere: "اطلالة",
+        image: "img/restaurants/rest21/main.JPG",
+        rating: "★★★★☆",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+        gallery: [
+        "img/restaurants/rest04/gallery1.PNG",
+        "img/restaurants/rest04/gallery2.PNG",
+        "img/restaurants/rest04/gallery3.PNG",
+        "img/restaurants/rest04/gallery4.PNG"
+        ],
+        menuUrl: "",
+        workingHours: {
+        weekdays: "12:30\u200Fم - 2\u200Fص"
+        },
+        priceRange: "39 - 135 ريال",
+        services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
+        },
+
+         {
+        name: "ديب فرايز",
+        location: "أبها",
+        destination: "مطعم",
+        cuisine: "امريكي",
+        atmosphere: "شبابية",
+        image: "img/restaurants/rest22/main.JPG",
+        rating: "★★★★☆",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+        gallery: [
+        "img/restaurants/rest04/gallery1.PNG",
+        "img/restaurants/rest04/gallery2.PNG",
+        "img/restaurants/rest04/gallery3.PNG",
+        "img/restaurants/rest04/gallery4.PNG"
+        ],
+        menuUrl: "",
+        workingHours: {
+        weekdays: "12:30\u200Fم - 2\u200Fص"
+        },
+        priceRange: "39 - 135 ريال",
+        services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
+        },
+
+
+         {
+        name: "Rusticana",
+        location: "أبها",
+        destination: "مطعم",
+        cuisine: "امريكي",
+        atmosphere: "هادئة",
+        image: "img/restaurants/rest23/main.JPG",
+        rating: "★★★★☆",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+        gallery: [
+        "img/restaurants/rest04/gallery1.PNG",
+        "img/restaurants/rest04/gallery2.PNG",
+        "img/restaurants/rest04/gallery3.PNG",
+        "img/restaurants/rest04/gallery4.PNG"
+        ],
+        menuUrl: "",
+        workingHours: {
+        weekdays: "12:30\u200Fم - 2\u200Fص"
+        },
+        priceRange: "39 - 135 ريال",
+        services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
+        },
+
+         {
+        name: "Saraya Palace",
+        location: "أبها",
+        destination: "مطعم",
+        cuisine: "متنوع",
+        atmosphere: "اطلالة",
+        image: "img/restaurants/rest24/main.JPG",
+        rating: "★★★★☆",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+        gallery: [
+        "img/restaurants/rest04/gallery1.PNG",
+        "img/restaurants/rest04/gallery2.PNG",
+        "img/restaurants/rest04/gallery3.PNG",
+        "img/restaurants/rest04/gallery4.PNG"
+        ],
+        menuUrl: "",
+        workingHours: {
+        weekdays: "12:30\u200Fم - 2\u200Fص"
+        },
+        priceRange: "39 - 135 ريال",
+        services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
+        },
+
+
+         {
+        name: "The Roof Restaurant",
+        location: "أبها",
+        destination: "مطعم",
+        cuisine: "متنوع",
+        atmosphere: "اطلالة",
+        image: "img/restaurants/rest25/main.JPG",
+        rating: "★★★★☆",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+        gallery: [
+        "img/restaurants/rest04/gallery1.PNG",
+        "img/restaurants/rest04/gallery2.PNG",
+        "img/restaurants/rest04/gallery3.PNG",
+        "img/restaurants/rest04/gallery4.PNG"
+        ],
+        menuUrl: "",
+        workingHours: {
+        weekdays: "12:30\u200Fم - 2\u200Fص"
+        },
+        priceRange: "39 - 135 ريال",
+        services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
+        },
+
+         {
+        name: "Abha Gala | أبها قالا",
+        location: "أبها",
+        destination: "مطعم",
+        cuisine: "شامي",
+        atmosphere: "فاخرة",
+        image: "img/restaurants/rest26/main.JPG",
+        rating: "★★★★☆",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+        gallery: [
+        "img/restaurants/rest04/gallery1.PNG",
+        "img/restaurants/rest04/gallery2.PNG",
+        "img/restaurants/rest04/gallery3.PNG",
+        "img/restaurants/rest04/gallery4.PNG"
+        ],
+        menuUrl: "",
+        workingHours: {
+        weekdays: "12:30\u200Fم - 2\u200Fص"
+        },
+        priceRange: "39 - 135 ريال",
+        services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
+        },
+
+         {
+        name: "مشراق",
+        location: "أبها",
+        destination: "مطعم",
+        cuisine: "متنوع",
+        atmosphere: "عائلية",
+        image: "img/restaurants/rest27/main.JPG",
+        rating: "★★★★☆",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+        gallery: [
+        "img/restaurants/rest04/gallery1.PNG",
+        "img/restaurants/rest04/gallery2.PNG",
+        "img/restaurants/rest04/gallery3.PNG",
+        "img/restaurants/rest04/gallery4.PNG"
+        ],
+        menuUrl: "",
+        workingHours: {
+        weekdays: "12:30\u200Fم - 2\u200Fص"
+        },
+        priceRange: "39 - 135 ريال",
+        services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
+        },
+
+         {
+        name: "قصر المضياف الراقي",
+        location: "أبها",
+        destination: "مطعم",
+        cuisine: "متنوع",
+        atmosphere: "عائلية",
+        image: "img/restaurants/rest28/main.JPG",
+        rating: "★★★★☆",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+        gallery: [
+        "img/restaurants/rest04/gallery1.PNG",
+        "img/restaurants/rest04/gallery2.PNG",
+        "img/restaurants/rest04/gallery3.PNG",
+        "img/restaurants/rest04/gallery4.PNG"
+        ],
+        menuUrl: "",
+        workingHours: {
+        weekdays: "12:30\u200Fم - 2\u200Fص"
+        },
+        priceRange: "39 - 135 ريال",
+        services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
+        },
+
+
+         {
+        name: "ليالي الهند",
+        location: "أبها",
+        destination: "مطعم",
+        cuisine: "هندي",
+        atmosphere: "عائلية",
+        image: "img/restaurants/rest29/main.JPG",
+        rating: "★★★★☆",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+        gallery: [
+        "img/restaurants/rest04/gallery1.PNG",
+        "img/restaurants/rest04/gallery2.PNG",
+        "img/restaurants/rest04/gallery3.PNG",
+        "img/restaurants/rest04/gallery4.PNG"
+        ],
+        menuUrl: "",
+        workingHours: {
+        weekdays: "12:30\u200Fم - 2\u200Fص"
+        },
+        priceRange: "39 - 135 ريال",
+        services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
+        },
+
+         {
+        name: "L’antico",
+        location: "أبها",
+        destination: "مطعم",
+        cuisine: "ايطالي",
+        atmosphere: "عائلية",
+        image: "img/restaurants/rest30/main.JPG",
+        rating: "★★★★☆",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+        gallery: [
+        "img/restaurants/rest04/gallery1.PNG",
+        "img/restaurants/rest04/gallery2.PNG",
+        "img/restaurants/rest04/gallery3.PNG",
+        "img/restaurants/rest04/gallery4.PNG"
+        ],
+        menuUrl: "",
+        workingHours: {
+        weekdays: "12:30\u200Fم - 2\u200Fص"
+        },
+        priceRange: "39 - 135 ريال",
+        services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
+        },
+
         ];
-
-
+        
 
 // Cafe data with unique information for each place
 const cafes = [
@@ -498,7 +730,7 @@ const cafes = [
     workingHours: {
       weekdays: "7\u200Fص - 1\u200Fص"
     },
-    priceRange: null,
+    priceRange: "10\u200F ريال - 21\u200F ريال",
     services: "التسليم بدون تلامس - طعام سفري - الجلوس داخل المكان"
   },
 
@@ -521,7 +753,7 @@ const cafes = [
     workingHours: {
       weekdays: "7\u200Fص - 1\u200Fص"
     },
-    priceRange: "10 - 29 ريال",
+    priceRange: "10\u200F ريال - 29\u200F ريال",
     services: "أماكن جلوس في الهواء الطلق - التسليم بدون تلامس - طعام سفري - الجلوس داخل المكان"
   },
 
@@ -544,7 +776,7 @@ const cafes = [
     workingHours: {
       weekdays: "7:30\u200Fص - 1\u200Fص"
     },
-    priceRange: "10 - 105 ريال",
+    priceRange: "10\u200F ريال - 105\u200F ريال",
     services: "خدمة التوصيل - طعام سفري - الجلوس داخل المكان"
   },
 
@@ -553,7 +785,7 @@ const cafes = [
     location: "أبها",
     tyep: "قهوة",
     destination: "كافيه",
-    atmosphere: "فاخرة",
+    atmosphere: "شبابية",
     image: "img/cafes/cafe04/main.jpg",
     rating: "★★★★☆",
     mapUrl: "https://www.google.com/maps/search/?api=1&query=Caffeine%20Lab&query_place_id=ChIJ3-sCVwBV4xURg2H8I0hpuiU",
@@ -567,7 +799,7 @@ const cafes = [
     workingHours: {
       weekdays: "12\u200Fم - 8\u200Fم"
     },
-    priceRange: "16 - 89 ريال",
+    priceRange: "16\u200F ريال - 89\u200F ريال",
     services: "الإيصال إلى السيارة - التسليم بدون تلامس - طعام سفري - الجلوس داخل المكان"
   },
 
@@ -590,7 +822,7 @@ const cafes = [
     workingHours: {
       weekdays: "6\u200Fص - 6\u200Fم"
     },
-    priceRange: "9 - 23 ريال",
+    priceRange: "9\u200F ريال - 23\u200F ريال",
     services: "التسليم بدون تلامس - خدمة التوصيل - الجلوس داخل المكان"
   },
 
@@ -613,7 +845,7 @@ const cafes = [
     workingHours: {
       weekdays: "نعمل على مدار 24 ساعة"
     },
-    priceRange: "10 - 40 ريال",
+    priceRange: "10\u200F ريال - 40\u200F ريال",
     services: "خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
   },
 
@@ -636,7 +868,7 @@ const cafes = [
     workingHours: {
       weekdays: "2:30\u200Fم - 4\u200Fص"
     },
-    priceRange: "4 - 18 ريال",
+    priceRange: "4\u200F ريال - 18\u200F ريال",
     services: "طعام سفري - الجلوس داخل المكان"
   },
 
@@ -659,7 +891,7 @@ const cafes = [
     workingHours: {
       weekdays: "4\u200Fم - 2\u200Fص"
     },
-    priceRange: "6 - 29 ريال",
+    priceRange: "6\u200F ريال - 29\u200F ريال",
     services: "أماكن جلوس في الهواء الطلق - التسليم بدون تلامس - طعام سفري - الجلوس داخل المكان"
   },
 
@@ -682,7 +914,7 @@ const cafes = [
     workingHours: {
       weekdays: "4\u200Fم - 1:30\u200Fص"
     },
-    priceRange: "5 - 48 ريال",
+    priceRange: "5\u200F ريال - 48\u200F ريال",
     services: "أماكن جلوس في الهواء الطلق - التسليم بدون تلامس - خدمة التوصيل - طعام سفري - الجلوس داخل المكان"
   },
 
@@ -705,8 +937,8 @@ const cafes = [
     workingHours: {
       weekdays: "4\u200Fم - 4\u200Fص"
     },
-    priceRange: "7 - 31 ريال",
-    services: ""
+    priceRange: "7\u200F ريال - 31\u200F ريال",
+    services: "التسليم بدون تلامس - خدمة التوصيل - الجلوس داخل المكان"
   },
 
   {
@@ -967,7 +1199,7 @@ const cafes = [
     location: "أبها",
     type: "قهوة",
     destination: "كافيه",
-    atmosphere: "عائلية",
+    atmosphere: "شبابية",
     image: "img/cafes/cafe21/main.PNG",
     rating: "★★★★☆",
     mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
@@ -1381,7 +1613,7 @@ const cafes = [
     location: "أبها",
     type: "شاي",
     destination: "كافيه",
-    atmosphere: "اطلالة",
+    atmosphere: "شبابية",
     image: "img/cafes/cafe40/main.PNG",
     rating: "★★★★☆",
     mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
@@ -1427,7 +1659,7 @@ const cafes = [
     location: "أبها",
     type: "شاي",
     destination: "كافيه",
-    atmosphere: "هادئة",
+    atmosphere: "شبابية",
     image: "img/cafes/cafe42/main.PNG",
     rating: "★★★★☆",
     mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
@@ -1833,7 +2065,7 @@ function applyFilters() {
 
 
 const restaurantCuisines = [
-  '', 'شعبي', 'إيطالي', 'آسيوي', 'أمريكي', 'مكسيكي', 'هندي', 'شامي'
+  '', 'شعبي', 'إيطالي', 'أمريكي', 'هندي', 'شامي', 'متنوع'
 ];
 
 const cafeStyles = [
