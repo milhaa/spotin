@@ -706,6 +706,29 @@ workingHours: {
                 services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"
         },
 
+ {
+                name: "اوزلام",
+                location: "أبها",
+                destination: "مطعم",
+                cuisine: "متنوع",
+                atmosphere: "هادئ",
+                image: "spotin/img/restaurants/main.JPG",
+               rating: "★★★★☆",
+                  /* 
+                mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+                gallery: [
+                        "img/restaurants/rest04/gallery1.PNG",
+                        "img/restaurants/rest04/gallery2.PNG",
+                        "img/restaurants/rest04/gallery3.PNG",
+                        "img/restaurants/rest04/gallery4.PNG"
+                ],
+                menuUrl: "",
+                workingHours: {
+                        weekdays: "12:30\u200Fم - 2\u200Fص"
+                },
+                priceRange: "39 - 135 ريال",
+                services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"*/
+        },
          {
                 name: "أشاز",
                 location: "أبها",
@@ -729,6 +752,373 @@ workingHours: {
                 priceRange: "39 - 135 ريال",
                 services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"*/
         },
+
+
+        {
+                name: "بلومنق",
+                location: "أبها",
+                destination: "مطعم",
+                cuisine: "متنوع",
+                atmosphere: "عائلية",
+                image: "spotin/img/restaurants/main.JPG",
+               rating: "★★★★☆",
+                  /* 
+                mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+                gallery: [
+                        "img/restaurants/rest04/gallery1.PNG",
+                        "img/restaurants/rest04/gallery2.PNG",
+                        "img/restaurants/rest04/gallery3.PNG",
+                        "img/restaurants/rest04/gallery4.PNG"
+                ],
+                menuUrl: "",
+                workingHours: {
+                        weekdays: "12:30\u200Fم - 2\u200Fص"
+                },
+                priceRange: "39 - 135 ريال",
+                services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"*/
+        },
+
+        {
+                name: "بنباستك",
+                location: "أبها",
+                destination: "مطعم",
+                cuisine: "أمريكي",
+                atmosphere: "عائلية",
+                image: "spotin/img/restaurants/main.JPG",
+               rating: "★★★★☆",
+                  /* 
+                mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+                gallery: [
+                        "img/restaurants/rest04/gallery1.PNG",
+                        "img/restaurants/rest04/gallery2.PNG",
+                        "img/restaurants/rest04/gallery3.PNG",
+                        "img/restaurants/rest04/gallery4.PNG"
+                ],
+                menuUrl: "",
+                workingHours: {
+                        weekdays: "12:30\u200Fم - 2\u200Fص"
+                },
+                priceRange: "39 - 135 ريال",
+                services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"*/
+        },
+{
+                  name: "شوايتي",
+                location: "أبها",
+                destination: "مطعم",
+                cuisine: "شعبي",
+                atmosphere: "عائلية",
+                image: "spotin/img/restaurants/main.JPG",
+               rating: "★★★★☆",
+                  /* 
+                mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+                gallery: [
+                        "img/restaurants/rest04/gallery1.PNG",
+                        "img/restaurants/rest04/gallery2.PNG",
+                        "img/restaurants/rest04/gallery3.PNG",
+                        "img/restaurants/rest04/gallery4.PNG"
+                ],
+                menuUrl: "",
+                workingHours: {
+                        weekdays: "12:30\u200Fم - 2\u200Fص"
+                },
+                priceRange: "39 - 135 ريال",
+                services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"*/
+        },
+
+        {
+
+                  name: "طبق الفخار",
+                location: "أبها",
+                destination: "مطعم",
+                cuisine: "شعبي",
+                atmosphere: "عائلية",
+                image: "spotin/img/restaurants/main.JPG",
+               rating: "★★★★☆",
+                  /* 
+                mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+                gallery: [
+                        "img/restaurants/rest04/gallery1.PNG",
+                        "img/restaurants/rest04/gallery2.PNG",
+                        "img/restaurants/rest04/gallery3.PNG",
+                        "img/restaurants/rest04/gallery4.PNG"
+                ],
+                menuUrl: "",
+                workingHours: {
+                        weekdays: "12:30\u200Fم - 2\u200Fص"
+                },
+                priceRange: "39 - 135 ريال",
+                services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"*/
+        },
+           {
+
+                  name: "البادية  ",
+                location: "أبها",
+                destination: "مطعم",
+                cuisine: "شعبي",
+                atmosphere: "عائلية",
+                image: "spotin/img/restaurants/main.JPG",
+               rating: "★★★★☆",
+                  /* 
+                mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+                gallery: [
+                        "img/restaurants/rest04/gallery1.PNG",
+                        "img/restaurants/rest04/gallery2.PNG",
+                        "img/restaurants/rest04/gallery3.PNG",
+                        "img/restaurants/rest04/gallery4.PNG"
+                ],
+                menuUrl: "",
+                workingHours: {
+                        weekdays: "12:30\u200Fم - 2\u200Fص"
+                },
+                priceRange: "39 - 135 ريال",
+                services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"*/
+        },
+
+            {
+
+                  name: "فارفلي  ",
+                location: "أبها",
+                destination: "مطعم",
+                cuisine: "إيطالي",
+                atmosphere: "هادئ",
+                image: "spotin/img/restaurants/main.JPG",
+               rating: "★★★★☆",
+                  /* 
+                mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+                gallery: [
+                        "img/restaurants/rest04/gallery1.PNG",
+                        "img/restaurants/rest04/gallery2.PNG",
+                        "img/restaurants/rest04/gallery3.PNG",
+                        "img/restaurants/rest04/gallery4.PNG"
+                ],
+                menuUrl: "",
+                workingHours: {
+                        weekdays: "12:30\u200Fم - 2\u200Fص"
+                },
+                priceRange: "39 - 135 ريال",
+                services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"*/
+        },
+
+                {
+
+                  name: "قناديل التوت  ",
+                location: "أبها",
+                destination: "مطعم",
+                cuisine: "متنوع",
+                atmosphere: "هادئ",
+                image: "spotin/img/restaurants/main.JPG",
+               rating: "★★★★☆",
+                  /* 
+                mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+                gallery: [
+                        "img/restaurants/rest04/gallery1.PNG",
+                        "img/restaurants/rest04/gallery2.PNG",
+                        "img/restaurants/rest04/gallery3.PNG",
+                        "img/restaurants/rest04/gallery4.PNG"
+                ],
+                menuUrl: "",
+                workingHours: {
+                        weekdays: "12:30\u200Fم - 2\u200Fص"
+                },
+                priceRange: "39 - 135 ريال",
+                services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"*/
+        },
+
+                  {
+
+                  name: "  برغلي  ",
+                location: "أبها",
+                destination: "مطعم",
+                cuisine: "أمريكي",
+                atmosphere: "عائلي",
+                image: "spotin/img/restaurants/main.JPG",
+               rating: "★★★★☆",
+                  /* 
+                mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+                gallery: [
+                        "img/restaurants/rest04/gallery1.PNG",
+                        "img/restaurants/rest04/gallery2.PNG",
+                        "img/restaurants/rest04/gallery3.PNG",
+                        "img/restaurants/rest04/gallery4.PNG"
+                ],
+                menuUrl: "",
+                workingHours: {
+                        weekdays: "12:30\u200Fم - 2\u200Fص"
+                },
+                priceRange: "39 - 135 ريال",
+                services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"*/
+        },
+
+            {
+
+                  name: "  تونير  ",
+                location: "أبها",
+                destination: "مطعم",
+                cuisine: "إيطالي",
+                atmosphere: "فاخرة",
+                image: "spotin/img/restaurants/main.JPG",
+               rating: "★★★★☆",
+                  /* 
+                mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+                gallery: [
+                        "img/restaurants/rest04/gallery1.PNG",
+                        "img/restaurants/rest04/gallery2.PNG",
+                        "img/restaurants/rest04/gallery3.PNG",
+                        "img/restaurants/rest04/gallery4.PNG"
+                ],
+                menuUrl: "",
+                workingHours: {
+                        weekdays: "12:30\u200Fم - 2\u200Fص"
+                },
+                priceRange: "39 - 135 ريال",
+                services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"*/
+        },
+            {
+
+                  name: "  اكليل  ",
+                location: "أبها",
+                destination: "مطعم",
+                cuisine: "لبناني",
+                atmosphere: "عائلية",
+                image: "spotin/img/restaurants/main.JPG",
+               rating: "★★★★☆",
+                  /* 
+                mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+                gallery: [
+                        "img/restaurants/rest04/gallery1.PNG",
+                        "img/restaurants/rest04/gallery2.PNG",
+                        "img/restaurants/rest04/gallery3.PNG",
+                        "img/restaurants/rest04/gallery4.PNG"
+                ],
+                menuUrl: "",
+                workingHours: {
+                        weekdays: "12:30\u200Fم - 2\u200Fص"
+                },
+                priceRange: "39 - 135 ريال",
+                services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"*/
+        },
+
+            {
+
+                  name: "  تونير  ",
+                location: "أبها",
+                destination: "مطعم",
+                cuisine: "إيطالي",
+                atmosphere: "فاخرة",
+                image: "spotin/img/restaurants/main.JPG",
+               rating: "★★★★☆",
+                  /* 
+                mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+                gallery: [
+                        "img/restaurants/rest04/gallery1.PNG",
+                        "img/restaurants/rest04/gallery2.PNG",
+                        "img/restaurants/rest04/gallery3.PNG",
+                        "img/restaurants/rest04/gallery4.PNG"
+                ],
+                menuUrl: "",
+                workingHours: {
+                        weekdays: "12:30\u200Fم - 2\u200Fص"
+                },
+                priceRange: "39 - 135 ريال",
+                services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"*/
+        },
+
+              {
+
+                  name: "  ساندوزش  ",
+                location: "أبها",
+                destination: "مطعم",
+                cuisine: " أمريكي",
+                atmosphere: "هادئة",
+                image: "spotin/img/restaurants/main.JPG",
+               rating: "★★★★☆",
+                  /* 
+                mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+                gallery: [
+                        "img/restaurants/rest04/gallery1.PNG",
+                        "img/restaurants/rest04/gallery2.PNG",
+                        "img/restaurants/rest04/gallery3.PNG",
+                        "img/restaurants/rest04/gallery4.PNG"
+                ],
+                menuUrl: "",
+                workingHours: {
+                        weekdays: "12:30\u200Fم - 2\u200Fص"
+                },
+                priceRange: "39 - 135 ريال",
+                services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"*/
+        },
+              {
+
+                  name: "  روف  ",
+                location: "أبها",
+                destination: "مطعم",
+                cuisine: "متنوع",
+                atmosphere: "عائلية",
+                image: "spotin/img/restaurants/main.JPG",
+               rating: "★★★★☆",
+                  /* 
+                mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+                gallery: [
+                        "img/restaurants/rest04/gallery1.PNG",
+                        "img/restaurants/rest04/gallery2.PNG",
+                        "img/restaurants/rest04/gallery3.PNG",
+                        "img/restaurants/rest04/gallery4.PNG"
+                ],
+                menuUrl: "",
+                workingHours: {
+                        weekdays: "12:30\u200Fم - 2\u200Fص"
+                },
+                priceRange: "39 - 135 ريال",
+                services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"*/
+        },
+{
+                         name: "  WBJ  ",
+                location: "أبها",
+                destination: "مطعم",
+                cuisine: "أمريكي",
+                atmosphere: "اطلالة",
+                image: "spotin/img/restaurants/main.JPG",
+               rating: "★★★★☆",
+                  /* 
+                mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+                gallery: [
+                        "img/restaurants/rest04/gallery1.PNG",
+                        "img/restaurants/rest04/gallery2.PNG",
+                        "img/restaurants/rest04/gallery3.PNG",
+                        "img/restaurants/rest04/gallery4.PNG"
+                ],
+                menuUrl: "",
+                workingHours: {
+                        weekdays: "12:30\u200Fم - 2\u200Fص"
+                },
+                priceRange: "39 - 135 ريال",
+                services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"*/
+        },
+{
+                         name: "  شرمب نيشن  ",
+                location: "أبها",
+                destination: "مطعم",
+                cuisine: "بحري",
+                atmosphere: "هادئة",
+                image: "spotin/img/restaurants/main.JPG",
+               rating: "★★★★☆",
+                  /* 
+                mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+                gallery: [
+                        "img/restaurants/rest04/gallery1.PNG",
+                        "img/restaurants/rest04/gallery2.PNG",
+                        "img/restaurants/rest04/gallery3.PNG",
+                        "img/restaurants/rest04/gallery4.PNG"
+                ],
+                menuUrl: "",
+                workingHours: {
+                        weekdays: "12:30\u200Fم - 2\u200Fص"
+                },
+                priceRange: "39 - 135 ريال",
+                services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"*/
+        }
+
+        
 
 ];
 
