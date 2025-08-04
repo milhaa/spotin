@@ -744,92 +744,92 @@
     }
 
     // Perform map search
-    function performMapSearch() {
-        const searchInput = document.getElementById('mapSearchInput');
-        const name = searchInput.value.trim();
+//     function performMapSearch() {
+//         const searchInput = document.getElementById('mapSearchInput');
+//         const name = searchInput.value.trim();
 
-        if (!name) {
-            showMapStatus('يرجى إدخال اسم المطعم أو الكافيه', 'error');
-            searchInput.focus();
-            return;
-        }
+//         if (!name) {
+//             showMapStatus('يرجى إدخال اسم المطعم أو الكافيه', 'error');
+//             searchInput.focus();
+//             return;
+//         }
 
-        console.log('Searching for place by name:', name);
+//         console.log('Searching for place by name:', name);
 
-        // Show loading state
-        setMapLoadingState(true);
-        hideMapStatus();
+//         // Show loading state
+//         setMapLoadingState(true);
+//         hideMapStatus();
 
-        fetch(`http://localhost:8080/api/v1/place/search?name=${encodeURIComponent(name)}`)
-            .then(res => {
-                if (!res.ok) {
-                    throw new Error(`HTTP ${res.status}: ${res.statusText}`);
-                }
-                return res.json();
-            })
-            .then(data => {
-                console.log('Search result:', data);
+//         fetch(`http://localhost:8080/api/v1/place/search?name=${encodeURIComponent(name)}`)
+//             .then(res => {
+//                 if (!res.ok) {
+//                     throw new Error(`HTTP ${res.status}: ${res.statusText}`);
+//                 }
+//                 return res.json();
+//             })
+//             .then(data => {
+//                 console.log('Search result:', data);
 
-                if (data && data.length > 0) {
-                    const place = data[0];
-                    console.log("Place coordinates:", place.latitude, place.longitude);
+//                 if (data && data.length > 0) {
+//                     const place = data[0];
+//                     console.log("Place coordinates:", place.latitude, place.longitude);
 
-                    if (place.latitude && place.longitude) {
-                        const latLng = { lat: place.latitude, lng: place.longitude };
+//                     if (place.latitude && place.longitude) {
+//                         const latLng = { lat: place.latitude, lng: place.longitude };
 
-                        mapInstance.setCenter(latLng);
-                        mapInstance.setZoom(15);
+//                         mapInstance.setCenter(latLng);
+//                         mapInstance.setZoom(15);
 
-                        // Remove previous marker
-                        if (mapMarker) {
-                            mapMarker.setMap(null);
-                        }
+//                         // Remove previous marker
+//                         if (mapMarker) {
+//                             mapMarker.setMap(null);
+//                         }
 
-                        // Create new marker
-                        mapMarker = new google.maps.Marker({
-                            position: latLng,
-                            map: mapInstance,
-                            title: place.name
-                        });
+//                         // Create new marker
+//                         mapMarker = new google.maps.Marker({
+//                             position: latLng,
+//                             map: mapInstance,
+//                             title: place.name
+//                         });
 
-                        // Show info window
-                        const content = `
-            <div style="padding: 8px; max-width: 250px;">
-            <h4 style="margin: 0 0 8px 0; color: #032d70;">${place.name}</h4>
-            <p style="margin: 4px 0; color: #666; font-size: 12px;">
-                ${place.address || ''}
-            </p>
-            <p style="margin: 6px 0;">
-            <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.name)}&query_place_id=${place.googlePlaceId || ''}"
-               target="_blank"
-               style="color: #1a73e8; text-decoration: underline; font-size: 13px;">
-                عرض في خرائط Google
-            </a>
-        </p>
-    </div>
-`;
+//                         // Show info window
+//                         const content = `
+//             <div style="padding: 8px; max-width: 250px;">
+//             <h4 style="margin: 0 0 8px 0; color: #032d70;">${place.name}</h4>
+//             <p style="margin: 4px 0; color: #666; font-size: 12px;">
+//                 ${place.address || ''}
+//             </p>
+//             <p style="margin: 6px 0;">
+//             <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.name)}&query_place_id=${place.googlePlaceId || ''}"
+//                target="_blank"
+//                style="color: #1a73e8; text-decoration: underline; font-size: 13px;">
+//                 عرض في خرائط Google
+//             </a>
+//         </p>
+//     </div>
+// `;
 
-                        infoWindow.setContent(content);
-                        infoWindow.open(mapInstance, mapMarker);
+//                         infoWindow.setContent(content);
+//                         infoWindow.open(mapInstance, mapMarker);
 
-                        //showMapStatus(`تم العثور على: ${place.name}`, 'success');
+//                         //showMapStatus(`تم العثور على: ${place.name}`, 'success');
 
-                    } else {
-                        //showMapStatus('موقع هذا المطعم أو الكافيه غير متوفر', 'error');
-                    }
+//                     } else {
+//                         //showMapStatus('موقع هذا المطعم أو الكافيه غير متوفر', 'error');
+//                     }
 
-                } else {
-                    //showMapStatus('لم يتم العثور على المطعم أو الكافيه المطلوب', 'error');
-                }
-            })
-            .catch(error => {
-                console.error('Search failed:', error);
-                //showMapStatus('حدث خطأ أثناء البحث: ' + error.message, 'error');
-            })
-            .finally(() => {
-                setMapLoadingState(false);
-            });
-    }
+//                 } else {
+//                     //showMapStatus('لم يتم العثور على المطعم أو الكافيه المطلوب', 'error');
+//                 }
+//             })
+//             .catch(error => {
+//                 console.error('Search failed:', error);
+//                 //showMapStatus('حدث خطأ أثناء البحث: ' + error.message, 'error');
+//             })
+//             .finally(() => {
+//                 setMapLoadingState(false);
+//             });
+//     }
 
 
     // Show/hide loading state
