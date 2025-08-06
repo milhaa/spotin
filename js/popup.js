@@ -17,38 +17,38 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }, 1000);
 
-    // فحص التسجيل المحفوظ
-    // function checkSavedLogin() {
-    //     try {
-    //         const savedUserName = localStorage.getItem('spotn_user_name');
-    //         const savedLoginStatus = localStorage.getItem('spotn_logged_in');
+   // فحص التسجيل المحفوظ
+    function checkSavedLogin() {
+        try {
+            const savedUserName = localStorage.getItem('spotn_user_name');
+            const savedLoginStatus = localStorage.getItem('spotn_logged_in');
 
-    //         if (savedUserName && savedLoginStatus === 'true') {
-    //             userName = savedUserName;
-    //             isLoggedIn = true;
-    //             hasSeenInitialPopup = true; // لأنه مسجل بالفعل
-    //             popupDismissedWithoutLogin = false;
+            if (savedUserName && savedLoginStatus === 'true') {
+                userName = savedUserName;
+                isLoggedIn = true;
+                hasSeenInitialPopup = true; // لأنه مسجل بالفعل
+                popupDismissedWithoutLogin = false;
 
-    //             console.log('تم العثور على تسجيل محفوظ للمستخدم:', userName);
-    //             updateHeaderButton();
-    //         } else {
-    //             console.log('لا يوجد تسجيل محفوظ');
-    //         }
-    //     } catch (error) {
-    //         console.log('خطأ في قراءة البيانات المحفوظة:', error);
-    //     }
-    // }
+                console.log('تم العثور على تسجيل محفوظ للمستخدم:', userName);
+                updateHeaderButton();
+            } else {
+                console.log('لا يوجد تسجيل محفوظ');
+            }
+        } catch (error) {
+            console.log('خطأ في قراءة البيانات المحفوظة:', error);
+        }
+    }
 
-    // حفظ بيانات التسجيل
-    // function saveUserLogin(name) {
-    //     try {
-    //         localStorage.setItem('spotn_user_name', name);
-    //         localStorage.setItem('spotn_logged_in', 'true');
-    //         console.log('تم حفظ بيانات المستخدم:', name);
-    //     } catch (error) {
-    //         console.log('خطأ في حفظ البيانات:', error);
-    //     }
-    // }
+   // حفظ بيانات التسجيل
+    function saveUserLogin(name) {
+        try {
+            localStorage.setItem('spotn_user_name', name);
+            localStorage.setItem('spotn_logged_in', 'true');
+            console.log('تم حفظ بيانات المستخدم:', name);
+        } catch (error) {
+            console.log('خطأ في حفظ البيانات:', error);
+        }
+    }
 
     // حذف بيانات التسجيل (للاستخدام المستقبلي إذا لزم الأمر)
     function clearUserLogin() {
