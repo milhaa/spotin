@@ -18,37 +18,37 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 1000);
 
     // فحص التسجيل المحفوظ
-    function checkSavedLogin() {
-        try {
-            const savedUserName = localStorage.getItem('spotn_user_name');
-            const savedLoginStatus = localStorage.getItem('spotn_logged_in');
+    // function checkSavedLogin() {
+    //     try {
+    //         const savedUserName = localStorage.getItem('spotn_user_name');
+    //         const savedLoginStatus = localStorage.getItem('spotn_logged_in');
 
-            if (savedUserName && savedLoginStatus === 'true') {
-                userName = savedUserName;
-                isLoggedIn = true;
-                hasSeenInitialPopup = true; // لأنه مسجل بالفعل
-                popupDismissedWithoutLogin = false;
+    //         if (savedUserName && savedLoginStatus === 'true') {
+    //             userName = savedUserName;
+    //             isLoggedIn = true;
+    //             hasSeenInitialPopup = true; // لأنه مسجل بالفعل
+    //             popupDismissedWithoutLogin = false;
 
-                console.log('تم العثور على تسجيل محفوظ للمستخدم:', userName);
-                updateHeaderButton();
-            } else {
-                console.log('لا يوجد تسجيل محفوظ');
-            }
-        } catch (error) {
-            console.log('خطأ في قراءة البيانات المحفوظة:', error);
-        }
-    }
+    //             console.log('تم العثور على تسجيل محفوظ للمستخدم:', userName);
+    //             updateHeaderButton();
+    //         } else {
+    //             console.log('لا يوجد تسجيل محفوظ');
+    //         }
+    //     } catch (error) {
+    //         console.log('خطأ في قراءة البيانات المحفوظة:', error);
+    //     }
+    // }
 
     // حفظ بيانات التسجيل
-    function saveUserLogin(name) {
-        try {
-            localStorage.setItem('spotn_user_name', name);
-            localStorage.setItem('spotn_logged_in', 'true');
-            console.log('تم حفظ بيانات المستخدم:', name);
-        } catch (error) {
-            console.log('خطأ في حفظ البيانات:', error);
-        }
-    }
+    // function saveUserLogin(name) {
+    //     try {
+    //         localStorage.setItem('spotn_user_name', name);
+    //         localStorage.setItem('spotn_logged_in', 'true');
+    //         console.log('تم حفظ بيانات المستخدم:', name);
+    //     } catch (error) {
+    //         console.log('خطأ في حفظ البيانات:', error);
+    //     }
+    // }
 
     // حذف بيانات التسجيل (للاستخدام المستقبلي إذا لزم الأمر)
     function clearUserLogin() {
@@ -876,7 +876,7 @@ document.getElementById('register-btn').addEventListener('click', async function
     }
 
     try {
-        const response = await fetch('http://spotn-backend-production.up.railway.app/api/v1/user/register', {
+        const response = await fetch('https://spotn-backend-production.up.railway.app/api/v1/user/register', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -928,7 +928,7 @@ document.getElementById('verify-btn').addEventListener('click', async function(e
     }
 
     try {
-        const response = await fetch('http://spotn-backend-production.up.railway.app/api/v1/user/verify', {
+        const response = await fetch('https://spotn-backend-production.up.railway.app/api/v1/user/verify', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
