@@ -867,7 +867,7 @@
     // }
 
     function loadAllPlaces() {
-    fetch('http://spotn-backend-production.up.railway.app/api/v1/place')
+    fetch('https://spotn-backend-production.up.railway.app/api/v1/place')
         .then(res => res.json())
         .then(data => {
             console.log("All places loaded:", data);
@@ -1052,9 +1052,9 @@
     let url = '';
 
     if (type === 'restaurant') {
-        url = 'http://spotn-backend-production.up.railway.app/api/v1/place/restaurants';
+        url = 'https://spotn-backend-production.up.railway.app/api/v1/place/restaurants';
     } else if (type === 'cafe') {
-        url = 'http://spotn-backend-production.up.railway.app/api/v1/place/cafes';
+        url = 'https://spotn-backend-production.up.railway.app/api/v1/place/cafes';
     }
 
     fetch(url)
