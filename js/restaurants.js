@@ -249,7 +249,7 @@ workingHours: {
                 destination: "مطعم",
                 cuisine: "إيطالي",
                 atmosphere: "فاخرة",
-                image: "img/restaurants/rest11/main.JPG",
+                image: "img/restaurants/rest11/main.jpg",
                 rating: "★★★★☆",
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%AA%D8%B4%D9%8A%D9%84%D9%84%D9%88%20%D8%A8%D8%B1%D9%86%D8%AF%D8%A9&query_place_id=ChIJSRKL4ZZX4xURZ6w_ZORjoLU",
                 gallery: [
@@ -272,7 +272,7 @@ workingHours: {
                 destination: "مطعم",
                 cuisine: "متنوع",
                 atmosphere: "اطلالة",
-                image: "img/restaurants/rest12/main.JPG",
+                image: "img/restaurants/rest12/main.jpg",
                 rating: "★★★★☆",
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%AA%D8%B4%D9%8A%D9%84%D9%84%D9%88%20%D8%A8%D8%B1%D9%86%D8%AF%D8%A9&query_place_id=ChIJSRKL4ZZX4xURZ6w_ZORjoLU",
                 gallery: [
@@ -295,7 +295,7 @@ workingHours: {
                 destination: "مطعم",
                 cuisine: "أمريكي",
                 atmosphere: "شبابية",
-                image: "img/restaurants/rest13/main.JPG",
+                image: "img/restaurants/rest13/main.jpg",
                 rating: "★★★★☆",
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%AA%D8%B4%D9%8A%D9%84%D9%84%D9%88%20%D8%A8%D8%B1%D9%86%D8%AF%D8%A9&query_place_id=ChIJSRKL4ZZX4xURZ6w_ZORjoLU",
                 gallery: [
