@@ -8,7 +8,7 @@ const restaurants = [
                 cuisine: "شامي",                      // ✅ مُصحح
                 atmosphere: "اطلالة",                   // ✅ مُصحح
                 image: "img/restaurants/rest01/main.png",
-                rating: printStars(4),
+                rating: printStars(3.7),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%B9%D9%84%D9%89%20%D8%A8%D8%A7%D9%84%D9%8A%20-%20%D8%A3%D8%A8%D9%87%D8%A7&query_place_id=ChIJbe38WgBT4xURRfp9LZCKhkI",
                 gallery: [
                         "img/restaurants/rest01/gallery1.png",
@@ -31,7 +31,7 @@ const restaurants = [
                 cuisine: "شامي",
                 atmosphere: "اطلالة",
                 image: "img/restaurants/rest02/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.0),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D9%83%D8%B1%D9%85%D9%86%D8%A7&query_place_id=ChIJcezOOgBV4xURgj28i3Z1REk",
                 gallery: [
                         "img/restaurants/rest02/gallery1.PNG",
@@ -55,7 +55,7 @@ const restaurants = [
                 cuisine: "إيطالي",
                 atmosphere: "اطلالة",
                 image: "img/restaurants/rest03/main.PNG",
-                rating: "★★★★★",
+                rating: printStars(4.8),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%A3%D9%88%D9%84%D9%8A%D9%81%20%D8%AC%D8%A7%D8%B1%D8%AF%D9%86%20%D8%A3%D8%A8%D9%87%D8%A7&query_place_id=ChIJg6hoh6xV4xUR7eJ3Epd0X2o",
                 gallery: [
                         "img/restaurants/rest03/gallery1.PNG",
@@ -80,7 +80,7 @@ const restaurants = [
                 cuisine: "إيطالي",
                 atmosphere: "فاخرة",
                 image: "img/restaurants/rest04/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(3.8),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%AA%D8%B4%D9%8A%D9%84%D9%84%D9%88%20%D8%A8%D8%B1%D9%86%D8%AF%D8%A9&query_place_id=ChIJSRKL4ZZX4xURZ6w_ZORjoLU",
                 gallery: [
                         "img/restaurants/rest04/gallery1.PNG",
@@ -104,7 +104,7 @@ const restaurants = [
                 cuisine: "شعبي",
                 atmosphere: "عائلية",
                 image: "img/restaurants/rest05/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.0),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%B3%D8%AF%D9%81&query_place_id=ChIJfwHYIBJV4xURRCNswmvlybo",
                 gallery: [
                         "img/restaurants/rest05/gallery1.PNG",
@@ -129,7 +129,7 @@ const restaurants = [
                 cuisine: "شعبي",
                 atmosphere: "عائلية",
                 image: "img/restaurants/rest06/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.0),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%AD%D9%86%D9%8A%D8%B0%20%D9%85%D9%84%D8%A9%20%7C%20%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%20%D8%A5%D8%B3%D8%AA%D9%84%D8%A7%D9%85&query_place_id=ChIJU4SgEwBT4xURVBA0jORQSgI",
                 gallery: [
                         "img/restaurants/rest06/gallery1.PNG",
@@ -152,7 +152,7 @@ const restaurants = [
                 cuisine: "فرنسي",
                 atmosphere: "رومانسية",
                 image: "img/restaurants/rest07/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.5),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%84%D9%88%D9%81%D9%88%D9%8A%D8%A7%D8%AC&query_place_id=ChIJ-QL3VgGr_BURsZrVEQ3qN64",
                 gallery: [
                         "img/restaurants/rest07/gallery1.PNG",
@@ -177,7 +177,7 @@ const restaurants = [
                 cuisine: "أمريكي",
                 atmosphere: "هادئة",
                 image: "img/restaurants/rest08/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.1),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%AA%D9%88%20%D8%A8%D9%88%D8%B1%D8%B4%D9%86%D8%B2%20%7C%20TWO%20PORTIONS&query_place_id=ChIJG8D5Njmr_BUR-wjYfWNJsZM",
                 gallery: [
                         "img/restaurants/rest08/gallery1.PNG",
@@ -202,7 +202,7 @@ const restaurants = [
                 cuisine: "متنوع",
                 atmosphere: "فاخرة",
                 image: "img/restaurants/rest09/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.2),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D9%81%D9%84%D9%82&query_place_id=ChIJzUOX7Yyr_BUR9jDXgdOarAs",
                 gallery: [
                         "img/restaurants/rest09/gallery1.PNG",
@@ -227,7 +227,7 @@ const restaurants = [
                 cuisine: "إيطالي",
                 atmosphere: "رومانسية",
                 image: "img/restaurants/rest10/main.PNG",
-                rating: "★★★★★",
+                rating: printStars(4.3),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%B3%D9%8A%D9%86%D8%B3%D9%88%20-%20%D8%A3%D8%A8%D9%87%D8%A7&query_place_id=ChIJB8VXVgBT4xURGQbpmGsUDEU",
                 gallery: [
                         "img/restaurants/rest10/gallery1.PNG",
@@ -250,7 +250,7 @@ workingHours: {
                 cuisine: "إيطالي",
                 atmosphere: "فاخرة",
                 image: "img/restaurants/rest11/main.jpg",
-                rating: "★★★★☆",
+                rating: printStars(4.5),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%AA%D8%B4%D9%8A%D9%84%D9%84%D9%88%20%D8%A8%D8%B1%D9%86%D8%AF%D8%A9&query_place_id=ChIJSRKL4ZZX4xURZ6w_ZORjoLU",
                 gallery: [
                         "img/restaurants/rest04/gallery1.PNG",
@@ -273,7 +273,7 @@ workingHours: {
                 cuisine: "متنوع",
                 atmosphere: "اطلالة",
                 image: "img/restaurants/rest12/main.jpg",
-                rating: "★★★★☆",
+                rating: printStars(4.4),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%AA%D8%B4%D9%8A%D9%84%D9%84%D9%88%20%D8%A8%D8%B1%D9%86%D8%AF%D8%A9&query_place_id=ChIJSRKL4ZZX4xURZ6w_ZORjoLU",
                 gallery: [
                         "img/restaurants/rest04/gallery1.PNG",
@@ -296,7 +296,7 @@ workingHours: {
                 cuisine: "أمريكي",
                 atmosphere: "شبابية",
                 image: "img/restaurants/rest13/main.jpg",
-                rating: "★★★★☆",
+                rating: printStars(4.7),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%AA%D8%B4%D9%8A%D9%84%D9%84%D9%88%20%D8%A8%D8%B1%D9%86%D8%AF%D8%A9&query_place_id=ChIJSRKL4ZZX4xURZ6w_ZORjoLU",
                 gallery: [
                         "img/restaurants/rest04/gallery1.PNG",
@@ -319,7 +319,7 @@ workingHours: {
                 cuisine: "شعبي",
                 atmosphere: "اطلالة",
                 image: "img/restaurants/rest14/main.jpg",
-                rating: "★★★★☆",
+                rating: printStars(3.9),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%86%D8%AF%D9%84&query_place_id=ChIJoza7TARV4xUR-12T1wQimYY",
                 gallery: [
                         "img/restaurants/rest04/gallery1.PNG",
@@ -342,7 +342,7 @@ workingHours: {
                 cuisine: "أمريكي",
                 atmosphere: "فاخرة",
                 image: "img/restaurants/rest15/main.jpg",
-                rating: "★★★★☆",
+                rating: printStars(4.2),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%83%D8%A7%D8%A8%D9%8A%20CABI&query_place_id=ChIJyQcKU2tV4xURTP90RNE1IMU",
                 gallery: [
                         "img/restaurants/rest04/gallery1.PNG",
@@ -365,7 +365,7 @@ workingHours: {
                 cuisine: "متنوع",
                 atmosphere: "عائلي",
                 image: "img/restaurants/rest16/main.jpg",
-                rating: "★★★★☆",
+                rating: printStars(4.5),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B2%D9%88%D8%B1%D9%86%D8%A7&query_place_id=ChIJr___dJar_BURyZRGeC5k874",
                 gallery: [
                         "img/restaurants/rest04/gallery1.PNG",
@@ -388,7 +388,7 @@ workingHours: {
                 cuisine: "متنوع",
                 atmosphere: "رومانسي",
                 image: "img/restaurants/rest17/main.jpg",
-                rating: "★★★★☆",
+                rating: printStars(4.7),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Abha%20branch%20Mahrani%20Restaurant%20%D9%85%D8%B7%D8%B9%D9%85%20%D9%85%D9%87%D8%B1%D8%A7%D9%86%D9%89%20%D9%81%D8%B1%D8%B9%20%D8%A3%D8%A8%D9%87%D8%A7&query_place_id=ChIJJy56xohV4xURnejZdbLOzFA",
                 gallery: [
                         "img/restaurants/rest04/gallery1.PNG",
@@ -411,7 +411,7 @@ workingHours: {
                 cuisine: "فرنسي",
                 atmosphere: "هادئة",
                 image: "img/restaurants/rest18/main.jpg",
-                rating: "★★★★☆",
+                rating: printStars(4.2),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Karaki%20%D9%83%D8%B1%D9%83%D9%8A&query_place_id=ChIJZU0DJQBZ-xURndseTWgVqe8",
                 gallery: [
                         "img/restaurants/rest04/gallery1.PNG",
@@ -434,7 +434,7 @@ workingHours: {
                 cuisine: "شامي",
                 atmosphere: "هادئة",
                 image: "img/restaurants/rest19/main.jpg",
-                rating: "★★★★☆",
+                rating: printStars(4.1),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%A8%D8%B1%D9%8A%D9%83%20%D8%AF%D8%A7%D9%88%D9%86%20Break%20Dawn&query_place_id=ChIJoaVWCcyp_BURqSVvzI_tYW4",
                 gallery: [
                         "img/restaurants/rest04/gallery1.PNG",
@@ -457,7 +457,7 @@ workingHours: {
                 cuisine: "شامي",
                 atmosphere: "عائلية",
                 image: "img/restaurants/rest20/main.jpg",
-                rating: "★★★★☆",
+                rating: printStars(4.0),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
                         "img/restaurants/rest04/gallery1.PNG",
@@ -480,7 +480,7 @@ workingHours: {
                 cuisine: "شعبي",
                 atmosphere: "اطلالة",
                 image: "img/restaurants/rest21/main.jpg",
-                rating: "★★★★☆",
+                rating: printStars(3.5),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
                         "img/restaurants/rest04/gallery1.PNG",
@@ -503,7 +503,7 @@ workingHours: {
                 cuisine: "أمريكي",
                 atmosphere: "شبابية",
                 image: "img/restaurants/rest22/main.jpg",
-                rating: "★★★★☆",
+                rating: printStars(4.8),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
                         "img/restaurants/rest04/gallery1.PNG",
@@ -527,7 +527,7 @@ workingHours: {
                 cuisine: "أمريكي",
                 atmosphere: "هادئة",
                 image: "img/restaurants/rest23/main.jpg",
-                rating: "★★★★☆",
+                rating: printStars(4.3),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
                         "img/restaurants/rest04/gallery1.PNG",
@@ -550,7 +550,7 @@ workingHours: {
                 cuisine: "متنوع",
                 atmosphere: "اطلالة",
                 image: "img/restaurants/rest24/main.jpg",
-                rating: "★★★★☆",
+                rating: printStars(4.3),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
                         "img/restaurants/rest04/gallery1.PNG",
@@ -574,7 +574,7 @@ workingHours: {
                 cuisine: "متنوع",
                 atmosphere: "اطلالة",
                 image: "img/restaurants/rest25/main.jpg",
-                rating: "★★★★☆",
+                rating: printStars(4.2),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
                         "img/restaurants/rest04/gallery1.PNG",
@@ -597,7 +597,7 @@ workingHours: {
                 cuisine: "شامي",
                 atmosphere: "فاخرة",
                 image: "img/restaurants/rest26/main.jpg",
-                rating: "★★★★☆",
+                rating: printStars(3.7),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
                         "img/restaurants/rest04/gallery1.PNG",
@@ -620,7 +620,7 @@ workingHours: {
                 cuisine: "متنوع",
                 atmosphere: "عائلية",
                 image: "img/restaurants/rest27/main.jpg",
-                rating: "★★★★☆",
+                rating: printStars(4.0),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
                         "img/restaurants/rest04/gallery1.PNG",
@@ -668,7 +668,7 @@ workingHours: {
                 cuisine: "هندي",
                 atmosphere: "عائلية",
                 image: "img/restaurants/rest29/main.jpg",
-                rating: "★★★★☆",
+                rating: printStars(4.2),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
                         "img/restaurants/rest04/gallery1.PNG",
@@ -691,7 +691,7 @@ workingHours: {
                 cuisine: "إيطالي",
                 atmosphere: "عائلية",
                 image: "img/restaurants/rest30/main.jpg",
-                rating: "★★★★☆",
+                rating: printStars(4.4),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
                         "img/restaurants/rest04/gallery1.PNG",
@@ -714,7 +714,7 @@ workingHours: {
                 cuisine: "متنوع",
                 atmosphere: "هادئ",
                 image: "img/restaurants/rest31/main.jpg",
-               rating: "★★★★☆",
+               rating: printStars(3.9),
                   /* 
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
@@ -737,7 +737,7 @@ workingHours: {
                 cuisine: "هندي",
                 atmosphere: "عائلية",
                 image: "img/restaurants/rest32/main.jpg",
-               rating: "★★★★☆",
+               rating: printStars(4.5),
                   /* 
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
@@ -762,7 +762,7 @@ workingHours: {
                 cuisine: "متنوع",
                 atmosphere: "عائلية",
                 image: "img/restaurants/rest33/main.jpg",
-               rating: "★★★★☆",
+               rating: printStars(4.2),
                   /* 
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
@@ -786,7 +786,7 @@ workingHours: {
                 cuisine: "أمريكي",
                 atmosphere: "عائلية",
                 image: "img/restaurants/rest34/main.jpg",
-               rating: "★★★★☆",
+               rating: printStars(4.7),
                   /* 
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
@@ -809,7 +809,7 @@ workingHours: {
                 cuisine: "شعبي",
                 atmosphere: "عائلية",
                 image: "img/restaurants/rest35/main.jpg",
-               rating: "★★★★☆",
+               rating: printStars(3.4),
                   /* 
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
@@ -834,7 +834,7 @@ workingHours: {
                 cuisine: "شعبي",
                 atmosphere: "عائلية",
                 image:"img/restaurants/rest36/main.jpg",
-               rating: "★★★★☆",
+               rating: printStars(4.2),
                   /* 
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
@@ -858,7 +858,7 @@ workingHours: {
                 cuisine: "شعبي",
                 atmosphere: "عائلية",
                 image: "img/restaurants/rest37/main.jpg",
-               rating: "★★★★☆",
+               rating: printStars(3.8),
                   /* 
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
@@ -883,7 +883,7 @@ workingHours: {
                 cuisine: "إيطالي",
                 atmosphere: "هادئ",
                 image: "img/restaurants/rest38/main.jpg",
-               rating: "★★★★☆",
+               rating: printStars(4.5),
                   /* 
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
@@ -908,7 +908,7 @@ workingHours: {
                 cuisine: "متنوع",
                 atmosphere: "هادئ",
                 image: "img/restaurants/rest39/main.jpg",
-               rating: "★★★★☆",
+               rating: printStars(3.6),
                   /* 
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
@@ -933,7 +933,7 @@ workingHours: {
                 cuisine: "أمريكي",
                 atmosphere: "عائلي",
                 image: "img/restaurants/rest40/main.jpg",
-               rating: "★★★★☆",
+               rating: printStars(4.3),
                   /* 
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
@@ -958,7 +958,7 @@ workingHours: {
                 cuisine: "إيطالي",
                 atmosphere: "فاخرة",
                 image: "img/restaurants/rest41/main.jpg",
-               rating: "★★★★☆",
+               rating: printStars(4.3),
                   /* 
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
@@ -982,7 +982,7 @@ workingHours: {
                 cuisine: "شامي",
                 atmosphere: "عائلية",
                 image: "img/restaurants/rest42/main.jpg",
-               rating: "★★★★☆",
+               rating: printStars(3.9),
                   /* 
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
@@ -1009,7 +1009,7 @@ workingHours: {
                 cuisine: " أمريكي",
                 atmosphere: "هادئة",
                 image: "img/restaurants/rest43/main.jpg",
-               rating: "★★★★☆",
+               rating: printStars(4.0),
                   /* 
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
@@ -1033,7 +1033,7 @@ workingHours: {
                 cuisine: "متنوع",
                 atmosphere: "عائلية",
                 image: "img/restaurants/rest44/main.jpg",
-               rating: "★★★★☆",
+               rating: printStars(4.2),
                   /* 
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
@@ -1050,13 +1050,13 @@ workingHours: {
                 services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"*/
         },
 {
-                         name: "  WBJ  ",
+                name: "  WBJ  ",
                 location: "أبها",
                 destination: "مطعم",
                 cuisine: "أمريكي",
                 atmosphere: "اطلالة",
                 image: "img/restaurants/rest45/main.jpg",
-               rating: "★★★★☆",
+               rating: printStars(4.8),
                   /* 
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
@@ -1073,13 +1073,13 @@ workingHours: {
                 services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"*/
         },
 {
-                         name: "  شرمب نيشن  ",
+                name: "  شرمب نيشن  ",
                 location: "أبها",
                 destination: "مطعم",
                 cuisine: "بحري",
                 atmosphere: "هادئة",
                 image: "img/restaurants/rest46/main.jpg",
-               rating: "★★★★☆",
+               rating: printStars(3.8),
                   /* 
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
