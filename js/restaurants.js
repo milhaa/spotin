@@ -1112,7 +1112,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "فاخرة",
                 image: "img/cafes/cafe01/main.jpg",
-                rating: "★★★★☆",
+                rating: printStars(4.2),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D9%82%D9%87%D9%89%20%D8%A8%D9%83%D8%B1%20%7C%20BKR%20CAFE&query_place_id=ChIJ52e_SUBV4xURVex0scjDrr0",
                 gallery: [
                         "img/cafes/cafe01/gallery1.jpg",
@@ -1135,7 +1135,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "هادئة",
                 image: "img/cafes/cafe02/main.jpg",
-                rating: "★★★★☆",
+                rating: printStars(4.0),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B2%D9%87%D9%88%20ZHU&query_place_id=ChIJATR-pb9V4xURIv6qrHl7GEw",
                 gallery: [
                         "img/cafes/cafe02/gallery1.jpg",
@@ -1158,7 +1158,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "فاخرة",
                 image: "img/cafes/cafe03/main.JPEG",
-                rating: "★★★★☆",
+                rating: printStars(4.4),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=9BAR%20%7C%20%D9%A9%20%D8%A8%D8%A7%D8%B1%20-%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%AD%D8%B2%D8%A7%D9%85&query_place_id=ChIJXffD0bBV4xURLnq0FL5Vr-8",
                 gallery: [
                         "img/cafes/cafe03/gallery1.JPEG",
@@ -1181,7 +1181,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "شبابية",
                 image: "img/cafes/cafe04/main.jpg",
-                rating: "★★★★☆",
+                rating: printStars(3.5),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Caffeine%20Lab&query_place_id=ChIJ3-sCVwBV4xURg2H8I0hpuiU",
                 gallery: [
                         "img/cafes/cafe04/gallery1.jpg",
@@ -1204,7 +1204,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "هادئة",
                 image: "img/cafes/cafe05/main.jpg",
-                rating: "★★★★☆",
+                printStars(4.0),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Hyz%20Bakehouse&query_place_id=ChIJ76u7NwBV4xURcIko4wj_UN8",
                 gallery: [
                         "img/cafes/cafe05/gallery1.jpg",
@@ -1227,7 +1227,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "اطلالة",
                 image: "img/cafes/cafe06/main.png",
-                rating: "★★★☆☆",
+                rating: printStars(3.5),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=ROW%20%7C%20%D8%B1%D9%88&query_place_id=ChIJCaAxbABT4xURTK5K9JoEopE",
                 gallery: [
                         "img/cafes/cafe06/gallery1.JPG",
@@ -1250,7 +1250,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "عائلية",
                 image: "img/cafes/cafe07/main.jpg",
-                rating: "★★★★☆",
+                rating: printStars(4.1),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%AF%D9%83%D9%91%D8%A9%20%D8%B4%D8%A7%D9%8A&query_place_id=ChIJv5TeFIap_BUReD4w40l9T4o",
                 gallery: [
                         "img/cafes/cafe07/gallery1.jpg",
@@ -1273,7 +1273,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "عائلية",
                 image: "img/cafes/cafe08/main.jpg",
-                rating: "★★★★☆",
+                rating: printStars(4.0),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%88%D8%B2%D8%A7%D8%A8%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJnZGixy-p_BURZS_OblMnXXU",
                 gallery: [
                         "img/cafes/cafe08/gallery1.jpg",
@@ -1296,7 +1296,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "عائلية",
                 image: "img/cafes/cafe09/main.JPG",
-                rating: "★★★★☆",
+                rating: printStars(4.4),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D9%83%D8%A7%D9%86%20%D8%AD%D9%85%D8%AF&query_place_id=ChIJd-45se5V-xURkq8sfT6bZZg",
                 gallery: [
                         "img/cafes/cafe09/gallery1.JPG",
@@ -1319,7 +1319,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "فاخرة",
                 image: "img/cafes/cafe10/main.jpg",
-                rating: "★★★★☆",
+                rating: printStars(4.2),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1342,7 +1342,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "اطلالة",
                 image: "img/cafes/cafe11/main.jpg",
-                rating: "★★★★☆",
+                rating: printStars(4.4),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1365,7 +1365,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "عائلية",
                 image: "img/cafes/cafe12/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.1),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1388,7 +1388,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "عائلية",
                 image: "img/cafes/cafe13/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.6),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1411,7 +1411,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "فاخرة",
                 image: "img/cafes/cafe14/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(3.9),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1434,7 +1434,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "هادئة",
                 image: "img/cafes/cafe15/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.6),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1457,7 +1457,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "اطلالة",
                 image: "img/cafes/cafe16/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.1),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1480,7 +1480,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "هادئة",
                 image: "img/cafes/cafe17/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.6),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1503,7 +1503,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "عائلية",
                 image: "img/cafes/cafe18/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(3.8),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1526,7 +1526,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "هادئة",
                 image: "img/cafes/cafe19/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(3.9),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1549,7 +1549,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "عائلية",
                 image: "img/cafes/cafe20/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.5),
                 mapUrl: "",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1572,7 +1572,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "اطلالة",
                 image: "img/cafes/cafe22/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.2),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1595,7 +1595,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "شبابية",
                 image: "img/cafes/cafe21/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(3.3),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1618,7 +1618,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "عائلية",
                 image: "img/cafes/cafe23/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(3.9),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1641,7 +1641,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "فاخرة",
                 image: "img/cafes/cafe24/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(3.1),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1664,7 +1664,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "عائلية",
                 image: "img/cafes/cafe25/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.8),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1687,7 +1687,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "هادئة",
                 image: "img/cafes/cafe26/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(3.8),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1710,7 +1710,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "هادئة",
                 image: "img/cafes/cafe27/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.4),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1733,7 +1733,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "فاخرة",
                 image: "img/cafes/cafe28/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.4),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1756,7 +1756,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "هادئة",
                 image: "img/cafes/cafe29/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.6),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1779,7 +1779,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "رومانسية",
                 image: "img/cafes/cafe30/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.1),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1802,7 +1802,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "اطلالة",
                 image: "img/cafes/cafe31/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.1),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1825,7 +1825,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "عائلية",
                 image: "img/cafes/cafe32/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.1),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1848,7 +1848,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "رومانسية",
                 image: "img/cafes/cafe33/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.2),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1871,7 +1871,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "هادئة",
                 image: "img/cafes/cafe34/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.0),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1894,7 +1894,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "رومانسية",
                 image: "img/cafes/cafe35/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(3.7),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1917,7 +1917,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "فاخرة",
                 image: "img/cafes/cafe36/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(3.3),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1938,9 +1938,9 @@ const cafes = [
                 location: "أبها",
                 type: "قهوة",
                 destination: "كافيه",
-                atmosphere: "اطلالة",
+                atmosphere: "عائلية",
                 image: "img/cafes/cafe37/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.3),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1963,7 +1963,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "هادئة",
                 image: "img/cafes/cafe38/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(3.6),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -1986,7 +1986,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "هادئة",
                 image: "img/cafes/cafe39/main.png",
-                rating: "★★★★☆",
+                rating: printStars(4.3),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -2009,7 +2009,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "شبابية",
                 image: "img/cafes/cafe40/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.3),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -2032,7 +2032,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "فاخرة",
                 image: "img/cafes/cafe41/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.2),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -2055,7 +2055,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "شبابية",
                 image: "img/cafes/cafe42/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.6),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -2078,7 +2078,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "عائلية",
                 image: "img/cafes/cafe43/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.2),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -2101,7 +2101,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "اطلالة",
                 image: "img/cafes/cafe44/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(4.4),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
@@ -2124,7 +2124,7 @@ const cafes = [
                 destination: "كافيه",
                 atmosphere: "شبابية",
                 image: "img/cafes/cafe45/main.PNG",
-                rating: "★★★★☆",
+                rating: printStars(3.4),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
                 gallery: [
                         "img/cafes/cafe10/gallery1.jpg",
