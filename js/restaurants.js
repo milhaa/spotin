@@ -8,7 +8,7 @@ const restaurants = [
                 cuisine: "شامي",                      // ✅ مُصحح
                 atmosphere: "اطلالة",                   // ✅ مُصحح
                 image: "img/restaurants/rest01/main.png",
-                rating: printStars(4),
+                rating: printStars(3.7),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%B9%D9%84%D9%89%20%D8%A8%D8%A7%D9%84%D9%8A%20-%20%D8%A3%D8%A8%D9%87%D8%A7&query_place_id=ChIJbe38WgBT4xURRfp9LZCKhkI",
                 gallery: [
                         "img/restaurants/rest01/gallery1.png",
