@@ -6,7 +6,7 @@ const restaurants = [
                 location: "أبها",
                 destination: "مطعم",                    // ✅ مُصحح
                 cuisine: "شامي",                      // ✅ مُصحح
-                atmosphere: ["عائلية", "شبابية", "اطلالة", "رومانسية"],                   // ✅ مُصحح
+                atmosphere: ["عائلية", "شبابية", "اطلالة", "فاخرة"],                   // ✅ مُصحح
                 image: "img/restaurants/rest01/main.png",
                 rating: printStars(3.7),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%B9%D9%84%D9%89%20%D8%A8%D8%A7%D9%84%D9%8A%20-%20%D8%A3%D8%A8%D9%87%D8%A7&query_place_id=ChIJbe38WgBT4xURRfp9LZCKhkI",
@@ -150,7 +150,7 @@ const restaurants = [
                 location: "أبها",
                 destination: "مطعم",
                 cuisine: "فرنسي",
-                atmosphere: ["رومانسية", "فاخرة", "عائلية", "شبابية"],
+                atmosphere: ["هادئة", "فاخرة", "عائلية", "شبابية"],
                 image: "img/restaurants/rest07/main.PNG",
                 rating: printStars(4.5),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%84%D9%88%D9%81%D9%88%D9%8A%D8%A7%D8%AC&query_place_id=ChIJ-QL3VgGr_BURsZrVEQ3qN64",
@@ -225,7 +225,7 @@ const restaurants = [
                 location: "أبها",
                 destination: "مطعم",
                 cuisine: "إيطالي",
-                atmosphere: ["رومانسية", "عائلية","شبابية", "اطلالة"],
+                atmosphere: ["فاخرة", "عائلية","شبابية", "اطلالة"],
                 image: "img/restaurants/rest10/main.PNG",
                 rating: printStars(4.3),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%B3%D9%8A%D9%86%D8%B3%D9%88%20-%20%D8%A3%D8%A8%D9%87%D8%A7&query_place_id=ChIJB8VXVgBT4xURGQbpmGsUDEU",
@@ -956,7 +956,7 @@ workingHours: {
                 location: "أبها",
                 destination: "مطعم",
                 cuisine: "إيطالي",
-                atmosphere: ["عائلية", "شبابية", "فاخرة", "رومانسية"],
+                atmosphere: ["عائلية", "شبابية", "فاخرة", "هادئة"],
                 image: "img/restaurants/rest41/main.jpg",
                rating: printStars(4.3)
                   /* 
@@ -1800,7 +1800,7 @@ const cafes = [
                 location: "أبها",
                 type: "قهوة",
                 destination: "كافيه",
-                atmosphere: ["عائلية", "شبابية", "رومانسية"],
+                atmosphere: ["عائلية", "شبابية", "هادئة"],
                 image: "img/cafes/cafe30/main.PNG",
                 rating: printStars(4.1),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
@@ -1915,7 +1915,7 @@ const cafes = [
                 location: "أبها",
                 type: "قهوة",
                 destination: "كافيه",
-                atmosphere: ["عائلية", "شبابية", "رومانسية"],
+                atmosphere: ["عائلية", "شبابية", "هادئة"],
                 image: "img/cafes/cafe35/main.PNG",
                 rating: printStars(3.7),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%88%D9%82%D8%B1%20%D9%87%D8%A7%D9%8A%D9%81&query_place_id=ChIJzfscdwCr_BURqQo5JIhxR24",
