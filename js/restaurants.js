@@ -6,7 +6,7 @@ const restaurants = [
                 location: "أبها",
                 destination: "مطعم",                    // ✅ مُصحح
                 cuisine: "شامي",                      // ✅ مُصحح
-                atmosphere: ["عائلية", "شبابية", "اطلالة", "فاخرة"],                   // ✅ مُصحح
+                atmosphere: ["عائلية", "شبابية", "اطلالة", "رومانسية"],                   // ✅ مُصحح
                 image: "img/restaurants/rest01/main.png",
                 rating: printStars(3.7),
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%B9%D9%84%D9%89%20%D8%A8%D8%A7%D9%84%D9%8A%20-%20%D8%A3%D8%A8%D9%87%D8%A7&query_place_id=ChIJbe38WgBT4xURRfp9LZCKhkI",
@@ -1080,6 +1080,31 @@ workingHours: {
                 atmosphere: ["عائلية", "شبابية", "هادئة"],
                 image: "img/restaurants/rest46/main.jpg",
                rating: printStars(3.8)
+                  /* 
+                mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
+                gallery: [
+                        "img/restaurants/rest04/gallery1.PNG",
+                        "img/restaurants/rest04/gallery2.PNG",
+                        "img/restaurants/rest04/gallery3.PNG",
+                        "img/restaurants/rest04/gallery4.PNG"
+                ],
+                menuUrl: "",
+                workingHours: {
+                        weekdays: "12:30\u200Fم - 2\u200Fص"
+                },
+                priceRange: "39 - 135 ريال",
+                services: "أماكن جلوس في الهواء الطلق - الإيصال إلى السيارة - التسليم بدون تلامس - خدمة التوصيل - خدمة الطلب أثناء القيادة - طعام سفري - الجلوس داخل المكان"*/
+        },
+
+        {
+
+                name: "الشوكة التركية",
+                location: "أبها",
+                destination: "مطعم",
+                cuisine: "شامي",
+                atmosphere: ["عائلية", "شبابية", "فاخرة"],
+                image: "img/restaurants/rest47/main.jpg",
+               rating: printStars(4.2)
                   /* 
                 mapUrl: "https://www.google.com/maps/search/?api=1&query=Furn%20Aldayaa%20I%20%D9%81%D8%B1%D9%86%20%D8%A7%D9%84%D8%B6%D9%8A%D8%B9%D8%A9&query_place_id=ChIJDyPy0PtT4xURcnX30hU8o0Y",
                 gallery: [
